@@ -186,6 +186,9 @@ exclude:
   - readme_preview/
   - vendor
   - blog
+  - repositories
+  - projects
+  - teaching
 keep_files:
   - CNAME
   - .nojekyll
