@@ -118,6 +118,50 @@
         <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% endif %}
     {% endif %}
-
+    {% if post.semantic_scholar_id %}
+  <p class="page__meta">
+    <i class="fas fa-fw fa-quote-right" aria-hidden="true"></i> 
+    Citations: <span class="ss-citation-count" data-ss-id="{{ post.semantic_scholar_id }}">Loading...</span>
+  </p>
+{% endif %}
+    <p>
+      {% if post.paper_url %}
+        <a href="{{ post.paper_url }}" class="btn btn--light outline"><i class="fas fa-fw fa-file-pdf"></i> Paper</a>
+      {% endif %}
+      {% if post.github_url %}
+        <a href="{{ post.github_url }}" class="btn btn--light outline"><i class="fab fa-fw fa-github"></i> GitHub</a>
+      {% endif %}
+      {% if post.project_url %}
+        <a href="{{ post.project_url }}" class="btn btn--light outline"><i class="fas fa-fw fa-globe"></i> Project</a>
+      {% endif %}
+      {% if post.demo_url %}
+        <a href="{{ post.demo_url }}" class="btn btn--light outline"><i class="fas fa-fw fa-play-circle"></i> Demo</a>
+      {% endif %}
+    </p>
   </article>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const citationSpans = document.querySelectorAll('.ss-citation-count');
+    
+    citationSpans.forEach(span => {
+      const paperId = span.getAttribute('data-ss-id');
+      if (paperId) {
+        fetch(`https://api.semanticscholar.org/graph/v1/paper/${paperId}?fields=citationCount`)
+         .then(response => response.json())
+         .then(data => {
+            if (data && data.citationCount!== undefined) {
+              span.innerText = data.citationCount;
+            } else {
+              span.innerText = '0';
+            }
+          })
+         .catch(err => {
+            console.error('Error fetching citations:', err);
+            span.innerText = 'N/A';
+          });
+      }
+    });
+  });
+</script>

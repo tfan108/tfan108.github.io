@@ -1,17 +1,19 @@
 ---
 permalink: /
-title: "***Making pixels dance and GPUs scream for a living.***"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-***Fan Tang*** is an Associate Professor at the Institute of Computing Technology, Chinese Academy of Sciences (**ICT, CAS**), where he has been conducting research on image and video generation technology since 2022. Prior to joining ICT-CAS, he was a faculty member at the School of Artificial Intelligence, Jilin University. 
+***Making pixels dance and GPUs scream for a living.***
 
-He received his Ph.D. in 2019 from the National Laboratory of Pattern Recognition (**NLPR**) at the Institute of Automation, CAS (**CASIA**), within the Multimedia Computing Group, under the supervision of Prof. [Baogang Hu](https://scholar.google.com/citations?user=Npo7kokAAAAJ&hl=en) and Prof. [Weiming Dong](https://scholar.google.com/citations?user=WKGx4k8AAAAJ&hl=en). During his doctoral studies, he spent one year as a visiting researcher at the University of Konstanz, Germany, collaborating with Prof. [Oliver Deussen](https://www.cgmi.uni-konstanz.de/personen/prof-dr-oliver-deussen/). 
+I am an Associate Professor at the Institute of Computing Technology, Chinese Academy of Sciences (**ICT, CAS**), where I have been conducting research on image and video generation technology since 2022. Prior to joining ICT-CAS, I was a faculty member at the School of Artificial Intelligence, Jilin University. 
 
-His current research primarily focuses on ***2D digital humans***, ***image editing***, and ***digital art generation***.
+I received my Ph.D. in 2019 from the National Laboratory of Pattern Recognition (**NLPR**) at the Institute of Automation, CAS (**CASIA**), within the Multimedia Computing Group, under the supervision of Prof. [Baogang Hu](https://scholar.google.com/citations?user=Npo7kokAAAAJ&hl=en) and Prof. [Weiming Dong](https://scholar.google.com/citations?user=WKGx4k8AAAAJ&hl=en). During my doctoral studies, I spent one year as a visiting researcher at the University of Konstanz, Germany, collaborating with Prof. [Oliver Deussen](https://www.cgmi.uni-konstanz.de/personen/prof-dr-oliver-deussen/). 
+
+My current research primarily focuses on ***2D digital humans***, ***image editing***, and ***digital art generation***.
 
 ## 🔥 News
 
@@ -80,4 +82,3 @@ I am always looking for highly motivated students or interns who are interested 
 - 💻 **Required Skills**: A solid foundation in mathematics (linear algebra/optimization), proficiency in Python and PyTorch for deep learning research, and a strong capability for reading and writing top-tier academic papers in English.
 - ⭐ **Desired Traits**: We value candidates who are highly self-motivated and intellectually curious, possessing the grit and persistence required to navigate the long-term challenges of high-level academic research.
 - 📧 **How to Apply**: Please send your CV, transcripts, and representative research works to tfan.108@gmail.com with an email subject formatted as "Your Name - University".
-

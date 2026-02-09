@@ -1,0 +1,300 @@
+/* ==========================================================================
+   CV PAGE STYLES
+   ========================================================================== */
+
+.cv-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  line-height: 1.4;
+  
+  h2 {
+    font-size: $type-size-3;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-border-color);
+    color: var(--global-text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    line-height: 1.3;
+    
+    i {
+      color: var(--global-link-color, #52adc8);
+      font-size: 1.2em;
+      flex-shrink: 0;
+    }
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  
+  .cv-item {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    transition: all 0.2s ease;
+    line-height: 1.4;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--global-link-color, #52adc8);
+      box-shadow: 0 0 0 3px rgba(82, 173, 200, 0.1);
+    }
+    
+    &:hover {
+      padding-left: 1.75rem;
+      
+      &::before {
+        transform: scale(1.2);
+        box-shadow: 0 0 0 4px rgba(82, 173, 200, 0.15);
+      }
+    }
+    
+    strong {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+    
+    ul {
+      margin-top: 0.4rem;
+      margin-left: 1.5rem;
+      padding-left: 0;
+      
+      li {
+        margin-bottom: 0.3rem;
+        position: relative;
+        line-height: 1.4;
+        
+        &::marker {
+          color: var(--global-link-color, #52adc8);
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  .cv-item-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+    
+    .cv-item-title {
+      font-weight: 600;
+      font-size: 1.05em;
+      color: var(--global-text-color);
+      line-height: 1.3;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .cv-item-date {
+      color: var(--global-text-color-light);
+      font-size: 0.9em;
+      font-style: italic;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+  }
+  
+  .cv-item-details {
+    margin-top: 0.3rem;
+    padding-left: 1.25rem;
+    border-left: 3px solid var(--global-border-color);
+    transition: border-color 0.2s ease;
+    
+    &:hover {
+      border-left-color: var(--global-link-color, #52adc8);
+    }
+    
+    p {
+      margin-bottom: 0.3rem;
+      line-height: 1.4;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .cv-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.85rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    background: linear-gradient(135deg, var(--global-border-color) 0%, rgba(82, 173, 200, 0.1) 100%);
+    border-radius: 6px;
+    font-size: 0.9em;
+    color: var(--global-text-color);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    
+    i {
+      color: var(--global-link-color, #52adc8);
+    }
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .cv-icon {
+    margin-right: 0.5rem;
+    color: var(--global-link-color, #52adc8);
+    width: 1.2em;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  // 紧凑的项目样式
+  .cv-project-item {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.4;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.4rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: var(--global-link-color, #52adc8);
+    }
+  }
+  
+  .cv-project-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.3;
+    
+    .cv-project-role {
+      font-weight: 600;
+      font-size: 0.95em;
+      color: var(--global-text-color);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      flex-shrink: 0;
+    }
+    
+    strong {
+      color: var(--global-text-color);
+      font-weight: 600;
+      font-size: 0.95em;
+      flex: 1;
+      min-width: 200px;
+    }
+    
+    .cv-project-date {
+      color: var(--global-text-color-light);
+      font-size: 0.85em;
+      font-style: italic;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      flex-shrink: 0;
+    }
+    
+    .cv-badge {
+      margin: 0;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.85em;
+      flex-shrink: 0;
+    }
+  }
+  
+  .cv-project-content {
+    padding-left: 0.5rem;
+    line-height: 1.4;
+    font-size: 0.95em;
+    color: var(--global-text-color);
+    margin-top: 0.1rem;
+  }
+  
+  // 全局行间距调整
+  p {
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+  }
+  
+  // 响应式设计
+  @include breakpoint($small) {
+    padding: 1rem;
+    
+    .cv-item {
+      padding-left: 1.5rem;
+    }
+    
+    .cv-item-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    
+    .cv-project-line {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      
+      strong {
+        min-width: auto;
+      }
+    }
+  }
+  
+  // 打印样式
+  @media print {
+    h2 {
+      page-break-after: avoid;
+    }
+    
+    .cv-item {
+      page-break-inside: avoid;
+      padding-left: 1rem;
+      
+      &::before {
+        width: 6px;
+        height: 6px;
+      }
+    }
+    
+    .cv-badge {
+      background: var(--global-border-color);
+      box-shadow: none;
+    }
+    
+    .cv-project-item {
+      page-break-inside: avoid;
+      padding-left: 1rem;
+      
+      &::before {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  }
+}
