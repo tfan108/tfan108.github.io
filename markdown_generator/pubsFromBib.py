@@ -24,6 +24,47 @@ import html
 import os
 import re
 
+CORRESPONDING_AUTHORS_PATH = os.path.join(os.path.dirname(__file__), "../_data/corresponding_authors.yml")
+
+def load_corresponding_authors():
+    """Load existing corresponding_authors.yml, preserving user edits."""
+    if not os.path.exists(CORRESPONDING_AUTHORS_PATH):
+        return {}
+    result = {}
+    with open(CORRESPONDING_AUTHORS_PATH, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if ':' in line:
+                key, val = line.split(':', 1)
+                key = key.strip()
+                val = val.strip()
+                if val == '[]':
+                    result[key] = []
+                else:
+                    inner = val.strip('[]').split(',')
+                    result[key] = [a.strip() for a in inner if a.strip()]
+    return result
+
+def save_corresponding_authors(data, slugs_in_order):
+    """Write corresponding_authors.yml, preserving order by date."""
+    header = """# 通讯作者列表：在每篇论文下添加对应作者名（需与 citation 中的格式一致，如 "Fan Tang", "Tong-Yee Lee"）
+# 无通讯作者的论文可保留空数组 [] 或整行删除
+
+"""
+    lines = [header]
+    for slug in sorted(slugs_in_order):
+        authors = data.get(slug, [])
+        if authors:
+            authors_str = ", ".join(authors)
+            lines.append(f"{slug}: [{authors_str}]\n")
+        else:
+            lines.append(f"{slug}: []\n")
+    with open(CORRESPONDING_AUTHORS_PATH, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    print(f"Updated {CORRESPONDING_AUTHORS_PATH} with {len(slugs_in_order)} entries")
+
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -35,7 +76,7 @@ publist = {
         
     },
     "journal":{
-        "file": "pubs.bib",
+        "file": "publications.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -53,6 +94,9 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+
+existing_corresponding = load_corresponding_authors()
+all_slugs = []
 
 for pubsource in publist:
     parser = bibtex.Parser()
@@ -91,7 +135,7 @@ for pubsource in publist:
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
-
+            print(url_slug)
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
@@ -99,8 +143,10 @@ for pubsource in publist:
             citation = ""
 
             #citation authors - todo - add highlighting for primary author?
+            authors = []
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                authors.append(author.first_names[0] + " " + author.last_names[0])
+            citation = ", ".join(authors) + "; "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -134,6 +180,7 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+            url = False
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
@@ -144,17 +191,18 @@ for pubsource in publist:
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
-
             md_filename = os.path.basename(md_filename)
 
             with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
                 f.write(md)
+            all_slugs.append(html_filename)
             print(f'SUCCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
+
+# Deduplicate slugs (same paper may appear in both proceedings and journal)
+all_slugs = list(dict.fromkeys(all_slugs))
+merged = {slug: existing_corresponding.get(slug, []) for slug in all_slugs}
+save_corresponding_authors(merged, all_slugs)

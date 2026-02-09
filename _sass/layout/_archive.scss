@@ -48,11 +48,27 @@
   }
 }
 
+.pub-authors {
+  margin: 0 0 0.05rem;
+  font-size: $type-size-6;
+}
+
+.pub-venue {
+  margin: 0;
+  font-size: $type-size-6;
+}
+
+.pub-actions {
+  margin-top: 0.2rem;
+}
+
 /* remove border*/
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
+    margin-top: 0.5em;        /* 顺带减少标题上方间距 */
+    margin-bottom: 0.15em;    /* 标题与作者行之间 */
+    font-size: $type-size-8;  /* 约 16px，比原 h2 的 type-size-4 小 */
     border-bottom: none;
   }
 }
@@ -90,6 +106,18 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 0.2rem;
+
+  .archive__item-title {
+    font-size: $type-size-6;   /* 约 16px，调小可用 $type-size-6 */
+    margin-top: 0.2em;
+    margin-bottom: 0.15em;
+  }
+
+  @include breakpoint($medium) {
+    padding-right: $right-sidebar-width-narrow;
+  }
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -107,6 +135,10 @@
   }
 }
 
+.list__item:last-child {
+  margin-bottom: 0;
+}
+
 
 /*
    Grid view
@@ -120,7 +152,7 @@
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 0.1em;
     font-size: $type-size-5;
   }
 
