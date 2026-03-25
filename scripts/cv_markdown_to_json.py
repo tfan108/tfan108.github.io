@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 """
-Script to convert markdown CV to JSON format
-Author: Yuan Chen
+Convert a Markdown CV page into a JSON file (JSON Resume-ish), and optionally
+enrich it with repository data (publications/talks/teaching/portfolio).
 """
 
+from __future__ import annotations
+
+import argparse
+import glob
+import json
 import os
 import re
-import json
-import yaml
-import argparse
-from datetime import datetime, date
+from datetime import date, datetime
 from pathlib import Path
-import glob
+from typing import Any
+
+import yaml
 
 # Custom JSON encoder to handle date objects
 class DateTimeEncoder(json.JSONEncoder):
@@ -54,6 +58,8 @@ def parse_markdown_cv(md_file):
 
 def parse_config(config_file):
     """Parse the Jekyll _config.yml file for additional information."""
+    if not config_file:
+        return {}
     if not os.path.exists(config_file):
         return {}
     

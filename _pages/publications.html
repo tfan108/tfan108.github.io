@@ -13,27 +13,112 @@ permalink: /publications/
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% assign pubs_by_year = pubs | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% comment %}Build venue order list from _data/venue_abbreviations.yml keys (Liquid has no reliable 'keys' filter){% endcomment %}
+{% capture _venues_joined %}{% for pair in site.data.venue_abbreviations %}{{ pair[0] }}||{% endfor %}{% endcapture %}
+{% assign venues_order = _venues_joined | split: '||' %}
 
+{% comment %}Top section: arXiv preprints (not grouped by year){% endcomment %}
+<h2>arXiv</h2>
+<hr />
+{% for post in pubs %}
+  {% if post.collection == 'publications' and post.venue and post.venue contains 'arXiv' %}
+    {% include publications-fan-order.html post=post fan_mode='fan' %}
+  {% endif %}
+{% endfor %}
+{% for post in pubs %}
+  {% if post.collection == 'publications' and post.venue and post.venue contains 'arXiv' %}
+    {% include publications-fan-order.html post=post fan_mode='other' %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Years > 2019: render by venue order, and Fan Tang corresponding papers first within same venue{% endcomment %}
 {% for year in pubs_by_year %}
-  <h2>{{ year.name }}</h2>
-  <hr />
-  {% comment %}Sort within each year: corresponding author papers first, then by date{% endcomment %}
-  {% assign year_items_sorted = year.items | sort: "date" | reverse %}
-  {% comment %}First pass: show corresponding author papers{% endcomment %}
-  {% for post in year_items_sorted %}
-    {% assign post_slug = post.permalink | remove_first: '/publication/' %}
-    {% assign post_corresponding = site.data.corresponding_authors[post_slug] %}
-    {% if post_corresponding and post_corresponding contains "Fan Tang" %}
-      {% include archive-single.html %}
-    {% endif %}
-  {% endfor %}
-  {% comment %}Second pass: show other papers{% endcomment %}
-  {% for post in year_items_sorted %}
-    {% assign post_slug = post.permalink | remove_first: '/publication/' %}
-    {% assign post_corresponding = site.data.corresponding_authors[post_slug] %}
-    {% unless post_corresponding and post_corresponding contains "Fan Tang" %}
-      {% include archive-single.html %}
-    {% endunless %}
-  {% endfor %}
+  {% if year.name > '2019' %}
+    <h2>{{ year.name }}</h2>
+    <hr />
+    {% assign year_items_sorted = year.items | sort: "date" | reverse %}
+
+    {% for venue in venues_order %}
+      {% for post in year_items_sorted %}
+        {% if post.collection == 'publications' and post.venue == venue %}
+          {% unless post.venue contains 'arXiv' %}
+            {% include publications-fan-order.html post=post fan_mode='fan' %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      {% for post in year_items_sorted %}
+        {% if post.collection == 'publications' and post.venue == venue %}
+          {% unless post.venue contains 'arXiv' %}
+            {% include publications-fan-order.html post=post fan_mode='other' %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% comment %}Fallback: venues not in venue_abbreviations.yml, still show them at the end{% endcomment %}
+    {% for post in year_items_sorted %}
+      {% if post.collection == 'publications' and post.venue %}
+        {% unless post.venue contains 'arXiv' %}
+          {% unless venues_order contains post.venue %}
+            {% include publications-fan-order.html post=post fan_mode='fan' %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% for post in year_items_sorted %}
+      {% if post.collection == 'publications' and post.venue %}
+        {% unless post.venue contains 'arXiv' %}
+          {% unless venues_order contains post.venue %}
+            {% include publications-fan-order.html post=post fan_mode='other' %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}Years <= 2019: merged into one block{% endcomment %}
+<h2>2019 and earlier</h2>
+<hr />
+{% for year in pubs_by_year %}
+  {% if year.name <= '2019' %}
+    {% assign year_items_sorted = year.items | sort: "date" | reverse %}
+    {% for venue in venues_order %}
+      {% for post in year_items_sorted %}
+        {% if post.collection == 'publications' and post.venue == venue %}
+          {% unless post.venue contains 'arXiv' %}
+            {% include publications-fan-order.html post=post fan_mode='fan' %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      {% for post in year_items_sorted %}
+        {% if post.collection == 'publications' and post.venue == venue %}
+          {% unless post.venue contains 'arXiv' %}
+            {% include publications-fan-order.html post=post fan_mode='other' %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% comment %}Fallback for old years: venues not in venue_abbreviations.yml{% endcomment %}
+    {% for post in year_items_sorted %}
+      {% if post.collection == 'publications' and post.venue %}
+        {% unless post.venue contains 'arXiv' %}
+          {% unless venues_order contains post.venue %}
+            {% include publications-fan-order.html post=post fan_mode='fan' %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% for post in year_items_sorted %}
+      {% if post.collection == 'publications' and post.venue %}
+        {% unless post.venue contains 'arXiv' %}
+          {% unless venues_order contains post.venue %}
+            {% include publications-fan-order.html post=post fan_mode='other' %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 

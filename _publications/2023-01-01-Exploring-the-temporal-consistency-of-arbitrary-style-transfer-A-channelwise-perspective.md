@@ -5,4 +5,5 @@ permalink: /publication/2023-01-01-Exploring-the-temporal-consistency-of-arbitra
 date: 2023-01-01
 venue: 'IEEE Transactions on Neural Networks and Learning Systems'
 citation: 'Xiaoyu Kong, Yingying Deng, Fan Tang, Weiming Dong, Chongyang Ma, Yongyong Chen, Zhenyu He, Changsheng Xu; &quot;Exploring the temporal consistency of arbitrary style transfer: A channelwise perspective.&quot; IEEE Transactions on Neural Networks and Learning Systems, 2023.'
+bibtexurl: '/files/bibtex/2023-01-01-Exploring-the-temporal-consistency-of-arbitrary-style-transfer-A-channelwise-perspective.bib'
 ---

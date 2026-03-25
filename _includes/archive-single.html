@@ -27,10 +27,25 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% assign _is_arxiv = false %}
+      {% if post.collection == 'publications' and post.venue and post.venue contains 'arXiv' %}
+        {% assign _is_arxiv = true %}
+      {% endif %}
+      {% assign _venue_abbr = '' %}
+      {% if post.collection == 'publications' and _is_arxiv == false and post.venue %}
+        {% assign _venue_abbr = site.data.venue_abbreviations[post.venue] | default: '' %}
+      {% endif %}
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">
+          {% if _is_arxiv == false and _venue_abbr != '' %}<strong>[{{ _venue_abbr }}]</strong> {% endif %}
+          {{ title }}
+        </a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          {% if _is_arxiv == false and _venue_abbr != '' %}<strong>[{{ _venue_abbr }}]</strong> {% endif %}
+          {{ title }}
+        </a>
       {% endif %}
     </h2>
     
@@ -44,27 +59,29 @@
     {% assign authors_array = authors_raw | split: ',' %}
     {% assign post_slug = post.permalink | remove_first: '/publication/' %}
     {% assign post_corresponding = site.data.corresponding_authors[post_slug] %}
-    <p class="pub-authors">
-      {% for a in authors_array %}
-        {% assign a_trim = a | strip | replace: ';', '' | strip %}
-        {% if a_trim != '' %}
-          {% if forloop.first == false %},{% endif %}
-          {% if post_corresponding and post_corresponding contains a_trim %}
-            {% assign author_display = a_trim | replace: 'Fan Tang', '<strong>Fan Tang</strong>' | strip %}
-            {{ author_display }} &#9993;
-          {% else %}
-            {% assign author_display = a_trim | replace: 'Fan Tang', '<strong>Fan Tang</strong>' | strip %}
-            {{ author_display }}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </p>
+    <p class="pub-authors">{% capture _authors_line -%}
+{%- for a in authors_array -%}
+  {%- assign a_trim = a | strip | replace: ';', '' | strip -%}
+  {%- if a_trim != '' -%}
+    {%- if forloop.first == false -%}, {%- endif -%}
+    {%- assign author_display = a_trim | replace: 'Fan Tang', '<strong>Fan Tang</strong>' | strip -%}
+    {{ author_display }}
+    {%- if post_corresponding and post_corresponding contains a_trim -%}&#9993;{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture %}{{ _authors_line | strip_newlines }}</p>
   {% endif %}
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p class="pub-venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="pub-venue">
+            <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            {% if post.bibtexurl %}
+              &nbsp;<a class="btn btn--small" href="{{ post.bibtexurl }}"
+                style="font-size: smaller; padding: 0.08em 0.35em; margin-left: 0; margin-bottom: 0; line-height: 1; white-space: nowrap; display: inline-block; vertical-align: middle;">BibTeX</a>
+            {% endif %}
+          </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -83,9 +100,6 @@
           {% endif %}
           {% if post.slidesurl %}
             <a class="btn btn--small" href="{{ post.slidesurl }}">Slides</a>
-          {% endif %}
-          {% if post.bibtexurl %}
-            <a class="btn btn--small" href="{{ post.bibtexurl }}">BibTeX</a>
           {% endif %}
         </p>
       {% endif %}

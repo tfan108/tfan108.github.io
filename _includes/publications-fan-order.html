@@ -1,0 +1,16 @@
+{%- assign post = include.post -%}
+{%- assign fan_mode = include.fan_mode | default: 'fan' -%}
+
+{%- assign post_slug = post.permalink | remove_first: '/publication/' -%}
+{%- assign post_corresponding = site.data.corresponding_authors[post_slug] -%}
+
+{%- if fan_mode == 'fan' -%}
+  {%- if post_corresponding and post_corresponding contains "Fan Tang" -%}
+    {% include archive-single.html %}
+  {%- endif -%}
+{%- else -%}
+  {%- unless post_corresponding and post_corresponding contains "Fan Tang" -%}
+    {% include archive-single.html %}
+  {%- endunless -%}
+{%- endif -%}
+

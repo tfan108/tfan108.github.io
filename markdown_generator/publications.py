@@ -11,9 +11,14 @@
 # - `pub_date` must be formatted as YYYY-MM-DD.
 # - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. 
 #    The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/publications/YYYY-MM-DD-[url_slug]`
+from __future__ import annotations
+
+import argparse
 import csv
 import os
 import sys
+from pathlib import Path
+from typing import List, Sequence, Tuple
 
 # Flag to indicate an error occurred
 EXIT_ERROR = 0
@@ -34,7 +39,11 @@ HTML_ESCAPE_TABLE = {
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to
 # concatenate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then
 # does the description for the individual page.
-def create_md(lines: list, layout: list):
+REPO_ROOT = (Path(__file__).resolve().parent / "..").resolve()
+DEFAULT_OUT_DIR = REPO_ROOT / "_publications"
+
+
+def create_md(lines: Sequence[Sequence[str]], layout: Sequence[str], out_dir: Path = DEFAULT_OUT_DIR) -> None:
     for item in lines:
         # Parse the filename information
         md_filename = f"{item[layout.index('pub_date')]}-{item[layout.index('url_slug')]}.md"
@@ -65,20 +74,20 @@ def create_md(lines: list, layout: list):
         md += f"\nRecommended citation: {item[layout.index('citation')]}"
         
         # Write the file
-        md_filename = os.path.join("../_publications/", os.path.basename(md_filename))
-        with open(md_filename, 'w') as f:
-            f.write(md)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_path = out_dir / os.path.basename(md_filename)
+        out_path.write_text(md, encoding="utf-8")
 
-def html_escape(text):
+def html_escape(text: str) -> str:
     """Produce entities within text."""
     return "".join(HTML_ESCAPE_TABLE.get(c,c) for c in text)
 
-def read(filename: str) -> tuple[list, list]:
+def read(filename: str) -> Tuple[List[List[str]], List[str]]:
     '''Read the contents of the file, check the header and return the parsed line along with the file type.'''
 
     # Read the contents of the file
-    lines = []
-    with open(filename, 'r') as file:
+    lines: List[List[str]] = []
+    with open(filename, 'r', encoding="utf-8", newline="") as file:
         delimiter = ',' if filename.endswith('.csv') else '\t'
         reader = csv.reader(file, delimiter=delimiter)
         for row in reader:
@@ -102,18 +111,25 @@ def read(filename: str) -> tuple[list, list]:
     # Return the lines and format
     return lines, layout
 
-if __name__ == '__main__':
-    # Make sure a filename was given
-    if len(sys.argv) != 2:
-        print('Usage: python3 publications.py [filename]', file=sys.stderr)
-        sys.exit(EXIT_ERROR)
 
-    # Make sure the filename is TSV or CSV
-    filename = sys.argv[1]
-    if not (filename.endswith('.csv') or filename.endswith('.tsv')):
-        print(f'Expected a TSV or CSV file, got {filename}', file=sys.stderr)
-        sys.exit(EXIT_ERROR)    
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Generate _publications/*.md from a CSV/TSV file")
+    parser.add_argument("input", help="Input .csv or .tsv file")
+    parser.add_argument(
+        "--out",
+        default=str(DEFAULT_OUT_DIR),
+        help="Output directory for generated markdown files (default: repo/_publications)",
+    )
+    args = parser.parse_args(argv)
 
-    # Read and process the lines
+    filename = args.input
+    if not (filename.endswith(".csv") or filename.endswith(".tsv")):
+        print(f"Expected a TSV or CSV file, got {filename}", file=sys.stderr)
+        return EXIT_ERROR
+
     lines, layout = read(filename)
-    create_md(lines, layout)
+    create_md(lines, layout, out_dir=Path(args.out))
+    return 0
+
+if __name__ == '__main__':
+    raise SystemExit(main())

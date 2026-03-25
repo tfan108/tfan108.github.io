@@ -2,6 +2,14 @@
 _site/
 .sass-cache/
 
+# Ignore Jupyter/markdown_generator build artifacts and caches
+markdown_generator/_site/
+markdown_generator/__pycache__/
+
+# Ignore Python caches anywhere
+**/__pycache__/
+*.pyc
+
 # Ignore the directory for local files during development
 local/
 
