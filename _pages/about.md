@@ -21,9 +21,18 @@ My current research primarily focuses on ***2D digital humans***, ***image editi
 {% assign all_pubs = site.publications | sort: "date" | reverse %}
 {% assign count = 0 %}
 <ul style="list-style-type: none; padding-left: 0; margin-top: 0.5em; margin-bottom: 0.5em; font-size: 0.9em;">
+  <li style="margin-bottom: 0.3em; line-height: 1.4;">
+    <strong>🧑‍⚖️</strong> Serve as <strong>SIGGRAPH ASIA 2026</strong> TPC member.
+  </li>
+  <li style="margin-bottom: 0.3em; line-height: 1.4;">
+    <strong>🧑‍⚖️</strong> Serve as <strong>SIGGRAPH ASIA 2025</strong> TPC member.
+  </li>
+  <li style="margin-bottom: 0.3em; line-height: 1.4;">
+    <strong>🎉</strong> <strong>4 papers</strong> accepted to <strong>CVPR 2026</strong>: 2 in the main track and 2 in the Findings track.
+  </li>
 {% for post in all_pubs %}
   {% assign venue_lower = post.venue | downcase %}
-  {% unless venue_lower contains "arxiv" %}
+  {% unless venue_lower contains "arxiv" or venue_lower contains "aaai" or venue_lower contains "cvpr" or venue_lower contains "computer vision and pattern recognition" %}
     {% if count < 5 %}
       {% assign citation_clean = post.citation | split: '&quot;' | first %}
       {% assign authors_raw = citation_clean | strip %}
