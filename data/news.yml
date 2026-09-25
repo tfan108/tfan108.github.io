@@ -13,6 +13,10 @@
 #  常用 icon：🎉 论文录用  🏆 获奖  🧑‍⚖️ 学术服务  🎤 报告/讲座  📢 招生  🎓 毕业
 # ============================================================================
 
+- date: 2026-09
+  icon: "🎉"
+  text: Joined the School of Computer and Communication Engineering, **University of Science and Technology Beijing (USTB)** as a Professor.
+
 - date: 2026-03            # 日期为迁移时估计，请核对
   icon: "🧑‍⚖️"
   text: Serve as **SIGGRAPH Asia 2026** TPC member.

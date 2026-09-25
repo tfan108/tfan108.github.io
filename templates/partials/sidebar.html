@@ -8,7 +8,7 @@
   </div>
 </div>
 <ul class="profile-meta">
-  {% if a.affiliation %}<li title="{{ a.affiliation }}">{{ icon('building-columns') }}<span>{{ a.affiliation_short or a.affiliation }}</span></li>{% endif %}
+  {% if a.affiliation %}<li class="wrap" title="{{ a.affiliation }}">{{ icon('building-columns') }}<span>{{ a.affiliation_short or a.affiliation }}</span></li>{% endif %}
   {% if a.location %}<li>{{ icon('location-dot') }}<span>{{ a.location }}</span></li>{% endif %}
   {% if a.email %}<li>{{ icon('envelope') }}<a href="mailto:{{ a.email }}">{{ a.email }}</a></li>{% endif %}
   {% for key, url in (a.links or {}).items() %}

@@ -116,6 +116,9 @@ button { font: inherit; color: inherit; }
 .profile-meta li { display: flex; align-items: center; gap: 10px; padding: 3px 0; color: var(--text-2); min-width: 0; }
 .profile-meta li > span, .profile-meta li > a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .profile-meta .icon { width: 15px; height: 15px; color: var(--muted); }
+.profile-meta li.wrap { align-items: flex-start; }
+.profile-meta li.wrap > span { white-space: normal; line-height: 1.45; }
+.profile-meta li.wrap .icon { margin-top: 3px; }
 .profile-meta a { color: var(--text-2); }
 .profile-meta a:hover { color: var(--accent); }
 .profile-stats {

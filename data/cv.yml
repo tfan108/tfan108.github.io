@@ -33,9 +33,12 @@
 - section: Work Experience
   icon: briefcase
   items:
+    - title: Professor
+      org: School of Computer and Communication Engineering, University of Science and Technology Beijing (USTB)
+      date: 2026.09 – Present
     - title: Associate Professor / Master's Supervisor
       org: Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)
-      date: 2022.08 – Present
+      date: 2022.08 – 2026.08
       details:
         - Recognized as "Outstanding Researcher" of ICT-CAS in 2023.
     - title: Assistant Professor / Doctoral Supervisor

@@ -12,9 +12,9 @@ author:
   name: Fan Tang
   name_zh: 唐帆
   avatar: /images/avatar.jpg          # 换头像：把图片放进 static/images/，改这里的文件名
-  position: Associate Professor
-  affiliation: Institute of Computing Technology, Chinese Academy of Sciences
-  affiliation_short: ICT, CAS
+  position: Professor
+  affiliation: School of Computer and Communication Engineering, University of Science and Technology Beijing
+  affiliation_short: University of Science and Technology Beijing
   location: Beijing, China
   email: tfan.108@gmail.com
   links:                              # 支持 scholar / github / orcid / dblp / semantic_scholar / zhihu / linkedin / twitter / homepage
