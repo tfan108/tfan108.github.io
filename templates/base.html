@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author.name }}">
+<link rel="canonical" href="{{ site.url.rstrip('/') }}{{ page_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if title %}{{ title }} · {% endif %}{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:url" content="{{ site.url.rstrip('/') }}{{ page_url }}">
+<meta property="og:image" content="{{ site.url.rstrip('/') }}{{ site.author.avatar }}">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111418" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon-180x180.png">
+<link rel="manifest" href="/images/manifest.json">
+<link rel="stylesheet" href="{{ asset('/assets/style.css') }}">
+<script>
+  (function () {
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  })();
+</script>
+{% if site.google_analytics and not serve_mode %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.google_analytics }}');</script>
+{% endif %}
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "Person", "name": site.author.name, "alternateName": site.author.name_zh, "jobTitle": site.author.position, "affiliation": {"@type": "Organization", "name": site.author.affiliation}, "email": "mailto:" ~ site.author.email, "url": site.url, "image": site.url.rstrip('/') ~ site.author.avatar, "sameAs": (site.author.links or {}).values()|list}|tojson }}
+</script>
+</head>
+<body class="page-{{ page }}">
+{{ icons_svg }}
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="container masthead-inner">
+    <a class="site-title" href="/">{{ site.title }}</a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      {% for item in site.nav %}
+      <a href="{{ item.url }}"{% if page_url.startswith(item.url) %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="masthead-actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">{{ icon('moon', 'show-light') }}{{ icon('sun', 'show-dark') }}</button>
+      <button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-controls="site-nav" aria-expanded="false">{{ icon('bars') }}</button>
+    </div>
+  </div>
+</header>
+
+<div class="container layout">
+  <aside class="sidebar">
+    {% include 'partials/sidebar.html' %}
+  </aside>
+  <main class="content" id="main">
+    {% block content %}{% endblock %}
+  </main>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© {{ build_date.year }} {{ site.author.name }}</span>
+    <span class="sep">·</span>
+    <span>Last updated {{ build_date.isoformat() }}</span>
+  </div>
+</footer>
+<script src="{{ asset('/assets/main.js') }}" defer></script>
+{% if serve_mode %}
+<script>
+  (function () {
+    var last = null;
+    setInterval(function () {
+      fetch('/__build_id', { cache: 'no-store' }).then(function (r) { return r.text(); }).then(function (id) {
+        if (last && id !== last) location.reload();
+        last = id;
+      }).catch(function () {});
+    }, 1000);
+  })();
+</script>
+{% endif %}
+</body>
+</html>

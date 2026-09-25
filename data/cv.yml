@@ -1,0 +1,113 @@
+# ============================================================================
+#  CV 页面
+# ----------------------------------------------------------------------------
+#  每个 section 是一个大标题，items 是其中的条目。条目可用字段（都可选，按需填写）：
+#    title    条目标题（加粗）
+#    role     角色，如 Project Leader（显示在标题前的小标签）
+#    org      单位 / 机构
+#    date     时间，如 2022.08 – Present
+#    badge    右侧小徽章，如经费 500k RMB
+#    details  补充说明，每行一条，支持 Markdown
+#  section 的 icon 可选：graduation-cap / briefcase / diagram-project / users /
+#  chalkboard-user / trophy / award / book / flask / lightbulb / bullhorn
+# ============================================================================
+
+- section: Education
+  icon: graduation-cap
+  items:
+    - title: Ph.D. in Pattern Recognition and Intelligent Systems
+      org: Institute of Automation, Chinese Academy of Sciences (CASIA)
+      date: 2013.09 – 2019.07
+      details:
+        - National Laboratory of Pattern Recognition (NLPR), Multimedia Computing Group.
+        - "Advisors: Prof. Baogang Hu and Prof. Weiming Dong."
+    - title: Visiting Ph.D. Student
+      org: University of Konstanz, Germany
+      date: 2017.09 – 2018.09
+      details:
+        - Hosted by Prof. Oliver Deussen.
+    - title: B.S. in Computer Science
+      org: North China Electric Power University
+      date: 2009.09 – 2013.07
+
+- section: Work Experience
+  icon: briefcase
+  items:
+    - title: Associate Professor / Master's Supervisor
+      org: Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS)
+      date: 2022.08 – Present
+      details:
+        - Recognized as "Outstanding Researcher" of ICT-CAS in 2023.
+    - title: Assistant Professor / Doctoral Supervisor
+      org: School of Artificial Intelligence, Jilin University
+      date: 2020.06 – 2022.07
+    - title: R&D Engineer / Director
+      org: Fosafer Inc.
+      date: 2019.07 – 2020.05
+
+- section: Research Projects (As PI / Lead)
+  icon: diagram-project
+  items:
+    - title: National Natural Science Foundation of China (General Program)
+      role: Project Leader
+      date: 2026.01 – 2029.12
+      badge: 500k RMB
+      details:
+        - "“Research on Key Technologies of Interactive Digital Human Video Generation based on 2D-3D Mutual Optimization”"
+    - title: National Natural Science Foundation of China (Youth Program)
+      role: Project Leader
+      date: 2022.01 – 2024.12
+      badge: 300k RMB
+      details:
+        - "“Research on Stylized Image Generation Guided by Heterogeneous Control Conditions”"
+    - title: Beijing Science & Technology Project
+      role: Topic Leader
+      badge: 1.2M RMB
+      details:
+        - "“Research on Controllable, Interactive, and High-quality Multimodal Information Generation”"
+    - title: Tencent Rhino-Bird Focus Research Program
+      role: Project Leader
+      date: "2025"
+      badge: 300k RMB
+      details:
+        - "“Research on Image Editing Technology Based on Text Instructions”"
+    - title: National Key R&D Program
+      role: Sub-project Leader
+      date: 2022.09 – 2024.12
+      badge: 690k RMB
+      details:
+        - "“Key Technologies for Governance of the Whole Chain of Fake Information”"
+
+- section: Academic Service
+  icon: users
+  items:
+    - title: Program Committee Member
+      details:
+        - "**SIGGRAPH Asia 2026**, **SIGGRAPH Asia 2025**"
+    - title: Outstanding Reviewer
+      details:
+        - "**CVPR**"
+    - title: Journal / Conference Reviewer
+      details:
+        - "**Conferences:** SIGGRAPH, CVPR, ICCV, NeurIPS, ICML, ICLR, ECCV, AAAI, ACM MM."
+        - "**Journals:** IJCV, ACM TOG, IEEE T-PAMI, TVCG, TIP, TMM, TWC."
+
+- section: Teaching
+  icon: chalkboard-user
+  items:
+    - title: Primary Instructor
+      org: University of Chinese Academy of Sciences (UCAS)
+      details:
+        - "*Multimedia Technology* (Spring 2023-2024 / Spring 2024-2025), School of Computer Science & Technology."
+        - "*Multimedia Technology* (Autumn 2023-2024 / Spring 2024-2025), HIAS."
+
+# 想显示获奖信息，删掉下面各行开头的 # 即可
+# - section: Honors & Awards
+#   icon: trophy
+#   items:
+#     - title: Excellent Researcher of ICT-CAS
+#       date: "2023"
+#     - title: Champion, ECCV-Mapillary Street View Object Detection Challenge
+#       date: "2018"
+#     - title: 5th place among 753 teams, Alibaba-IJCAI Repeated Purchase Prediction Competition
+#       date: "2015"

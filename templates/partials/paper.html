@@ -1,0 +1,45 @@
+{% set v = p.venue_info %}
+<article class="pub{% if p.thumb %} has-thumb{% endif %}" id="{{ p.id }}" data-search="{{ (p.title ~ ' ' ~ p.authors|join(', ') ~ ' ' ~ v.key ~ ' ' ~ v.name ~ ' ' ~ p.year ~ ' ' ~ p.note)|lower }}">
+  {% if p.thumb %}
+  <a class="pub-thumb" href="{{ p.primary or ('#' ~ p.id) }}" tabindex="-1"><img src="{{ p.thumb }}" alt="" loading="lazy"></a>
+  {% endif %}
+  <div class="pub-body">
+    <h3 class="pub-title">
+      <span class="badge venue{% if v.type == 'preprint' %} is-preprint{% endif %}">{{ v.label }}{% if v.type != 'preprint' %} {{ p.year }}{% endif %}</span>
+      {% if p.primary %}<a href="{{ p.primary }}">{{ p.title }}</a>{% else %}<span>{{ p.title }}</span>{% endif %}
+    </h3>
+    <p class="pub-authors">
+      {%- for a in p.authors -%}
+      <span class="author{% if a in site.me %} me{% endif %}">{{ a }}{% if a in p.equal %}<sup title="Equal contribution">*</sup>{% endif %}{% if a in p.corresponding %}<sup class="corr" title="Corresponding author">✉</sup>{% endif %}</span>{% if not loop.last %}, {% endif %}
+      {%- endfor -%}
+    </p>
+    <p class="pub-venue">
+      {% if v.rank %}<span class="badge rank rank-{{ v.rank|lower|replace(' ', '-') }}">{{ v.rank }}</span>{% endif %}
+      {% if p.note %}<span class="badge note">{{ p.note }}</span>{% endif %}
+      {% if v.type == 'preprint' %}
+        {% set arx = p.links.arxiv.split('/')[-1] if p.links.arxiv else '' %}
+        <em>{{ v.name }}{% if arx %} arXiv:{{ arx }}{% endif %}</em>, {{ p.year }}
+      {% else %}
+        <em>{{ v.name }}</em>, {{ p.year }}
+      {% endif %}
+    </p>
+    <div class="pub-links">
+      {% for k, url in p.links.items() %}
+      {% set meta = link_meta.get(k, (k|capitalize, 'link')) %}
+      {% if k == 'code' %}
+      <a class="btn btn-code" href="{{ url }}" rel="noopener">{{ icon('github' if p.repo else 'code') }}Code{% if p.stars %}<span class="stars" title="GitHub stars">{{ icon('star') }}{{ p.stars|num }}</span>{% endif %}</a>
+      {% else %}
+      <a class="btn" href="{{ url }}" rel="noopener">{{ icon(meta[1]) }}{{ meta[0] }}</a>
+      {% endif %}
+      {% endfor %}
+      <button class="btn bib-toggle" type="button" aria-expanded="false" aria-controls="bib-{{ p.id }}">{{ icon('quote-left') }}BibTeX</button>
+      {% if p.cites %}
+      <a class="cite" href="{{ p.scholar_url }}" rel="noopener" title="Citations on Google Scholar">{{ icon('google-scholar') }}Cited by {{ p.cites }}</a>
+      {% endif %}
+    </div>
+    <div class="bibtex" id="bib-{{ p.id }}" hidden>
+      <pre>{{ p.bibtex }}</pre>
+      <button class="btn copy-bib" type="button">{{ icon('copy') }}<span>Copy</span></button>
+    </div>
+  </div>
+</article>

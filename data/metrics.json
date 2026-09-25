@@ -1,0 +1,649 @@
+{
+ "scholar": {
+  "updated": "2026-09-25",
+  "fetched_at": "2026-09-25T01:15:00+00:00",
+  "source": "scholar.google.com",
+  "profile_id": "PdKElfwAAAAJ",
+  "citations": 4724,
+  "citations_recent": 4644,
+  "h_index": 32,
+  "h_index_recent": 30,
+  "i10_index": 55,
+  "i10_index_recent": 54,
+  "papers": [
+   {
+    "id": "QIV2ME_5wuYC",
+    "title": "StyTr2: Image Style Transfer with Transformers",
+    "cites": 701,
+    "year": 2022
+   },
+   {
+    "id": "r0BpntZqJG4C",
+    "title": "Inversion-based style transfer with diffusion models",
+    "cites": 636,
+    "year": 2023
+   },
+   {
+    "id": "9ZlFYXVOiuMC",
+    "title": "Domain enhanced arbitrary image style transfer via contrastive learning",
+    "cites": 313,
+    "year": 2022
+   },
+   {
+    "id": "roLk4NBRz8UC",
+    "title": "Arbitrary style transfer via multi-adaptation network",
+    "cites": 261,
+    "year": 2020
+   },
+   {
+    "id": "YOwf2qJgpHMC",
+    "title": "Arbitrary Video Style Transfer via Multi-Channel Correlation",
+    "cites": 228,
+    "year": 2021
+   },
+   {
+    "id": "aqlVkmm33-oC",
+    "title": "Dae-gan: Dynamic aspect-aware gan for text-to-image synthesis",
+    "cites": 193,
+    "year": 2021
+   },
+   {
+    "id": "M3ejUd6NZC8C",
+    "title": "Transformers in computational visual media: A survey",
+    "cites": 180,
+    "year": 2022
+   },
+   {
+    "id": "blknAaTinKkC",
+    "title": "Prospect: Prompt spectrum for attribute-aware personalization of diffusion models",
+    "cites": 154,
+    "year": 2023
+   },
+   {
+    "id": "mVmsd5A6BfQC",
+    "title": "ZINB-based Graph Embedding Autoencoder for Single-cell RNA-seq Interpretations",
+    "cites": 145,
+    "year": 2022
+   },
+   {
+    "id": "Zph67rFs4hoC",
+    "title": "Unveiling the potential of structure preserving for weakly supervised object localization",
+    "cites": 126,
+    "year": 2021
+   },
+   {
+    "id": "IWHjjKOFINEC",
+    "title": "Diffstyler: Controllable dual diffusion for text-driven image stylization",
+    "cites": 116,
+    "year": 2024
+   },
+   {
+    "id": "RYcK_YlVTxYC",
+    "title": "Z*: Zero-shot style transfer via attention reweighting",
+    "cites": 111,
+    "year": 2024
+   },
+   {
+    "id": "Tyk-4Ss8FVUC",
+    "title": "Flower classification via convolutional neural network",
+    "cites": 102,
+    "year": 2016
+   },
+   {
+    "id": "RHpTSmoSYBkC",
+    "title": "Adaptive assignment for geometry aware local feature matching",
+    "cites": 85,
+    "year": 2023
+   },
+   {
+    "id": "EUQCXRtRnyEC",
+    "title": "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing",
+    "cites": 71,
+    "year": 2025
+   },
+   {
+    "id": "L8Ckcad2t8MC",
+    "title": "Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion",
+    "cites": 69,
+    "year": 2022
+   },
+   {
+    "id": "R3hNpaxXUhUC",
+    "title": "A unified arbitrary style transfer framework via adaptive contrastive learning",
+    "cites": 59,
+    "year": 2023
+   },
+   {
+    "id": "RGFaLdJalmkC",
+    "title": "Make-your-anchor: A diffusion-based 2d avatar generation framework",
+    "cites": 57,
+    "year": 2024
+   },
+   {
+    "id": "TQgYirikUcIC",
+    "title": "Progressive open space expansion for open-set model attribution",
+    "cites": 55,
+    "year": 2023
+   },
+   {
+    "id": "ufrVoPGSRksC",
+    "title": "Self-supervised feature augmentation for large image object detection",
+    "cites": 52,
+    "year": 2020
+   },
+   {
+    "id": "4JMBOYKVnBMC",
+    "title": "SMNet: Synchronous multi-scale low light enhancement network with local and global concern",
+    "cites": 43,
+    "year": 2023
+   },
+   {
+    "id": "dhFuZR0502QC",
+    "title": "A comparative study of CNN-and transformer-based visual style transfer",
+    "cites": 42,
+    "year": 2022
+   },
+   {
+    "id": "mB3voiENLucC",
+    "title": "Exploring the temporal consistency of arbitrary style transfer: A channelwise perspective",
+    "cites": 41,
+    "year": 2023
+   },
+   {
+    "id": "HDshCWvjkbEC",
+    "title": "Region-aware diffusion for zero-shot text-driven image editing",
+    "cites": 38,
+    "year": 2023
+   },
+   {
+    "id": "SeFeTyx0c_EC",
+    "title": "Anchorcrafter: Animate cyber-anchors selling your products via human-object interacting video generation",
+    "cites": 37,
+    "year": 2026
+   },
+   {
+    "id": "a0OBvERweLwC",
+    "title": "Motioncrafter: Plug-and-play motion guidance for diffusion models",
+    "cites": 37,
+    "year": 2025
+   },
+   {
+    "id": "O3NaXMp0MMsC",
+    "title": "Music style transfer with time-varying inversion of diffusion models",
+    "cites": 35,
+    "year": 2024
+   },
+   {
+    "id": "Wp0gIr-vW9MC",
+    "title": "Siod: Single instance annotated per category per image for object detection",
+    "cites": 35,
+    "year": 2022
+   },
+   {
+    "id": "9yKSN-GCB0IC",
+    "title": "Animated construction of Chinese brush paintings",
+    "cites": 34,
+    "year": 2017
+   },
+   {
+    "id": "D03iK_w7-QYC",
+    "title": "CreativeSynth: Cross-art-attention for artistic image synthesis with multimodal diffusion",
+    "cites": 33,
+    "year": 2025
+   },
+   {
+    "id": "3s1wT3WcHBgC",
+    "title": "Dance-to-music generation with encoder-based textual inversion",
+    "cites": 32,
+    "year": 2024
+   },
+   {
+    "id": "eQOLeE2rZwMC",
+    "title": "Content-based visual summarization for image collections",
+    "cites": 32,
+    "year": 2019
+   },
+   {
+    "id": "IjCSPb-OGe4C",
+    "title": "Joint face alignment and segmentation via deep multi-task learning",
+    "cites": 32,
+    "year": 2019
+   },
+   {
+    "id": "LkGwnXOMwfcC",
+    "title": "Distribution aligned multimodal and multi-domain image stylization",
+    "cites": 29,
+    "year": 2021
+   },
+   {
+    "id": "pqnbT2bcN3wC",
+    "title": "Headrouter: A training-free image editing framework for mm-dits by adaptively routing attention heads",
+    "cites": 28,
+    "year": 2026
+   },
+   {
+    "id": "yD5IFk8b50cC",
+    "title": "Multi-turn Consistent Image Editing",
+    "cites": 26,
+    "year": 2025
+   },
+   {
+    "id": "vV6vV6tmYwMC",
+    "title": "Identity-preserving face swapping via dual surrogate generative models",
+    "cites": 26,
+    "year": 2024
+   },
+   {
+    "id": "hFOr9nPyWt4C",
+    "title": "CrossRectify: Leveraging disagreement for semi-supervised object detection",
+    "cites": 26,
+    "year": 2023
+   },
+   {
+    "id": "W7OEmFMy1HYC",
+    "title": "Selective clustering for representative paintings selection",
+    "cites": 24,
+    "year": 2019
+   },
+   {
+    "id": "_Qo2XoVZTnwC",
+    "title": "Semantic-context graph network for point-based 3D object detection",
+    "cites": 23,
+    "year": 2023
+   },
+   {
+    "id": "Se3iqnhoufwC",
+    "title": "Exploring the representativity of art paintings",
+    "cites": 22,
+    "year": 2020
+   },
+   {
+    "id": "YFjsv_pBGBYC",
+    "title": "A2Pt: Anti-Associative Prompt Tuning for Open Set Visual Recognition",
+    "cites": 21,
+    "year": 2023
+   },
+   {
+    "id": "70eg2SAEIzsC",
+    "title": "Visual-friendly concept protection via selective adversarial perturbations",
+    "cites": 20,
+    "year": 2026
+   },
+   {
+    "id": "1sJd4Hv_s6UC",
+    "title": "HOMA: Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions",
+    "cites": 20,
+    "year": 2025
+   },
+   {
+    "id": "4OULZ7Gr8RgC",
+    "title": "B4m: Breaking low-rank adapter for making content-style customization",
+    "cites": 19,
+    "year": 2025
+   },
+   {
+    "id": "MXK_kJrjxJIC",
+    "title": "Towards harmonized regional style transfer and manipulation for facial images",
+    "cites": 19,
+    "year": 2023
+   },
+   {
+    "id": "fPk4N6BV_jEC",
+    "title": "Attend to not attended: Structure-then-detail token merging for post-training dit acceleration",
+    "cites": 18,
+    "year": 2025
+   },
+   {
+    "id": "NhqRSupF_l8C",
+    "title": "AMDANet: Attention-Driven Multi-Perspective Discrepancy Alignment for RGB-Infrared Image Fusion and Segmentation",
+    "cites": 15,
+    "year": 2025
+   },
+   {
+    "id": "zYLM7Y9cAGgC",
+    "title": "Image retargetability",
+    "cites": 14,
+    "year": 2019
+   },
+   {
+    "id": "Y0pCki6q_DkC",
+    "title": "Photo squarization by deep multi-operator retargeting",
+    "cites": 14,
+    "year": 2018
+   },
+   {
+    "id": "CHSYGLWDkRkC",
+    "title": "Video generation models are good latent reward models",
+    "cites": 12,
+    "year": 2026
+   },
+   {
+    "id": "pyW8ca7W8N0C",
+    "title": "In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation",
+    "cites": 12,
+    "year": 2025
+   },
+   {
+    "id": "k_IJM867U9cC",
+    "title": "Adversarial robust memory-based continual learner",
+    "cites": 11,
+    "year": 2025
+   },
+   {
+    "id": "g5m5HwL7SMYC",
+    "title": "Modality-consistent prompt tuning with optimal transport",
+    "cites": 11,
+    "year": 2024
+   },
+   {
+    "id": "M05iB0D1s5AC",
+    "title": "A comprehensive evaluation of arbitrary image style transfer methods",
+    "cites": 11,
+    "year": 2024
+   },
+   {
+    "id": "J_g5lzvAfSwC",
+    "title": "U-vap: User-specified visual appearance personalization via decoupled self augmentation",
+    "cites": 9,
+    "year": 2024
+   },
+   {
+    "id": "8k81kl-MbHgC",
+    "title": "SiamCPN: Visual tracking with the Siamese center-prediction network",
+    "cites": 9,
+    "year": 2021
+   },
+   {
+    "id": "nb7KW1ujOQ8C",
+    "title": "Tag-moe: Task-aware gating for unified generative mixture-of-experts",
+    "cites": 8,
+    "year": 2026
+   },
+   {
+    "id": "35N4QoGY0k4C",
+    "title": "Revealing the Two Sides of Data Augmentation: An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition",
+    "cites": 8,
+    "year": 2024
+   },
+   {
+    "id": "isC4tDSrTZIC",
+    "title": "SPA2Net: Structure-Preserved Attention Activated Network for Weakly Supervised Object Localization",
+    "cites": 6,
+    "year": 2023
+   },
+   {
+    "id": "dshw04ExmUIC",
+    "title": "Beyond pixels: Visual metaphor transfer via schema-driven agentic reasoning",
+    "cites": 5,
+    "year": 2026
+   },
+   {
+    "id": "ns9cj8rnVeAC",
+    "title": "Lighting Image/Video Style Transfer Methods by Iterative Channel Pruning",
+    "cites": 5,
+    "year": 2024
+   },
+   {
+    "id": "_kc_bZDykSQC",
+    "title": "Balance-aware grid collage for small image collections",
+    "cites": 5,
+    "year": 2021
+   },
+   {
+    "id": "2osOgNQ5qMEC",
+    "title": "Style-oriented representative paintings selection",
+    "cites": 5,
+    "year": 2017
+   },
+   {
+    "id": "u_35RYKgDlwC",
+    "title": "Z-magic: Zero-shot multiple attributes guided image creator",
+    "cites": 4,
+    "year": 2025
+   },
+   {
+    "id": "ZeXyd9-uunAC",
+    "title": "Bias oriented unbiased data augmentation for cross-bias representation learning: L. Li et al.",
+    "cites": 4,
+    "year": 2023
+   },
+   {
+    "id": "-f6ydRqryjwC",
+    "title": "Language-driven diversified image retargeting",
+    "cites": 4,
+    "year": 2022
+   },
+   {
+    "id": "qxL8FJ1GzNcC",
+    "title": "Non-dominated sorting based multi-page photo collage",
+    "cites": 4,
+    "year": 2022
+   },
+   {
+    "id": "hC7cP41nSMkC",
+    "title": "Portrait Map Art Generation by Asymmetric Image-to-Image Translation",
+    "cites": 4,
+    "year": 2022
+   },
+   {
+    "id": "UebtZRa9Y70C",
+    "title": "Multi-attribute guided painting generation",
+    "cites": 4,
+    "year": 2020
+   },
+   {
+    "id": "HoB7MX3m0LUC",
+    "title": "Interactive Visual Assessment for Text-to-Image Generation Models",
+    "cites": 3,
+    "year": 2026
+   },
+   {
+    "id": "UxriW0iASnsC",
+    "title": "Moanimate: Bridging the motion-oriented latent representation gaps in human video animation",
+    "cites": 3,
+    "year": 2025
+   },
+   {
+    "id": "b0M2c_1WBrUC",
+    "title": "Emocast: emotional talking portrait via emotive text description",
+    "cites": 3,
+    "year": 2025
+   },
+   {
+    "id": "cFHS6HbyZ2cC",
+    "title": "A survey on cross-modal interaction between music and multimodal data",
+    "cites": 3,
+    "year": 2025
+   },
+   {
+    "id": "ZHo1McVdvXMC",
+    "title": "Z-STAR+: A zero-shot style transfer method via adjusting style distribution",
+    "cites": 3,
+    "year": 2024
+   },
+   {
+    "id": "zA6iFVUQeVQC",
+    "title": "Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation",
+    "cites": 3,
+    "year": 2023
+   },
+   {
+    "id": "4TOpqqG69KYC",
+    "title": "Text style transfer with decorative elements",
+    "cites": 3,
+    "year": 2021
+   },
+   {
+    "id": "SP6oXDckpogC",
+    "title": "GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions",
+    "cites": 2,
+    "year": 2026
+   },
+   {
+    "id": "7PzlFSSx8tAC",
+    "title": "Quantification of artist representativity within an art movement",
+    "cites": 2,
+    "year": 2022
+   },
+   {
+    "id": "UeHWp8X0CEIC",
+    "title": "Optimal character composing for Chinese calligraphic artwork",
+    "cites": 2,
+    "year": 2016
+   },
+   {
+    "id": "d1gkVwhDpl0C",
+    "title": "Animated construction of ink-wash paintings",
+    "cites": 2,
+    "year": 2014
+   },
+   {
+    "id": "WbkHhVStYXYC",
+    "title": "AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment",
+    "cites": 1,
+    "year": 2026
+   },
+   {
+    "id": "KxtntwgDAa4C",
+    "title": "Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior",
+    "cites": 1,
+    "year": 2026
+   },
+   {
+    "id": "p2g8aNsByqUC",
+    "title": "GeoHOI: Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection",
+    "cites": 1,
+    "year": 2026
+   },
+   {
+    "id": "_FxGoFyzp5QC",
+    "title": "Balance-based photo posting",
+    "cites": 1,
+    "year": 2019
+   },
+   {
+    "id": "lSLTfruPkqcC",
+    "title": "图像艺术风格化的研究现状",
+    "cites": 1,
+    "year": 2017
+   },
+   {
+    "id": "Tiz5es2fbqcC",
+    "title": "StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "XiSMed-E-HIC",
+    "title": "Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "OU6Ihb5iCvQC",
+    "title": "Z-STAR+: A zero-shot style transfer method adjusting style distribution",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "uWQEDVKXjbEC",
+    "title": "Imitating the Truth: Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "P5F9QuxV20EC",
+    "title": "Sissi: Zero-shot Style-guided Image Synthesis via Semantic-style Integration",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "u9iWguZQMMsC",
+    "title": "ResCa: Residual Caching for Diffusion Transformers Acceleration",
+    "cites": 0,
+    "year": 2026
+   },
+   {
+    "id": "xtRiw3GOFMkC",
+    "title": "Inversion-Free Style Transfer with Dual Rectified Flows",
+    "cites": 0,
+    "year": 2025
+   },
+   {
+    "id": "abG-DnoFyZgC",
+    "title": "3D Spatial Learning for Adsorption Energy Prediction in Multi-Temporal Solution Systems: The MTSS Data Set and a GCN-Based Network",
+    "cites": 0,
+    "year": 2025
+   },
+   {
+    "id": "dfsIfKJdRG4C",
+    "title": "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning",
+    "cites": 0,
+    "year": 2025
+   },
+   {
+    "id": "ldfaerwXgEUC",
+    "title": "Row–Column Separated Attention Based Low‐Light Image/Video Enhancement",
+    "cites": 0,
+    "year": 2024
+   },
+   {
+    "id": "3fE2CSJIrl8C",
+    "title": "Destylization of text with decorative elements",
+    "cites": 0,
+    "year": 2021
+   },
+   {
+    "id": "qjMakFHDy7sC",
+    "title": "Content-based measure of image set diversity",
+    "cites": 0,
+    "year": 2017
+   }
+  ]
+ },
+ "github": {
+  "updated": "2026-09-25",
+  "fetched_at": "2026-09-25T01:20:00+00:00",
+  "stars": {
+   "cangcz/AnchorCrafter": 670,
+   "zyxElsa/InST": 588,
+   "diyiiyiii/StyTR-2": 445,
+   "ICTMCG/Make-Your-Anchor": 355,
+   "HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing": 295,
+   "zyxElsa/CAST_pytorch": 199,
+   "haha-lisa/RDM-Region-Aware-Diffusion-Model": 185,
+   "zyxElsa/ProSpect": 142,
+   "haha-lisa/Diffstyler": 124,
+   "TencentYoutuResearch/AdaMatcher": 114,
+   "HolmesShuan/Zero-shot-Style-Transfer-via-Attention-Rearrangement": 99,
+   "ICTMCG/HeadRouter": 85,
+   "ICTMCG/CSCS": 74,
+   "ICTMCG/In-context-Brush": 62,
+   "lsfhuihuiff/MusicTI_AAAI2024": 60,
+   "ICTMCG/Break-for-make": 56,
+   "diyiiyiii/Arbitrary-Style-Transfer-via-Multi-Adaptation-Network": 55,
+   "diyiiyiii/MCCNet": 51,
+   "haha-lisa/MGAD-multimodal-guided-artwork-diffusion": 46,
+   "haha-lisa/CreativeSynth": 42,
+   "Zhonghaifeng6/AMDANet": 30,
+   "zyxElsa/MotionCrafter": 29,
+   "solicucu/SIOD": 28,
+   "ICTMCG/POSE": 25,
+   "lsfhuihuiff/Dance-to-music_Siggraph_Asia_2024": 23,
+   "ZhouZJ-DL/Multi-turn_Consistent_Image_Editing": 19,
+   "ICTMCG/U-VAP": 18,
+   "ICTMCG/SDTM": 17,
+   "ICTMCG/TAG-MoE": 16,
+   "machengcheng2016/CrossRectify-SSOD": 15,
+   "diyiiyiii/Exploring-the-Representativity-of-Art-Paintings": 11,
+   "KululuMi/VCPro": 8,
+   "HolmesShuan/Inversion-Free-Style-Transfer-with-Dual-Rectified-Flows": 7,
+   "Fanghaipeng/ResCa_Residual_Caching": 4,
+   "ICTMCG/Beyond-Pixels": 2,
+   "Hrren/Beyond-Words": 2,
+   "22222222z/Asymmetric-Distillation": 1,
+   "HolmesShuan/Sissi-Zero-shot-Style-guided-Image-Synthesis-via-Semantic-style-Integration": 0,
+   "KululuMi/RCL": 0
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% set link_icons = {'homepage': 'globe', 'email': 'envelope', 'github': 'github', 'scholar': 'google-scholar', 'linkedin': 'linkedin', 'zhihu': 'zhihu', 'orcid': 'orcid', 'twitter': 'x-twitter'} %}
+{% block content %}
+<h1 class="page-title">Team</h1>
+{% for g in team_groups %}
+<section class="section team-group">
+  <h2 class="section-title">{{ g.title }}{% if g.key != 'faculty' %}<span class="count">{{ g.members|length }}</span>{% endif %}</h2>
+  {% if g.key == 'alumni' %}
+  <ul class="alumni-list">
+    {% for m in g.members %}
+    <li>
+      <span class="alumni-name">{% if m.links.homepage %}<a href="{{ m.links.homepage }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}{% if m.name_zh %} <span class="zh">{{ m.name_zh }}</span>{% endif %}</span>
+      {% if m.title and m.title != 'Alumni' %}<span class="alumni-meta">{{ m.title }}</span>{% endif %}
+      {% if m.graduated %}<span class="alumni-meta">{{ m.graduated }}</span>{% endif %}
+      {% if m.destination %}<span class="alumni-dest">{{ icon('arrow-right') }}{{ m.destination }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="member-grid{% if g.key == 'faculty' %} is-wide{% endif %}">
+    {% for m in g.members %}
+    <article class="member" id="{{ m.name|lower|replace(' ', '-') }}">
+      <div class="member-photo">
+        {% if m.thumb %}<img src="{{ m.thumb }}" alt="{{ m.name }}" loading="lazy">{% else %}<span class="initials" aria-hidden="true">{{ m.initials }}</span>{% endif %}
+      </div>
+      <div class="member-info">
+        <h3 class="member-name">{% if m.links.homepage %}<a href="{{ m.links.homepage }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}{% if m.name_zh %} <span class="zh">{{ m.name_zh }}</span>{% endif %}</h3>
+        <p class="member-title">{{ m.title }}</p>
+        {% if m.research %}<p class="member-research">{{ m.research|join(' · ') }}</p>{% endif %}
+        {% if m.experience %}
+        <ul class="member-exp">
+          {% for e in m.experience %}{% set parts = e|exp_split %}
+          <li>{% if parts[0] %}<span class="exp-date">{{ parts[0] }}</span>{% endif %}<span>{{ parts[1] }}</span></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if m.bio %}<p class="member-bio">{{ m.bio|md_inline }}</p>{% endif %}
+        <div class="member-links">
+          {% for k, u in m.links.items() if k != 'homepage' %}
+          <a href="{{ 'mailto:' ~ u if k == 'email' and not u.startswith('mailto:') else u }}" title="{{ k|capitalize }}" aria-label="{{ k|capitalize }}">{{ icon(link_icons.get(k, 'link')) }}</a>
+          {% endfor %}
+          {% if m.links.homepage %}<a href="{{ m.links.homepage }}" title="Homepage" aria-label="Homepage">{{ icon('globe') }}</a>{% endif %}
+          {% if m.paper_count %}<a class="member-papers" href="/publications/?q={{ m.name|urlencode }}">{{ icon('file-lines') }}{{ m.paper_count }} paper{{ 's' if m.paper_count > 1 }}</a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endfor %}
+{% if join %}
+<section class="section" id="join">
+  <h2 class="section-title"><span class="emoji">📢</span>Join Us</h2>
+  <div class="prose">{{ join }}</div>
+</section>
+{% endif %}
+{% endblock %}

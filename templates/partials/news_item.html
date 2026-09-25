@@ -1,0 +1,4 @@
+<li class="news-item{% if n.pin %} is-pinned{% endif %}">
+  <time datetime="{{ n.date.isoformat() }}">{{ n.date.strftime('%Y.%m.%d' if n.precision == 'day' else '%Y.%m') }}</time>
+  <span class="news-text">{% if n.icon %}<span class="emoji">{{ n.icon }}</span>{% endif %}{{ n.html }}</span>
+</li>

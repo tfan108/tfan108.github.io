@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if site.home.tagline %}<p class="tagline">{{ site.home.tagline }}</p>{% endif %}
+<div class="prose intro">{{ intro }}</div>
+
+<section class="section" id="news">
+  <h2 class="section-title"><span class="emoji">🔥</span>News</h2>
+  <ul class="news-list">
+    {% for n in news %}
+    {% include 'partials/news_item.html' %}
+    {% endfor %}
+  </ul>
+  {% if news_total > news|length %}
+  <a class="more-link" href="/news/">All news {{ icon('arrow-right') }}</a>
+  {% endif %}
+</section>
+
+{% if reps %}
+<section class="section" id="research">
+  <h2 class="section-title"><span class="emoji">🎨</span>Representative Works</h2>
+  {% for r in reps %}
+  <div class="rep">
+    <h3 class="rep-title">{% if r.icon %}<span class="emoji">{{ r.icon }}</span>{% endif %}{{ r.title }}</h3>
+    {% if r.image %}
+    <figure class="rep-figure"><a href="{{ r.image }}"><img src="{{ r.image }}" alt="{{ r.title }}" loading="lazy"></a></figure>
+    {% endif %}
+    {% if r.text_html %}<div class="prose">{{ r.text_html }}</div>{% endif %}
+    {% if r.paper_objs %}
+    <ul class="rep-papers">
+      {% for p in r.paper_objs %}
+      <li><span class="badge venue">{{ p.venue_info.label }}{% if p.venue_info.type != 'preprint' %} {{ p.year }}{% endif %}</span><a href="/publications/#{{ p.id }}">{{ p.title }}</a>{% if p.stars %}<span class="mini-stat" title="GitHub stars">{{ icon('star') }}{{ p.stars|num }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if join %}
+<section class="section" id="join">
+  <h2 class="section-title"><span class="emoji">📢</span>Join Us</h2>
+  <div class="prose">{{ join }}</div>
+</section>
+{% endif %}
+{% endblock %}

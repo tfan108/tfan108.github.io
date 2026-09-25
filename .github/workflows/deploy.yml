@@ -1,0 +1,91 @@
+# 构建并发布网站到 GitHub Pages
+#  - push 到 master：直接构建发布（几十秒内生效）
+#  - 每天定时：先更新 Google Scholar 引用数和 GitHub star 数，再构建发布
+#  - 也可在仓库 Actions 页面点 “Run workflow” 手动触发
+#
+# 引用数/star 数存放在单独的 metrics 分支上（机器人只提交到那里），
+# 所以不会往 master 上塞自动提交，你本地 push 时不会遇到冲突。
+name: Build & Deploy
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "43 19 * * *"   # 每天 UTC 19:43 = 北京时间 03:43
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Use latest metrics from the metrics branch
+        run: |
+          if git fetch --depth=1 origin metrics 2>/dev/null; then
+            git show FETCH_HEAD:metrics.json > "$RUNNER_TEMP/metrics.json"
+            python scripts/update_metrics.py --pick-newer "$RUNNER_TEMP/metrics.json"
+          else
+            echo "metrics 分支还不存在，使用 data/metrics.json"
+          fi
+
+      - name: Update citations & GitHub stars
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python scripts/update_metrics.py
+
+      - name: Save metrics to the metrics branch
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f "$RUNNER_TEMP/metrics.json" ] && cmp -s data/metrics.json "$RUNNER_TEMP/metrics.json"; then
+            echo "metrics 无变化"; exit 0
+          fi
+          dir="$RUNNER_TEMP/metrics-branch"; rm -rf "$dir"; mkdir -p "$dir"
+          cp data/metrics.json "$dir/"
+          cd "$dir"
+          git init -q -b metrics
+          git add metrics.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Update citations & stars ($(date -u +%F))"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" metrics
+
+      - name: Build site
+        run: python build.py
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

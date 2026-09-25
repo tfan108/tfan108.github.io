@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="page-title">Curriculum Vitae</h1>
+{% for s in cv %}
+<section class="section cv-section">
+  <h2 class="section-title">{% if s.icon %}{{ icon(s.icon, 'section-icon') }}{% endif %}{{ s.section }}</h2>
+  {% for it in s['items'] %}
+  <div class="cv-item">
+    <div class="cv-head">
+      <div class="cv-title">{% if it.role %}<span class="badge role">{{ it.role }}</span>{% endif %}{% if it.title %}<strong>{{ it.title }}</strong>{% endif %}</div>
+      {% if it.date or it.badge %}
+      <div class="cv-meta">{% if it.badge %}<span class="badge money">{{ icon('coins') }}{{ it.badge }}</span>{% endif %}{% if it.date %}<span class="cv-date">{{ it.date }}</span>{% endif %}</div>
+      {% endif %}
+    </div>
+    {% if it.org %}<div class="cv-org">{{ it.org }}</div>{% endif %}
+    {% if it.details %}
+    <ul class="cv-details">{% for d in it.details %}<li>{{ d }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+<section class="section cv-section">
+  <h2 class="section-title">{{ icon('book-open', 'section-icon') }}Publications</h2>
+  <p>{{ stats.peer_reviewed }} peer-reviewed papers{% if stats.ccf_a %}, including {{ stats.ccf_a }} in CCF-A venues{% endif %}. <a href="/publications/">Full list {{ icon('arrow-right') }}</a></p>
+</section>
+{% endblock %}

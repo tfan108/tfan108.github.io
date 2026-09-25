@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="page-title">Publications</h1>
+<div class="stat-row">
+  <div class="stat"><strong>{{ stats.peer_reviewed }}</strong><span>Papers</span></div>
+  {% if stats.ccf_a %}<div class="stat"><strong>{{ stats.ccf_a }}</strong><span>CCF-A</span></div>{% endif %}
+  {% if scholar.citations %}<div class="stat"><strong>{{ '{:,}'.format(scholar.citations) }}</strong><span>Citations</span></div>{% endif %}
+  {% if scholar.h_index %}<div class="stat"><strong>{{ scholar.h_index }}</strong><span>h-index</span></div>{% endif %}
+  {% if stats.stars %}<div class="stat"><strong>{{ '{:,}'.format(stats.stars) }}</strong><span>GitHub stars</span></div>{% endif %}
+</div>
+
+<div class="pub-toolbar">
+  <label class="search">
+    {{ icon('magnifying-glass') }}
+    <input type="search" id="pub-search" placeholder="Search by title, author, venue or year" autocomplete="off" aria-label="Search publications">
+  </label>
+  <nav class="year-jump" aria-label="Jump to year">
+    {% for g in groups %}<a href="#{{ g.id }}">{{ ('≤ ' ~ g.title.split(' ')[0]) if ' and earlier' in g.title else g.title }}</a>{% endfor %}
+  </nav>
+</div>
+<p class="pub-legend"><sup>*</sup> Equal contribution &nbsp;&nbsp; <sup class="corr">✉</sup> Corresponding author &nbsp;&nbsp; <span class="search-count" aria-live="polite"></span></p>
+
+{% for g in groups %}
+<section class="pub-group" id="{{ g.id }}">
+  <h2 class="section-title">{{ g.title }}<span class="count">{{ g.papers|length }}</span></h2>
+  {% for p in g.papers %}
+  {% include 'partials/paper.html' %}
+  {% endfor %}
+</section>
+{% endfor %}
+<p class="pub-empty" hidden>No matching papers.</p>
+{% if scholar.updated %}
+<p class="data-note">Citation counts from <a href="{{ site.author.links.scholar }}">Google Scholar</a>, updated {{ scholar.updated }}. GitHub stars updated {{ (metrics.github or {}).updated or '—' }}.</p>
+{% endif %}
+{% endblock %}

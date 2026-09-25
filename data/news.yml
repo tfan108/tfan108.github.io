@@ -1,0 +1,37 @@
+# ============================================================================
+#  新闻（手动维护）
+# ----------------------------------------------------------------------------
+#  新增一条：复制下面的模板，粘贴到列表最上面，改日期和内容即可。
+#  页面会按日期自动倒序排列；首页显示最近几条（数量在 site.yml → home.news_count 设置），
+#  全部新闻在 /news/ 页面。
+#
+#  - date: 2026-09-25        # 必填，YYYY-MM-DD 或 YYYY-MM
+#    icon: "🎉"              # 可选，一个 emoji
+#    text: 支持 **加粗**、*斜体* 和 [链接](https://example.com)   # 必填，Markdown
+#    pin: true               # 可选，置顶（首页始终显示在最上面）
+#
+#  常用 icon：🎉 论文录用  🏆 获奖  🧑‍⚖️ 学术服务  🎤 报告/讲座  📢 招生  🎓 毕业
+# ============================================================================
+
+- date: 2026-03            # 日期为迁移时估计，请核对
+  icon: "🧑‍⚖️"
+  text: Serve as **SIGGRAPH Asia 2026** TPC member.
+
+- date: 2026-02            # 日期为迁移时估计，请核对
+  icon: "🎉"
+  text: "**4 papers** accepted to **CVPR 2026**: 2 in the main track and 2 in the Findings track."
+
+- date: 2025-03            # 日期为迁移时估计，请核对
+  icon: "🧑‍⚖️"
+  text: Serve as **SIGGRAPH Asia 2025** TPC member.
+
+# 以下是旧版首页自动生成过的几条，需要的话取消注释（删掉行首的 #）并填上日期：
+# - date: 2026-01
+#   icon: "🎉"
+#   text: "*Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior* was accepted by **IEEE TVCG**. Congratulations to Ziyao Huang!"
+# - date: 2026-01
+#   icon: "🎉"
+#   text: "*Interactive Visual Assessment for Text-to-Image Generation Models* was accepted by **IEEE TVCG**. Congratulations to Xiaoyue Mi!"
+# - date: 2026-01
+#   icon: "🎉"
+#   text: "*HeadRouter: A Training-free Image Editing Framework for MM-DiTs* was accepted by **ACM TOG**. Congratulations to Yu Xu!"

@@ -1,0 +1,25 @@
+{% set a = site.author %}
+{% set link_icons = {'scholar': ('google-scholar', 'Google Scholar'), 'github': ('github', 'GitHub'), 'orcid': ('orcid', 'ORCID'), 'dblp': ('ai-dblp', 'DBLP'), 'semantic_scholar': ('ai-semantic-scholar', 'Semantic Scholar'), 'zhihu': ('zhihu', 'Zhihu'), 'linkedin': ('linkedin', 'LinkedIn'), 'twitter': ('x-twitter', 'X / Twitter'), 'homepage': ('globe', 'Homepage'), 'youtube': ('youtube', 'YouTube'), 'bilibili': ('bilibili', 'Bilibili')} %}
+<div class="profile">
+  <a class="avatar-link" href="/"><img class="avatar" src="{{ a.avatar }}" alt="{{ a.name }}" width="240" height="240"></a>
+  <div class="profile-id">
+    <p class="profile-name">{{ a.name }}{% if a.name_zh %} <span class="zh">{{ a.name_zh }}</span>{% endif %}</p>
+    <p class="profile-position">{{ a.position }}</p>
+  </div>
+</div>
+<ul class="profile-meta">
+  {% if a.affiliation %}<li title="{{ a.affiliation }}">{{ icon('building-columns') }}<span>{{ a.affiliation_short or a.affiliation }}</span></li>{% endif %}
+  {% if a.location %}<li>{{ icon('location-dot') }}<span>{{ a.location }}</span></li>{% endif %}
+  {% if a.email %}<li>{{ icon('envelope') }}<a href="mailto:{{ a.email }}">{{ a.email }}</a></li>{% endif %}
+  {% for key, url in (a.links or {}).items() %}
+  {% set meta = link_icons.get(key, ('link', key|capitalize)) %}
+  <li>{{ icon(meta[0]) }}<a href="{{ url }}" rel="me noopener">{{ meta[1] }}</a></li>
+  {% endfor %}
+</ul>
+{% if scholar.citations %}
+<a class="profile-stats" href="{{ a.links.scholar if a.links and a.links.scholar else '#' }}" title="Google Scholar, updated {{ scholar.updated }}">
+  <span><strong>{{ '{:,}'.format(scholar.citations) }}</strong>Citations</span>
+  <span><strong>{{ scholar.h_index }}</strong>h-index</span>
+  <span><strong>{{ scholar.i10_index }}</strong>i10-index</span>
+</a>
+{% endif %}

@@ -1,0 +1,182 @@
+# ============================================================================
+#  会议 / 期刊表（只需维护一次）
+# ----------------------------------------------------------------------------
+#  papers.yml 里每篇论文的 venue 写这里的“键名”（冒号前面那部分）或 aliases 里任意一个，
+#  大小写不敏感。遇到新会议/期刊，在这里加一条即可，之后所有论文都能用。
+#
+#  字段说明：
+#    name     全称，显示在论文信息行（必填）
+#    type     conference / journal / preprint / poster / workshop（必填）
+#    rank     等级标签，如 CCF-A / CCF-B / CCF-C / SCI Q1，留空则不显示
+#    aliases  别名，写论文时可以用这些名字代替键名（可选）
+#
+#  这里的先后顺序 = 同一年内论文的显示顺序（排在越上面越靠前），
+#  同一 venue 内，你是通讯作者的论文排在前面。
+#
+#  CCF 等级按 CCF 推荐目录（2022 版）预填，请自行核对；不确定的留空了。
+# ============================================================================
+
+ACM TOG:
+  name: ACM Transactions on Graphics
+  type: journal
+  rank: CCF-A
+  aliases: [TOG]
+
+SIGGRAPH:
+  name: ACM SIGGRAPH Conference Proceedings
+  type: conference
+  rank: CCF-A
+
+IEEE TPAMI:
+  name: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  type: journal
+  rank: CCF-A
+  aliases: [TPAMI, T-PAMI]
+
+IJCV:
+  name: International Journal of Computer Vision
+  type: journal
+  rank: CCF-A
+
+IEEE TIP:
+  name: IEEE Transactions on Image Processing
+  type: journal
+  rank: CCF-A
+  aliases: [TIP]
+
+IEEE TVCG:
+  name: IEEE Transactions on Visualization and Computer Graphics
+  type: journal
+  rank: CCF-A
+  aliases: [TVCG]
+
+CVPR:
+  name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  type: conference
+  rank: CCF-A
+
+ICCV:
+  name: IEEE/CVF International Conference on Computer Vision
+  type: conference
+  rank: CCF-A
+
+SIGGRAPH Asia:
+  name: SIGGRAPH Asia Conference Papers
+  type: conference
+  rank:            # 请按需填写
+  aliases: [SA, SIGGRAPH ASIA]
+
+NeurIPS:
+  name: Advances in Neural Information Processing Systems
+  type: conference
+  rank: CCF-A
+
+ICML:
+  name: International Conference on Machine Learning
+  type: conference
+  rank: CCF-A
+
+ICLR:
+  name: International Conference on Learning Representations
+  type: conference
+  rank:            # 不在 CCF 目录中
+
+ECCV:
+  name: European Conference on Computer Vision
+  type: conference
+  rank: CCF-B
+
+CVPR Findings:
+  name: IEEE/CVF Conference on Computer Vision and Pattern Recognition (Findings Track)
+  type: conference
+  rank:
+
+IJCAI:
+  name: International Joint Conference on Artificial Intelligence
+  type: conference
+  rank: CCF-A
+
+IEEE TMM:
+  name: IEEE Transactions on Multimedia
+  type: journal
+  rank: CCF-B
+  aliases: [TMM]
+
+IEEE TCSVT:
+  name: IEEE Transactions on Circuits and Systems for Video Technology
+  type: journal
+  rank: CCF-B
+  aliases: [TCSVT]
+
+IEEE TNNLS:
+  name: IEEE Transactions on Neural Networks and Learning Systems
+  type: journal
+  rank: CCF-B
+  aliases: [TNNLS]
+
+ACM MM:
+  name: ACM International Conference on Multimedia
+  type: conference
+  rank: CCF-A
+  aliases: [MM, ACMMM]
+
+AAAI:
+  name: AAAI Conference on Artificial Intelligence
+  type: conference
+  rank: CCF-A
+
+ACM TOMM:
+  name: ACM Transactions on Multimedia Computing, Communications, and Applications
+  type: journal
+  rank: CCF-B
+  aliases: [TOMM]
+
+CVMJ:
+  name: Computational Visual Media
+  type: journal
+  rank:
+
+CVM:
+  name: Computational Visual Media Conference
+  type: conference
+  rank:
+
+ICASSP:
+  name: IEEE International Conference on Acoustics, Speech and Signal Processing
+  type: conference
+  rank: CCF-B
+
+PR:
+  name: Pattern Recognition
+  type: journal
+  rank: CCF-B
+
+JCST:
+  name: Journal of Computer Science and Technology
+  type: journal
+  rank:
+
+MTAP:
+  name: Multimedia Tools and Applications
+  type: journal
+  rank: CCF-C
+
+Leonardo:
+  name: Leonardo
+  type: journal
+  rank:
+
+FSPMA:
+  name: IEEE International Conference on Functional-Structural Plant Growth Modeling, Simulation, Visualization and Applications
+  type: conference
+  rank:
+
+SIGGRAPH Asia Posters:
+  name: SIGGRAPH Asia Posters
+  type: poster
+  rank:
+
+arXiv:
+  name: arXiv preprint
+  type: preprint
+  rank:

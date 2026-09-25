@@ -1,0 +1,40 @@
+# ============================================================================
+#  团队成员
+# ----------------------------------------------------------------------------
+#  新增成员：复制模板粘贴到对应位置，填好字段；照片放到 static/images/members/ 下。
+#  照片不用自己裁剪压缩：构建时会自动居中裁成正方形并压缩（原图随便多大都行）。
+#  同一分组内按这里的先后顺序显示。
+#
+#  - name: San Zhang                  # 必填，英文名（和论文作者名写法一致，便于自动关联论文）
+#    name_zh: 张三                     # 可选，中文名
+#    role: phd                        # 必填：faculty / postdoc / phd / master / intern / alumni（见 site.yml → team.groups）
+#    photo: /images/members/zhangsan.jpg   # 可选，没有照片会显示姓名首字母
+#    since: 2024                      # 可选，加入年份
+#    title: Ph.D. Student, 2024–      # 可选，名字下方的一行说明；不写则自动用“分组 + 加入年份”
+#    research: [Image editing, Diffusion models]   # 可选，研究方向
+#    experience:                      # 可选，简单的学习/工作经历，每行一条，由近到远
+#      - 2024–now  Ph.D., ICT, CAS
+#      - 2020–2024 B.E., Jilin University
+#    links:                           # 可选：homepage / email / github / scholar / linkedin / zhihu
+#      github: https://github.com/xxx
+#      email: xxx@ict.ac.cn
+#
+#  毕业生：role 改成 alumni，可以再加两项：
+#    graduated: 2025                  # 毕业年份
+#    destination: Tencent Hunyuan     # 去向
+# ============================================================================
+
+- name: Fan Tang
+  name_zh: 唐帆
+  role: faculty
+  photo: /images/avatar.jpg
+  title: Associate Professor, ICT, CAS
+  research: [2D digital humans, Image editing, Digital art generation]
+  experience:
+    - 2022–now  Associate Professor, ICT, CAS
+    - 2020–2022 Assistant Professor, School of AI, Jilin University
+    - 2013–2019 Ph.D., Institute of Automation, CAS
+  links:
+    email: tfan.108@gmail.com
+    scholar: https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=en
+    github: https://github.com/tfan108

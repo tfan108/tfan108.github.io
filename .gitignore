@@ -1,31 +1,14 @@
-# Ignore the contents of the _site directory and other cache directories
+# 生成的网站（由 build.py 生成，GitHub Actions 会重新生成，不需要提交）
 _site/
-.sass-cache/
 
-# Ignore Jupyter/markdown_generator build artifacts and caches
-markdown_generator/_site/
-markdown_generator/__pycache__/
-
-# Ignore Python caches anywhere
-**/__pycache__/
+# Python
+__pycache__/
 *.pyc
+.venv/
+venv/
 
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
-/vendor/
-.bundle/
-
-# Ignore folders related to IDEs
+# 编辑器 / 系统
 .vscode/
-
-# Ignore files created by MacOS
+.idea/
 .DS_Store
+Thumbs.db

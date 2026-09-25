@@ -1,0 +1,93 @@
+# ============================================================================
+#  网站基本信息（设置一次，很少需要改）
+# ============================================================================
+
+title: 唐帆（Fan Tang）                # 浏览器标签页 & 左上角显示的站点名
+url: https://tfan108.github.io
+description: Fan Tang's academic homepage — image & video generation, 2D digital humans, image editing and digital art.
+google_analytics: G-WR92VXEX4W        # 不需要统计就留空
+
+# 左侧个人信息栏
+author:
+  name: Fan Tang
+  name_zh: 唐帆
+  avatar: /images/avatar.jpg          # 换头像：把图片放进 static/images/，改这里的文件名
+  position: Associate Professor
+  affiliation: Institute of Computing Technology, Chinese Academy of Sciences
+  affiliation_short: ICT, CAS
+  location: Beijing, China
+  email: tfan.108@gmail.com
+  links:                              # 支持 scholar / github / orcid / dblp / semantic_scholar / zhihu / linkedin / twitter / homepage
+    scholar: https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=en
+    github: https://github.com/tfan108
+
+# 作者列表中需要加粗显示的名字（你本人的各种写法）
+me: [Fan Tang]
+
+# Google Scholar 主页 ID（用于每日自动抓取引用数）
+scholar_id: PdKElfwAAAAJ
+
+# 顶部导航
+nav:
+  - title: Publications
+    url: /publications/
+  - title: Team
+    url: /team/
+  - title: News
+    url: /news/
+  - title: CV
+    url: /cv/
+
+# 首页
+home:
+  tagline: Making pixels dance and GPUs scream for a living.
+  news_count: 8                       # 首页显示最近几条新闻，其余在 /news/ 页面
+  # 代表性工作：papers 里写论文标题的开头几个词（不区分大小写），会自动链接到对应论文
+  representative:
+    - title: 2D Digital Human
+      icon: "👤"
+      image: /images/representative-works/2d-digital-human.jpg
+      text: ""
+      papers:
+        - Make-Your-Anchor+
+        - AnchorCrafter
+        - "HOMA:"
+        - Identity-preserving face swapping
+    - title: Image Editing
+      icon: "🖼️"
+      image: /images/representative-works/image-editing.jpg
+      text: ""
+      papers:
+        - HeadRouter
+        - FireFlow
+        - In-Context Brush
+        - Multi-turn Consistent Image Editing
+    - title: Digital Arts
+      icon: "🎭"
+      image: /images/representative-works/digital-arts.jpg
+      text: ""
+      papers:
+        - "StyTr2:"
+        - Inversion-based style transfer
+        - "ProSpect:"
+        - CreativeSynth
+
+# 论文页
+publications:
+  merge_before: 2019                  # 该年份及更早的论文合并为一个分组（"2019 and earlier"）
+
+# 团队页：分组顺序与标题；members.yml 里每个人的 role 必须是下面某个 key
+team:
+  groups:
+    - key: faculty
+      title: Faculty
+    - key: postdoc
+      title: Postdocs
+    - key: phd
+      title: Ph.D. Students
+    - key: master
+      title: Master Students
+    - key: intern
+      title: Research Interns
+    - key: alumni
+      title: Alumni
