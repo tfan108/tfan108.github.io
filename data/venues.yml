@@ -63,7 +63,7 @@ ICCV:
 SIGGRAPH Asia:
   name: SIGGRAPH Asia Conference Papers
   type: conference
-  rank:            # 请按需填写
+  rank:            # 不在 CCF 目录中
   aliases: [SA, SIGGRAPH ASIA]
 
 NeurIPS:
@@ -134,7 +134,7 @@ ACM TOMM:
 CVMJ:
   name: Computational Visual Media
   type: journal
-  rank:
+  rank: CCF-B
 
 CVM:
   name: Computational Visual Media Conference
@@ -154,7 +154,7 @@ PR:
 JCST:
   name: Journal of Computer Science and Technology
   type: journal
-  rank:
+  rank: CCF-B
 
 MTAP:
   name: Multimedia Tools and Applications
