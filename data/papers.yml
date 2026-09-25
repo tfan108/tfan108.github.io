@@ -28,6 +28,13 @@
 # ============================================================================
 
 # ---------------------------------------------------------------- 2026
+- title: "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE"
+  authors: [Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang, Xinwei Huang, Minxuan Lin, Angtian Wang, Chongyang Ma, Fan Tang]
+  corresponding: [Yuxin Zhang]
+  venue: NeurIPS
+  year: 2026
+  note: Spotlight
+
 - title: "HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads"
   authors: [Yu Xu, Fan Tang, Juan Cao, Yuxin Zhang, Xiaoyu Kong, Jintao Li, Oliver Deussen, Tong-Yee Lee]
   corresponding: [Fan Tang]
@@ -148,16 +155,16 @@
 - title: "Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning"
   authors: [Yu Xu, Yuxin Zhang, Juan Cao, Lin Gao, Chunyu Wang, Oliver Deussen, Tong-Yee Lee, Fan Tang]
   corresponding: [Fan Tang]
-  venue: arXiv
+  venue: SIGGRAPH Asia
   year: 2026
   links:
     arxiv: https://arxiv.org/abs/2602.01335
     code: https://github.com/ICTMCG/Beyond-Pixels
   bibtex: |
-    @article{xu2026beyond,
+    @inproceedings{xu2026beyond,
         author = "Xu, Yu and Zhang, Yuxin and Cao, Juan and Gao, Lin and Wang, Chunyu and Deussen, Oliver and Lee, Tong-Yee and Tang, Fan",
         title = "Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning",
-        journal = "arXiv preprint arXiv:2602.01335",
+        booktitle = "SIGGRAPH Asia 2026 Conference Papers",
         year = "2026"
     }
 
