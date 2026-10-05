@@ -79,7 +79,7 @@ ICML:
 ICLR:
   name: International Conference on Learning Representations
   type: conference
-  rank:            # 不在 CCF 目录中
+  rank: CCF-A
 
 ECCV:
   name: European Conference on Computer Vision
@@ -94,12 +94,12 @@ CVPR Findings:
 IJCAI:
   name: International Joint Conference on Artificial Intelligence
   type: conference
-  rank: CCF-A
+  rank: CCF-B
 
 IEEE TMM:
   name: IEEE Transactions on Multimedia
   type: journal
-  rank: CCF-B
+  rank: CCF-A
   aliases: [TMM]
 
 IEEE TCSVT:
