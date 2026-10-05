@@ -2,8 +2,9 @@
 {% block content %}
 <h1 class="page-title">Publications</h1>
 <div class="stat-row">
-  <div class="stat"><strong>{{ stats.peer_reviewed }}</strong><span>Papers</span></div>
+  <div class="stat"><strong>{{ stats.papers }}</strong><span>Papers</span></div>
   {% if stats.ccf_a %}<div class="stat"><strong>{{ stats.ccf_a }}</strong><span>CCF-A</span></div>{% endif %}
+  {% if stats.trans %}<div class="stat"><strong>{{ stats.trans }}</strong><span>IEEE/ACM Trans.</span></div>{% endif %}
   {% if scholar.citations %}<div class="stat"><strong>{{ '{:,}'.format(scholar.citations) }}</strong><span>Citations</span></div>{% endif %}
   {% if scholar.h_index %}<div class="stat"><strong>{{ scholar.h_index }}</strong><span>h-index</span></div>{% endif %}
   {% if stats.stars %}<div class="stat"><strong>{{ '{:,}'.format(stats.stars) }}</strong><span>GitHub stars</span></div>{% endif %}

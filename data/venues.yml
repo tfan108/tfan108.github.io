@@ -13,7 +13,7 @@
 #  这里的先后顺序 = 同一年内论文的显示顺序（排在越上面越靠前），
 #  同一 venue 内，你是通讯作者的论文排在前面。
 #
-#  CCF 等级按 CCF 推荐目录（2022 版）预填，请自行核对；不确定的留空了。
+#  CCF 等级按 CCF 推荐目录（2026 第七版）设置，请自行核对；不确定的留空了。
 # ============================================================================
 
 ACM TOG:
@@ -139,7 +139,7 @@ CVMJ:
 CVM:
   name: Computational Visual Media Conference
   type: conference
-  rank:
+  rank: CCF-C
 
 ICASSP:
   name: IEEE International Conference on Acoustics, Speech and Signal Processing
@@ -175,6 +175,33 @@ SIGGRAPH Asia Posters:
   name: SIGGRAPH Asia Posters
   type: poster
   rank:
+
+CGF:
+  name: Computer Graphics Forum
+  type: journal
+  rank: CCF-B
+
+PG:
+  name: Pacific Conference on Computer Graphics and Applications
+  type: conference
+  rank: CCF-B
+  aliases: [Pacific Graphics]
+
+ICME:
+  name: IEEE International Conference on Multimedia and Expo
+  type: conference
+  rank: CCF-B
+
+Multimedia Systems:
+  name: Multimedia Systems
+  type: journal
+  rank: CCF-C
+
+MMAsia:
+  name: ACM Multimedia Asia
+  type: conference
+  rank: CCF-C
+  aliases: [ACM MM Asia]
 
 arXiv:
   name: arXiv preprint

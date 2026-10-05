@@ -22,6 +22,6 @@
 {% endfor %}
 <section class="section cv-section">
   <h2 class="section-title">{{ icon('book-open', 'section-icon') }}Publications</h2>
-  <p>{{ stats.peer_reviewed }} peer-reviewed papers{% if stats.ccf_a %}, including {{ stats.ccf_a }} in CCF-A venues{% endif %}. <a href="/publications/">Full list {{ icon('arrow-right') }}</a></p>
+  <p>{{ stats.papers }} papers, including {{ stats.peer_reviewed }} peer-reviewed{% if stats.ccf_a %} ({{ stats.ccf_a }} in CCF-A venues){% endif %}. <a href="/publications/">Full list {{ icon('arrow-right') }}</a></p>
 </section>
 {% endblock %}
