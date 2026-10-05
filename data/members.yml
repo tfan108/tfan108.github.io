@@ -39,3 +39,19 @@
     email: tfan.108@gmail.com
     scholar: https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=en
     github: https://github.com/tfan108
+
+- name: Yingying Deng
+  name_zh: 邓盈盈
+  role: faculty
+  photo: https://dyy95.github.io/images/avatar.jpg
+  title: Associate Professor, USTB
+  research: [Style transfer, Diffusion models & flow matching, Visual generative models]
+  experience:
+    - 2025-now  Associate Professor, University of Science and Technology Beijing
+    - 2022-2025 Senior Engineer, Huawei
+    - 2022      Ph.D., Institute of Automation, CAS
+    - 2017      Bachelor's degree, University of Science and Technology Beijing
+  links:
+    homepage: https://dyy95.github.io/
+    email: yingying.deng@ustb.edu.cn
+    scholar: https://scholar.google.com/citations?user=8N8lbJQAAAAJ
