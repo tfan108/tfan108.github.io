@@ -1225,3 +1225,62 @@
   links:
     arxiv: https://arxiv.org/abs/2609.38691
   scholar: K3LRdlH-MEoC
+
+- title: 'GeoHOI: Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection'
+  authors: [Ziyi Xu, Zejing Rao, Juan Cao, Xiaoqiang Liu, Zhixue Fang, Haoxian Zhang, Songlin Tang, Fan Tang]
+  corresponding: [Fan Tang]
+  venue: CVPR Findings
+  year: 2026
+  scholar: p2g8aNsByqUC
+
+- title: 'Imitating the Truth: Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models'
+  authors: [Hairui Ren, Zixuan Wang, Yibo Yang, He Zhao, Fan Tang, Dandan Guo, Yi Chang]
+  corresponding: [Dandan Guo, Yi Chang]
+  venue: ICLR
+  year: 2026
+  links:
+    pdf: https://openreview.net/forum?id=fzZAh18s9G
+  scholar: uWQEDVKXjbEC
+
+- title: 'GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions'
+  authors: [Haifeng Zhong, Wenshuo Han, Zhouyu Wang, Runyang Feng, Fan Tang, …, Yixing Gao]
+  corresponding: [Yixing Gao]
+  venue: CVPR
+  year: 2026
+  note: Highlight
+  links:
+    arxiv: https://arxiv.org/abs/2603.14789
+    code: https://github.com/zhonghaifeng6/graspall
+  scholar: SP6oXDckpogC
+  bibtex: |
+    @inproceedings{zhong2026graspall,
+      title     = {GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions},
+      author    = {Zhong, Haifeng and Han, Wenshuo and Wang, Zhouyu and Feng, Runyang and Tang, Fan and Lee, Tong-Yee and Fan, Zipei and Wu, Ruihai and Wang, Yuran and Dong, Hao and Chen, Hechang and Chang, Hyung Jin and Gao, Yixing},
+      booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      year      = {2026}
+    }
+
+- title: Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation
+  authors: [Yiguo Jiang, Xiaodong Cun, Yong Zhang, Tao He, Fan Tang, Chi-Man Pun]
+  corresponding: [Chi-Man Pun]
+  venue: IEEE TMM
+  year: 2026
+  scholar: XiSMed-E-HIC
+
+- title: 'Z-STAR+: A Zero-shot Style Transfer Method via Adjusting Style Distribution'
+  authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong]
+  corresponding: [Fan Tang]
+  venue: CVMJ
+  year: 2026
+  links:
+    arxiv: https://arxiv.org/abs/2411.19231
+  scholar: OU6Ihb5iCvQC
+
+- title: 'MoAnimate: Bridging the Motion-Oriented Latent Representation Gaps in Human Video Animation'
+  authors: [Haipeng Fang, Sheng Tang, Zhihao Sun, Ziyao Huang, Juan Cao, Fan Tang, Yongdong Zhang]
+  corresponding: [Sheng Tang]
+  venue: IEEE TCSVT
+  year: 2025
+  links:
+    pdf: https://ieeexplore.ieee.org/document/11271671
+  scholar: UxriW0iASnsC
