@@ -1198,3 +1198,30 @@
         year = "2014"
     }
 
+
+- title: 'AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment'
+  authors: [Ziyao Huang, Shunkai Li, Juan Cao, Chenyu Li, Youliang Zhang, Zixiang Zhou, Cong Wang, Yuan Zhou, Qinglin Lu, Fan Tang]
+  corresponding: [Fan Tang]
+  venue: arXiv
+  year: 2026
+  links:
+    arxiv: https://arxiv.org/abs/2607.22241
+  scholar: WbkHhVStYXYC
+
+- title: 'StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation'
+  authors: [Zejing Rao, Haoxian Zhang, Xiaoqiang Liu, Yiping Meng, Guoxin Zhang, Pengfei Wan, Fan Tang, Tong-Yee Lee]
+  corresponding: [Fan Tang]
+  venue: arXiv
+  year: 2026
+  links:
+    arxiv: https://arxiv.org/abs/2607.20174
+  scholar: Tiz5es2fbqcC
+
+- title: 'No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation'
+  authors: [Zejing Rao, Ketong Ren, Xiaoqiang Liu, Yiping Meng, Guoxin Zhang, Fan Tang]
+  corresponding: [Fan Tang]
+  venue: arXiv
+  year: 2026
+  links:
+    arxiv: https://arxiv.org/abs/2609.38691
+  scholar: K3LRdlH-MEoC
