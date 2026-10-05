@@ -75,6 +75,16 @@ home:
 # 论文页
 publications:
   merge_before: 2019                  # 该年份及更早的论文合并为一个分组（"2019 and earlier"）
+  # 搜索框下方的快捷筛选按钮：venues 写 venues.yml 里的名字；name_prefix 按期刊/会议全称开头匹配
+  filters:
+    - label: CVPR/ICCV
+      venues: [CVPR, ICCV]
+    - label: ACM TOG/SIGGRAPH (Asia)
+      venues: [ACM TOG, SIGGRAPH, SIGGRAPH Asia]
+    - label: IEEE Transactions
+      name_prefix: IEEE Transactions
+    - label: ICML/ICLR/NeurIPS
+      venues: [ICML, ICLR, NeurIPS]
 
 # 团队页：分组顺序与标题；members.yml 里每个人的 role 必须是下面某个 key
 team:

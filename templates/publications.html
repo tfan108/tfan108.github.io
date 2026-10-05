@@ -3,8 +3,7 @@
 <h1 class="page-title">Publications</h1>
 <div class="stat-row">
   <div class="stat"><strong>{{ stats.papers }}</strong><span>Papers</span></div>
-  {% if stats.ccf_a %}<div class="stat"><strong>{{ stats.ccf_a }}</strong><span>CCF-A</span></div>{% endif %}
-  {% if stats.trans %}<div class="stat"><strong>{{ stats.trans }}</strong><span>IEEE/ACM Trans.</span></div>{% endif %}
+  {% if stats.top %}<div class="stat" title="In parentheses: first-author or corresponding-author papers"><strong>{{ stats.top }} ({{ stats.top_mine }})</strong><span>CCF-A / IEEE·ACM Trans.</span></div>{% endif %}
   {% if scholar.citations %}<div class="stat"><strong>{{ '{:,}'.format(scholar.citations) }}</strong><span>Citations</span></div>{% endif %}
   {% if scholar.h_index %}<div class="stat"><strong>{{ scholar.h_index }}</strong><span>h-index</span></div>{% endif %}
   {% if stats.stars %}<div class="stat"><strong>{{ '{:,}'.format(stats.stars) }}</strong><span>GitHub stars</span></div>{% endif %}
@@ -19,6 +18,11 @@
     {% for g in groups %}<a href="#{{ g.id }}">{{ ('≤ ' ~ g.title.split(' ')[0]) if ' and earlier' in g.title else g.title }}</a>{% endfor %}
   </nav>
 </div>
+{% if filters %}
+<div class="pub-filters" role="group" aria-label="Filter by venue">
+  {% for f in filters if f.count %}<button type="button" class="chip" data-filter="{{ f.id }}" aria-pressed="false">{{ f.label }} <span class="chip-count">{{ f.count }}</span></button>{% endfor %}
+</div>
+{% endif %}
 <p class="pub-legend"><sup>*</sup> Equal contribution &nbsp;&nbsp; <sup class="corr">✉</sup> Corresponding author &nbsp;&nbsp; <span class="search-count" aria-live="polite"></span></p>
 
 {% for g in groups %}

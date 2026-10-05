@@ -210,6 +210,15 @@ button { font: inherit; color: inherit; }
 .year-jump { display: flex; flex-wrap: wrap; gap: 2px; font-size: .85rem; }
 .year-jump a { padding: 2px 7px; border-radius: 4px; color: var(--text-2); }
 .year-jump a:hover { background: var(--bg-hover); color: var(--accent); text-decoration: none; }
+.pub-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 6px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 12px; font-size: .84rem; font-weight: 500;
+  color: var(--text-2); background: var(--bg); border: 1px solid var(--border); border-radius: 999px; cursor: pointer;
+}
+.chip:hover { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.chip[aria-pressed="true"] { color: #fff; background: var(--accent); border-color: var(--accent); }
+.chip-count { font-size: .76rem; padding: 0 6px; border-radius: 999px; background: var(--bg-hover); color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] .chip-count { background: rgba(255,255,255,.22); color: #fff; }
 .pub-legend { font-size: .8rem; color: var(--muted); margin: 6px 0 4px; }
 .search-count { color: var(--accent); }
 .pub-group { margin-top: 34px; }

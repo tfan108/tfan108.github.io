@@ -700,11 +700,30 @@ def build(serve_mode: bool = False) -> Report:
     pinned = [n for n in news if n["pin"]]
     home_news = (pinned + [n for n in news if not n["pin"]])[: int(site["home"].get("news_count") or 8)]
     counted = [p for p in papers if p["venue_info"]["type"] in ("conference", "journal")]
+    is_top = lambda p: p["venue_info"]["rank"].upper() == "CCF-A" or p["venue_info"]["name"].startswith(("IEEE Transactions", "ACM Transactions"))
+
+    # 论文页的快捷筛选按钮（site.yml → publications.filters）
+    filters = []
+    for i, f in enumerate(site["publications"].get("filters") or []):
+        keys = {vlookup[k.lower()]["key"] for k in as_list(f.get("venues")) if k.lower() in vlookup}
+        for k in as_list(f.get("venues")):
+            if k.lower() not in vlookup:
+                rep.warn("site.yml publications.filters", f"“{k}” 不在 venues.yml 中")
+        prefix = str(f.get("name_prefix") or "")
+        fid = f"f{i}"
+        hits = [p for p in papers if p["venue_info"]["key"] in keys or (prefix and p["venue_info"]["name"].startswith(prefix))]
+        for p in hits:
+            p.setdefault("filters", []).append(fid)
+        filters.append({"id": fid, "label": f.get("label", fid), "count": len(hits)})
+    for p in papers:
+        p.setdefault("filters", [])
     stats = {
         "papers": len(papers),
         "peer_reviewed": len(counted),
         "ccf_a": sum(1 for p in counted if p["venue_info"]["rank"].upper() == "CCF-A"),
         'trans': sum(1 for p in counted if p['venue_info']['name'].startswith(('IEEE Transactions', 'ACM Transactions'))),
+        "top": sum(1 for p in counted if is_top(p)),
+        "top_mine": sum(1 for p in counted if is_top(p) and (p["is_mine"] or (p["authors"] and p["authors"][0] in site["me"]))),
         "with_code": sum(1 for p in papers if p["repo"]),
         "stars": sum(p["stars"] or 0 for p in papers),
     }
@@ -734,7 +753,7 @@ def build(serve_mode: bool = False) -> Report:
     render("index.html", "index.html", page="home", title=None, intro=intro, join=join, news=home_news,
            news_total=len(news), reps=reps)
     render("publications.html", "publications/index.html", page="publications", title="Publications",
-           groups=groups, papers=papers)
+           groups=groups, papers=papers, filters=filters)
     render("team.html", "team/index.html", page="team", title="Team", team_groups=team_groups, join=join)
     render("news.html", "news/index.html", page="news", title="News", news=news)
     render("cv.html", "cv/index.html", page="cv", title="CV", cv=cv)

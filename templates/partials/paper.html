@@ -1,5 +1,5 @@
 {% set v = p.venue_info %}
-<article class="pub{% if p.thumb %} has-thumb{% endif %}" id="{{ p.id }}" data-search="{{ (p.title ~ ' ' ~ p.authors|join(', ') ~ ' ' ~ v.key ~ ' ' ~ v.name ~ ' ' ~ p.year ~ ' ' ~ p.note)|lower }}">
+<article class="pub{% if p.thumb %} has-thumb{% endif %}" id="{{ p.id }}" data-filters="{{ p.filters|join(' ') }}" data-search="{{ (p.title ~ ' ' ~ p.authors|join(', ') ~ ' ' ~ v.key ~ ' ' ~ v.name ~ ' ' ~ p.year ~ ' ' ~ p.note)|lower }}">
   {% if p.thumb %}
   <a class="pub-thumb" href="{{ p.primary or ('#' ~ p.id) }}" tabindex="-1"><img src="{{ p.thumb }}" alt="" loading="lazy"></a>
   {% endif %}
