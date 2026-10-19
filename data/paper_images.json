@@ -1,0 +1,2374 @@
+{
+  "schema_version": 1,
+  "description": "Publication-page representative images, visually selected from archived paper figures; crops only, no synthetic results. Coordinates are normalized to the source image/page.",
+  "canvas": [
+    640,
+    480
+  ],
+  "papers": [
+    {
+      "id": "FT001",
+      "title": "AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2026/FT001_2026_AgentHOI Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment.pdf",
+      "source_pdf_sha256": "226601fff05d6603adf59a99f2b9b6dbc76c9ce60c12584a148f7939c60f9c3b",
+      "image": "/images/papers/FT001.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT001/figures/FT001_Fig01_p01.png",
+      "source_asset_sha256": "2ebc1273612a169954aceb35dfe594f3de15f447d69f5aa0d9b17dbb4d223116",
+      "regions": [
+        [
+          0.584184,
+          0.085882,
+          0.766582,
+          0.316471
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "agenthoi-2026"
+    },
+    {
+      "id": "FT002",
+      "title": "StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation",
+      "number": 7,
+      "page": 8,
+      "source_pdf": "01_论文/2026/FT002_2026_StreamHOI Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation.pdf",
+      "source_pdf_sha256": "c5146298f6203d51a99ef1141cec631bc0230c5906eb19b95d953d6234349a9d",
+      "image": "/images/papers/FT002.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT002/figures/FT002_Fig07_p08.png",
+      "source_asset_sha256": "bd730d31ec1e10facc4b3d21a2b983394ed21017619d55102c6bbae59977dc9c",
+      "regions": [
+        [
+          0.154412,
+          0.010221,
+          0.242034,
+          0.23339
+        ],
+        [
+          0.154412,
+          0.468484,
+          0.242034,
+          0.690801
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "streamhoi-2026"
+    },
+    {
+      "id": "FT003",
+      "title": "No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT003_2026_No Corners Cut State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation.pdf",
+      "source_pdf_sha256": "5c4fd155cd19ea7634d9546377c96e339b7ed3dbbd5c927c962351be21706173",
+      "image": "/images/papers/FT003.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT003/figures/FT003_Fig01_p02.png",
+      "source_asset_sha256": "6aec0552c0bf0ad78bc2fadc3f88b1993c2a13e6cae9f01b4a97777fda17f1dc",
+      "regions": [
+        [
+          0.04,
+          0.72,
+          0.18,
+          0.87
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "问题与效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "no-corners-cut-2026"
+    },
+    {
+      "id": "FT004",
+      "title": "Sissi: Zero-shot Style-guided Image Synthesis via Semantic-style Integration",
+      "number": 2,
+      "page": 3,
+      "source_pdf": "01_论文/2026/FT004_2026_Sissi Zero-shot Style-guided Image Synthesis via Semantic-style Integration.pdf",
+      "source_pdf_sha256": "73cb14abd6a3d1472476f9bada72c5cf24cb0ec6e4bcfa65fb08bcf801449f79",
+      "image": "/images/papers/FT004.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT004/figures/FT004_Fig02_p03.png",
+      "source_asset_sha256": "003a1f7767247f096963144c872387c0c1a1e56f1ff84613d8135083fb276ef0",
+      "regions": [
+        [
+          0.179916,
+          0.312903,
+          0.284519,
+          0.51129
+        ],
+        [
+          0.614226,
+          0.312903,
+          0.717155,
+          0.51129
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "sissi-2026"
+    },
+    {
+      "id": "FT005",
+      "title": "Inversion-Free Style Transfer with Dual Rectified Flows",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT005_2025_Inversion-Free Style Transfer with Dual Rectified Flows.pdf",
+      "source_pdf_sha256": "e1d9b6d007ba8884148553c31d967d659f0bbd6d70a0b23b23064f592d9149a5",
+      "image": "/images/papers/FT005.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT005/figures/FT005_Fig01_p01.png",
+      "source_asset_sha256": "fa5979335b1259f42780ab73be14f0022a237253ed699d1f3f52212e9ec8f4e7",
+      "regions": [
+        [
+          0.11,
+          0.3723,
+          0.2586,
+          0.6229
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "inversion-free-style-transfer-with-2025"
+    },
+    {
+      "id": "FT006",
+      "title": "HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2026/FT006_2026_PUBLISHED_HeadRouter A training-free image editing framework for MM-DiTs by adaptively routing attention heads.pdf",
+      "source_pdf_sha256": "9efa5179e9a7bbe7e7b225536d4bf5d072da5b9e72fd439096d096fe005f7ab7",
+      "image": "/images/papers/FT006.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT006/figures/FT006_Fig01_p01.png",
+      "source_asset_sha256": "54fac7c1446055f56f3aaa6ac6e96d679def05eacaa942494363f4d2da1c8cae",
+      "regions": [
+        [
+          0.172,
+          0.34,
+          0.257,
+          0.58
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "headrouter-2026"
+    },
+    {
+      "id": "FT007",
+      "title": "AnchorCrafter: Animate cyber-anchors selling your products via human-object interacting video generation",
+      "number": 2,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT007_2026_PUBLISHED_AnchorCrafter Animate cyber-anchors selling your products via human-object interacting video generation.pdf",
+      "source_pdf_sha256": "ed8447f61c68dd0209a52935dacc63f7e9c839c560543cfbc4eb96a3feacdb30",
+      "image": "/images/papers/FT007.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT007/figures/FT007_Fig02_p02.png",
+      "source_asset_sha256": "a6f3781b00998a7ad9b17174016401396888a6a982b5ff01e8a820b55e3cad17",
+      "regions": [
+        [
+          0.31,
+          0.012,
+          0.535,
+          0.39
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "应用总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "anchorcrafter-2026"
+    },
+    {
+      "id": "FT008",
+      "title": "Interactive Visual Assessment for Text-to-Image Generation Models",
+      "number": 2,
+      "page": 4,
+      "source_pdf": "01_论文/2026/FT008_2026_PUBLISHED_Interactive Visual Assessment for Text-to-Image Generation Models.pdf",
+      "source_pdf_sha256": "b436dcefa9f235b4d9116cfd61687d84509d3d9c3389fef84e3963a61fe09555",
+      "image": "/images/papers/FT008.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT008/figures/FT008_Fig02_p04.png",
+      "source_asset_sha256": "dd8f9d5742f628745b9c6274898655cf83ee8a7c353c473fee313aa382f077dc",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "interactive-visual-assessment-for-2026"
+    },
+    {
+      "id": "FT009",
+      "title": "Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior",
+      "number": 3,
+      "page": 8,
+      "source_pdf": "01_论文/2026/FT009_2026_Make-Your-Anchor+ Temporal Consistent 2D Avatar Generation via Video Diffusion Prior.pdf",
+      "source_pdf_sha256": "98a5362b3c5bc66ffa22fcfbe97e60daaf0c927642bc0ea2a6a7c668f31f4b38",
+      "image": "/images/papers/FT009.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT009/figures/FT009_Fig03_p08.png",
+      "source_asset_sha256": "682d6a24b44f754332620d98a0c95b4eb5b0a88e782067b66dee40dd34fcc2ff",
+      "regions": [
+        [
+          0.13,
+          0.115,
+          0.23,
+          0.2
+        ],
+        [
+          0.55,
+          0.115,
+          0.65,
+          0.2
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "make-your-anchor-2026"
+    },
+    {
+      "id": "FT010",
+      "title": "ResCa: Residual Caching for Diffusion Transformers Acceleration",
+      "number": 5,
+      "page": 7,
+      "source_pdf": "01_论文/2026/FT010_2026_ResCa Residual Caching for Diffusion Transformers Acceleration.pdf",
+      "source_pdf_sha256": "945ce6e3aec52ccaf81e787c4b6671785945a4eae3af6720676e17a3867c4817",
+      "image": "/images/papers/FT010.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT010/figures/FT010_Fig05_p07.png",
+      "source_asset_sha256": "83d1737d73d872ce7c1464a1040b464193d02d38ecfb934eb297443e4e3b91b7",
+      "regions": [
+        [
+          0.81,
+          0.81,
+          0.9,
+          0.98
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "视频效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "resca-2026"
+    },
+    {
+      "id": "FT011",
+      "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+      "number": 3,
+      "page": 7,
+      "source_pdf": "01_论文/2026/FT011_2026_PUBLISHED_TAG-MoE Task-Aware Gating for Unified Generative Mixture-of-Experts.pdf",
+      "source_pdf_sha256": "cd4829799d1643f5a210bd64cdb3df5949115d116fac006f35757c147b7e9f13",
+      "image": "/images/papers/FT011.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT011/figures/FT011_Fig03_p07.png",
+      "source_asset_sha256": "e93663d9682616055bb738169259a38e74014bf4605b9a40d4fe670aa6416cc4",
+      "regions": [
+        [
+          0.217054,
+          0.071429,
+          0.309481,
+          0.287088
+        ],
+        [
+          0.217054,
+          0.291209,
+          0.309481,
+          0.505495
+        ],
+        [
+          0.217054,
+          0.510989,
+          0.309481,
+          0.726648
+        ],
+        [
+          0.217054,
+          0.732143,
+          0.309481,
+          0.96978
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "跨任务效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "tag-moe-2026"
+    },
+    {
+      "id": "FT012",
+      "title": "GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2026/FT012_2026_PUBLISHED_GraspALL Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions.pdf",
+      "source_pdf_sha256": "b88c46ac11768b01dda720567a8b5f9517c36efe422536aa26b133dfae706fa0",
+      "image": "/images/papers/FT012.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT012/figures/FT012_Fig01_p01.png",
+      "source_asset_sha256": "d572278393e019494253f1761598c7ab40308cc64008f4b95e4cc637b0432200",
+      "regions": [
+        [
+          0.245,
+          0.1,
+          0.365,
+          0.4
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "机器人应用效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "graspall-2026"
+    },
+    {
+      "id": "FT013",
+      "title": "Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2026/FT013_2026_Beyond Pixels Visual Metaphor Transfer via Schema-Driven Agentic Reasoning.pdf",
+      "source_pdf_sha256": "85b6d762140df2dd48eba73ac638d3c2048eb71b95517b52f94e6119131c8ac1",
+      "image": "/images/papers/FT013.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT013/figures/FT013_Fig01_p01.png",
+      "source_asset_sha256": "0158882560bfaae122aa75d80092c289610cdb931aef13fe6f35161cb2bb01a2",
+      "regions": [
+        [
+          0.565,
+          0.1,
+          0.7,
+          0.33
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "beyond-pixels-2026"
+    },
+    {
+      "id": "FT014",
+      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT014_2026_Breaking the Uniformity Trap Scaling Video Diffusion Model via SplitMoE.pdf",
+      "source_pdf_sha256": "ca71843d693b564cf47b3b6a5326b7dc4654ba0322320e42d7162fdebccdb2bc",
+      "image": "/images/papers/FT014.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT014/figures/FT014_Fig01_p02.png",
+      "source_asset_sha256": "cb23cb44df8e316e4a00e2d1b20582cc9d1974f6d5915384bc27e2638ab77c89",
+      "regions": [
+        [
+          0.02,
+          0.05,
+          0.2,
+          0.225
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果与动机；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "breaking-the-uniformity-trap-2026"
+    },
+    {
+      "id": "FT015",
+      "title": "Imitating the Truth: Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT015_2026_Imitating the Truth Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models.pdf",
+      "source_pdf_sha256": "6546306fbd9f3955a7311ef85c8be5313da3c27271854f11f3c071ad45f3cd1c",
+      "image": "/images/papers/FT015.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT015/figures/FT015_Fig01_p02.png",
+      "source_asset_sha256": "221ead982bce4cc2e11dd889b172ef20ca55210b66d9ba8bc8641d9e434ff02c",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "imitating-the-truth-2026"
+    },
+    {
+      "id": "FT016",
+      "title": "Video Generation Models Are Good Latent Reward Models",
+      "number": 6,
+      "page": 7,
+      "source_pdf": "01_论文/2026/FT016_2026_PUBLISHED_Video Generation Models Are Good Latent Reward Models.pdf",
+      "source_pdf_sha256": "ad4bd9130dab5d6c8e22dbeee6262fa4b04e707a90e8b08ef2f28a9d16d4d42e",
+      "image": "/images/papers/FT016.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT016/figures/FT016_Fig06_p07.png",
+      "source_asset_sha256": "349e9901ebe8a5e0bebf72504996b989bd0846f9d96c5cd13b68974fa2a9ea1f",
+      "regions": [
+        [
+          0.1,
+          0.825,
+          0.235,
+          0.99
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "video-generation-models-are-good-2026"
+    },
+    {
+      "id": "FT017",
+      "title": "GeoHOI: Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2026/FT017_2026_GeoHOI Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection.pdf",
+      "source_pdf_sha256": "bebacdb68c3a13f213630c7b5a7270add085401692decc10f2bf76059f18ab04",
+      "image": "/images/papers/FT017.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT017/figures/FT017_Fig01_p01.png",
+      "source_asset_sha256": "b82fe5cdd5fdbf169a8609560f0fb9294674a72a4f6380fbb8a6ccd5482df155",
+      "regions": [
+        [
+          0.233,
+          0.108,
+          0.362,
+          0.495
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "geohoi-2026"
+    },
+    {
+      "id": "FT018",
+      "title": "Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT018_2026_Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation.pdf",
+      "source_pdf_sha256": "28e13b0e5f52be17ab267f612c3ca2bdacab08941fea075e98ea16b0b0bc7f0c",
+      "image": "/images/papers/FT018.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT018/figures/FT018_Fig01_p02.png",
+      "source_asset_sha256": "4020c0645797eb0f761a6f75c1e8789f67094e8b2efcef1396062ef29ace6d8f",
+      "regions": [
+        [
+          0.257732,
+          0.405556,
+          0.37732,
+          0.651389
+        ],
+        [
+          0.865979,
+          0.405556,
+          0.986942,
+          0.651389
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "情感控制示例；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "parameter-efficient-emotional-2026"
+    },
+    {
+      "id": "FT019",
+      "title": "Visual-friendly concept protection via selective adversarial perturbations",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT019_2026_PUBLISHED_Visual-friendly concept protection via selective adversarial perturbations.pdf",
+      "source_pdf_sha256": "e1648d22071a74dff163ecb73a4ecb8c1d035655a730fec428d7a8ceb873f678",
+      "image": "/images/papers/FT019.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT019/figures/FT019_Fig01_p02.png",
+      "source_asset_sha256": "4cdf7ac7a8faf76433cccdbe0d2a33b3ca29a832b53143372341299941842b67",
+      "regions": [
+        [
+          0.84,
+          0.12,
+          0.98,
+          0.48
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "问题与效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "visual-friendly-concept-protection-2026"
+    },
+    {
+      "id": "FT020",
+      "title": "Z-STAR+: A Zero-shot Style Transfer Method via Adjusting Style Distribution",
+      "number": 2,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT020_2026_PUBLISHED_Z-STAR+ A Zero-shot Style Transfer Method via Adjusting Style Distribution.pdf",
+      "source_pdf_sha256": "693b59fee1ae468c253758dff37bcdec6ea5b6d73f08b0c899ba989f779d443f",
+      "image": "/images/papers/FT020.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT020/figures/FT020_Fig02_p02.png",
+      "source_asset_sha256": "905cbc768c270389a9460894196458eb4153f6e298737f349150da41f0757672",
+      "regions": [
+        [
+          0.15,
+          0.01,
+          0.31,
+          0.37
+        ],
+        [
+          0.76,
+          0.55,
+          0.99,
+          0.99
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "z-star-2026"
+    },
+    {
+      "id": "FT021",
+      "title": "B4M: Breaking Low-Rank Adapter for Making Content-Style Customization",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2025/FT021_2025_B4M Breaking Low-Rank Adapter for Making Content-Style Customization.pdf",
+      "source_pdf_sha256": "e28cf15dbf2a3f68f33472c27048d8092427e09eec1e3f9e6eced93598e955fe",
+      "image": "/images/papers/FT021.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT021/figures/FT021_Fig01_p02.png",
+      "source_asset_sha256": "b3cd6598c175feeaf5fb1af49bfdc28e30ea4bf150cab00e3b7ec408eebd3fde",
+      "regions": [
+        [
+          0.106,
+          0.03,
+          0.245,
+          0.276
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "b4m-2025"
+    },
+    {
+      "id": "FT022",
+      "title": "CreativeSynth: Cross-art-attention for artistic image synthesis with multimodal diffusion",
+      "number": 4,
+      "page": 6,
+      "source_pdf": "01_论文/2025/FT022_2025_PUBLISHED_CreativeSynth Cross-art-attention for artistic image synthesis with multimodal diffusion.pdf",
+      "source_pdf_sha256": "ccdd6fdd727fd10430ee38c085520afc19fd3b16422c4be68e10e97d1c56d749",
+      "image": "/images/papers/FT022.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT022/figures/FT022_Fig04_p06.png",
+      "source_asset_sha256": "620b687afccd263bddbafeb70d38c5bb09ed4ffe8e41f386addbb949e02ad344",
+      "regions": [
+        [
+          0.052,
+          0.38,
+          0.245,
+          0.525
+        ],
+        [
+          0.55,
+          0.38,
+          0.74,
+          0.525
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "图像融合对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "creativesynth-2025"
+    },
+    {
+      "id": "FT023",
+      "title": "MotionCrafter: Plug-and-Play Motion Guidance for Diffusion Models",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2025/FT023_2025_MotionCrafter Plug-and-Play Motion Guidance for Diffusion Models.pdf",
+      "source_pdf_sha256": "391ede0e5cb87072481f6ac274cf589faf970551b299688903f46a5757342996",
+      "image": "/images/papers/FT023.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT023/figures/FT023_Fig01_p02.png",
+      "source_asset_sha256": "c063fc43f66cd118a63a28beb92eccfe06a242f4107a409d650f62b18ccfb429",
+      "regions": [
+        [
+          0.0671,
+          0.1778,
+          0.3614,
+          0.2772
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "motioncrafter-2025"
+    },
+    {
+      "id": "FT024",
+      "title": "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration",
+      "number": 5,
+      "page": 6,
+      "source_pdf": "01_论文/2025/FT024_2025_PUBLISHED_Attend to Not Attended Structure-then-Detail Token Merging for Post-training DiT Acceleration.pdf",
+      "source_pdf_sha256": "5896aacb913ff0bff35576293a4c51f25ffd225d4fe4473718961c3fbf67b6bb",
+      "image": "/images/papers/FT024.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT024/figures/FT024_Fig05_p06.png",
+      "source_asset_sha256": "e16acc54a7ff34d9ade5f4a88942537e9b9c85e75cb8eadf3c9b4696aab3562e",
+      "regions": [
+        [
+          0.31,
+          0.3616,
+          0.4314,
+          0.6017
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "attend-to-not-attended-2025"
+    },
+    {
+      "id": "FT025",
+      "title": "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT025_2025_Beyond Words Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning.pdf",
+      "source_pdf_sha256": "cf8deec759f9597dade407e110478cafa728d8c5998e3da959c2ea80f733a5fd",
+      "image": "/images/papers/FT025.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT025/figures/FT025_Fig01_p01.png",
+      "source_asset_sha256": "014764bbd45a29755d3af61ac0d95a79946a6c05efbfead2891e990daea49c24",
+      "regions": [
+        [
+          0.12,
+          0.23,
+          0.96,
+          0.77
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "beyond-words-2025"
+    },
+    {
+      "id": "FT026",
+      "title": "Z-Magic: Zero-shot Multiple Attributes Guided Image Creator",
+      "number": 6,
+      "page": 7,
+      "source_pdf": "01_论文/2025/FT026_2025_Z-Magic Zero-shot Multiple Attributes Guided Image Creator.pdf",
+      "source_pdf_sha256": "177e6d91944b10a5d5c65ad9768d4a075d7d72a1ff62503a03d102f1271ca05a",
+      "image": "/images/papers/FT026.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT026/figures/FT026_Fig06_p07.png",
+      "source_asset_sha256": "be69ba5e65ad3a2196bb8594b9a28f103899c1bfc3d3514643d1878c968c678b",
+      "regions": [
+        [
+          0.5,
+          0.122,
+          0.69,
+          0.213
+        ],
+        [
+          0.5,
+          0.225,
+          0.69,
+          0.315
+        ],
+        [
+          0.5,
+          0.325,
+          0.69,
+          0.42
+        ],
+        [
+          0.5,
+          0.43,
+          0.69,
+          0.52
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "多条件人脸生成；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "z-magic-2025"
+    },
+    {
+      "id": "FT027",
+      "title": "Adversarial robust memory-based continual learner",
+      "number": 4,
+      "page": 5,
+      "source_pdf": "01_论文/2025/FT027_2025_Adversarial robust memory-based continual learner.pdf",
+      "source_pdf_sha256": "fe5fa6bc79f9d23c2cf9c23ba731ffe50a0aa9ecf466823e19106a56d26cb9fc",
+      "image": "/images/papers/FT027.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT027/figures/FT027_Fig04_p05.png",
+      "source_asset_sha256": "6f7c2a3d42450f032ced7ba652c1dba18914c5925c531c38eb65d0835afb32b5",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "adversarial-robust-memory-based-2025"
+    },
+    {
+      "id": "FT028",
+      "title": "AMDANet: Attention-Driven Multi-Perspective Discrepancy Alignment for RGB-Infrared Image Fusion and Segmentation",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT028_2025_AMDANet Attention-Driven Multi-Perspective Discrepancy Alignment for RGB-Infrared Image Fusion and Segmentation.pdf",
+      "source_pdf_sha256": "560ea219068886aa539fa61b63018971b1a70b7ff29b396d2f17c33e2894340d",
+      "image": "/images/papers/FT028.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT028/figures/FT028_Fig01_p01.png",
+      "source_asset_sha256": "563327dd8e86985d6a18281068bea8c05d13a5b81b4e7cec3ff0ecb160d74ebb",
+      "regions": [
+        [
+          0.51,
+          0.51,
+          0.93,
+          0.86
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "融合与分割效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "amdanet-2025"
+    },
+    {
+      "id": "FT029",
+      "title": "Multi-turn Consistent Image Editing",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT029_2025_PUBLISHED_Multi-turn Consistent Image Editing.pdf",
+      "source_pdf_sha256": "ef087fc877ee5cc212cfbbe0e913b9f656701c2855993c75b73975feeecd28cc",
+      "image": "/images/papers/FT029.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT029/figures/FT029_Fig01_p01.png",
+      "source_asset_sha256": "d808af754d892f6a6add20c7aa172dbf537db18a22cc99ed156d6395b37a61b3",
+      "regions": [
+        [
+          0.146,
+          0.103,
+          0.412,
+          0.313
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "multi-turn-consistent-image-2025"
+    },
+    {
+      "id": "FT030",
+      "title": "HOMA: Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT030_2025_HOMA Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions.pdf",
+      "source_pdf_sha256": "a1e6670d65f956da96b2a93d775eb008c02a2d373632d2aade13b13efccfd832",
+      "image": "/images/papers/FT030.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT030/figures/FT030_Fig01_p01.png",
+      "source_asset_sha256": "a3e1a3ed7d26897ea965846bab5edf21b553062ec65d6eed97bedab662be5167",
+      "regions": [
+        [
+          0.44,
+          0.025,
+          0.72,
+          0.96
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "homa-2025"
+    },
+    {
+      "id": "FT031",
+      "title": "In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2025/FT031_2025_PUBLISHED_In-Context Brush Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation.pdf",
+      "source_pdf_sha256": "fc948a6bcdffe9d15e12a116484110a59a4759c1c14605a16bbc373db5dba478",
+      "image": "/images/papers/FT031.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT031/figures/FT031_Fig01_p02.png",
+      "source_asset_sha256": "88249fd917ebf6bbffe714f3459554ba0b07b386085246152a385aca4dc7c246",
+      "regions": [
+        [
+          0.171,
+          0.027,
+          0.272,
+          0.282
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "in-context-brush-2025"
+    },
+    {
+      "id": "FT032",
+      "title": "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2025/FT032_2025_PUBLISHED_FireFlow Fast Inversion of Rectified Flow for Image Semantic Editing.pdf",
+      "source_pdf_sha256": "c27aaf03e3a7864c2f9e6c67bdc0f90d342339810b24b397e184d53b0302f916",
+      "image": "/images/papers/FT032.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT032/figures/FT032_Fig01_p01.png",
+      "source_asset_sha256": "1608a20ca353689c5748139517e4e7c7628dbc6643712618cb6eeb2b1075ec9b",
+      "regions": [
+        [
+          0.318596,
+          0.396573,
+          0.430175,
+          0.627907
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "fireflow-2025"
+    },
+    {
+      "id": "FT033",
+      "title": "MoAnimate: Bridging the Motion-Oriented Latent Representation Gaps in Human Video Animation",
+      "number": 8,
+      "page": 9,
+      "source_pdf": "01_论文/2025/FT033_2025_MoAnimate Bridging the Motion-Oriented Latent Representation Gaps in Human Video Animation.pdf",
+      "source_pdf_sha256": "946109c15e5007853ddd8265b50b30d459eecdf037c665def3050c2ddd7b99e8",
+      "image": "/images/papers/FT033.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT033/figures/FT033_Fig08_p09.png",
+      "source_asset_sha256": "0dba3c40e42881533add2ca076c4d6d213557a1a089aaa1bbd9fe0d6fb7ef65b",
+      "regions": [
+        [
+          0.67,
+          0.67,
+          0.99,
+          0.95
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "跨身份动画；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "moanimate-2025"
+    },
+    {
+      "id": "FT034",
+      "title": "Identity-preserving face swapping via dual surrogate generative models",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT034_2024_Identity-preserving face swapping via dual surrogate generative models.pdf",
+      "source_pdf_sha256": "fbe236a81b47496699488b60b9d728c87e142196d331e7dc5198f76014003355",
+      "image": "/images/papers/FT034.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT034/figures/FT034_Fig01_p01.png",
+      "source_asset_sha256": "ba6cb3de12f19615860f47ed800ea110302500906d42fe145f5d3d966707d725",
+      "regions": [
+        [
+          0.413,
+          0.05,
+          0.52,
+          0.42
+        ],
+        [
+          0.872,
+          0.05,
+          0.98,
+          0.42
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "identity-preserving-face-swapping-2024"
+    },
+    {
+      "id": "FT035",
+      "title": "A comprehensive evaluation of arbitrary image style transfer methods",
+      "number": 3,
+      "page": 4,
+      "source_pdf": "01_论文/2024/FT035_2024_A comprehensive evaluation of arbitrary image style transfer methods.pdf",
+      "source_pdf_sha256": "c098b99e6145fef34014c12b5c829e5a62f33ae1bdc2dc8eaf1324e24bd1f15d",
+      "image": "/images/papers/FT035.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT035/figures/FT035_Fig03_p04.png",
+      "source_asset_sha256": "60e061497ce823b2f4a255c590a3a393506824e5b6da30e1200c83a9892c3406",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "a-comprehensive-evaluation-of-2024"
+    },
+    {
+      "id": "FT036",
+      "title": "U-VAP: User-specified visual appearance personalization via decoupled self augmentation",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT036_2024_U-VAP User-specified visual appearance personalization via decoupled self augmentation.pdf",
+      "source_pdf_sha256": "4cc3987fa86464bc3cfd877735cf93aa2563d2b1ac548ac01f12cd5e988bef85",
+      "image": "/images/papers/FT036.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT036/figures/FT036_Fig01_p01.png",
+      "source_asset_sha256": "810d547e1a9031da8a50bcdca13bd8b8f0d231f63ad38e6f903aa219a8437bef",
+      "regions": [
+        [
+          0.052,
+          0.641,
+          0.179,
+          0.835
+        ],
+        [
+          0.199,
+          0.641,
+          0.32,
+          0.835
+        ],
+        [
+          0.601,
+          0.641,
+          0.736,
+          0.835
+        ],
+        [
+          0.862,
+          0.641,
+          0.975,
+          0.835
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "属性定制总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "u-vap-2024"
+    },
+    {
+      "id": "FT037",
+      "title": "Z*: Zero-shot style transfer via attention reweighting",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT037_2024_PUBLISHED_Z Zero-shot style transfer via attention reweighting.pdf",
+      "source_pdf_sha256": "4ea912866e73ebe0d2634a5e32c7c99d638270a83a270681d72bc2aed0ac0c8a",
+      "image": "/images/papers/FT037.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT037/figures/FT037_Fig01_p01.png",
+      "source_asset_sha256": "12084af621e36a690a853262d4babcb2b98b57732c1150be887c28f59360b8d2",
+      "regions": [
+        [
+          0.11,
+          0.05,
+          0.28,
+          0.4
+        ],
+        [
+          0.12,
+          0.51,
+          0.28,
+          0.76
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "z-2024"
+    },
+    {
+      "id": "FT038",
+      "title": "Make-Your-Anchor: A diffusion-based 2D avatar generation framework",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT038_2024_PUBLISHED_Make-Your-Anchor A diffusion-based 2D avatar generation framework.pdf",
+      "source_pdf_sha256": "df85d733ff679cf92575ec39b36aa10da90d23524423099b19b780339332ce22",
+      "image": "/images/papers/FT038.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT038/figures/FT038_Fig01_p01.png",
+      "source_asset_sha256": "88145b4ee01534c34ab55c77c9e94db0790e7980f8392d62ad80e633a0bf15bf",
+      "regions": [
+        [
+          0.475,
+          0.02,
+          0.58,
+          0.43
+        ],
+        [
+          0.475,
+          0.53,
+          0.58,
+          0.93
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "数字主播总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "make-your-anchor-2024"
+    },
+    {
+      "id": "FT039",
+      "title": "Dance-to-music generation with encoder-based textual inversion",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT039_2024_PUBLISHED_Dance-to-music generation with encoder-based textual inversion.pdf",
+      "source_pdf_sha256": "9be6f5c989c6eba0a7eb1e2be4ad531b7e6123c059c5a1f02d7946b027d24fe8",
+      "image": "/images/papers/FT039.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT039/figures/FT039_Fig01_p01.png",
+      "source_asset_sha256": "aa4eeecb8895fa5fb9948c2f538e9234861f91768ecd2e2b5aa1bd06848490ca",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "dance-to-music-generation-with-2024"
+    },
+    {
+      "id": "FT040",
+      "title": "Revealing the Two Sides of Data Augmentation: An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition",
+      "number": 3,
+      "page": 4,
+      "source_pdf": "01_论文/2024/FT040_2024_Revealing the Two Sides of Data Augmentation An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition.pdf",
+      "source_pdf_sha256": "e90a01b05ac072677d412840210be326676d0f521e2fa128830880c1c101407b",
+      "image": "/images/papers/FT040.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT040/figures/FT040_Fig03_p04.png",
+      "source_asset_sha256": "311a5cfb043d948b85b98d6ac1498108047ced6d55c16dfb3bca15bb631984c0",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "revealing-the-two-sides-of-data-2024"
+    },
+    {
+      "id": "FT041",
+      "title": "Modality-consistent prompt tuning with optimal transport",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2024/FT041_2024_Modality-consistent prompt tuning with optimal transport.pdf",
+      "source_pdf_sha256": "44857ba0097d67e68f245f9e2da4d7745f79387cf1f9808b99f5dab01c6722fb",
+      "image": "/images/papers/FT041.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT041/figures/FT041_Fig01_p01.png",
+      "source_asset_sha256": "4c719e43e7e47f5a9d8b0ec5d99450557edc842f0bd0bdfdece7a9dba9371026",
+      "regions": [
+        [
+          0.515,
+          0,
+          1,
+          0.67
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "modality-consistent-prompt-tuning-2024"
+    },
+    {
+      "id": "FT042",
+      "title": "DiffStyler: Controllable dual diffusion for text-driven image stylization",
+      "number": 2,
+      "page": 3,
+      "source_pdf": "01_论文/2024/FT042_2024_PUBLISHED_DiffStyler Controllable dual diffusion for text-driven image stylization.pdf",
+      "source_pdf_sha256": "4e7e5e30ec0c7bc97f931b07857edf4fc70b71de35f919a4408801f9da37354f",
+      "image": "/images/papers/FT042.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT042/figures/FT042_Fig02_p03.png",
+      "source_asset_sha256": "86309763f5222136892b59b9d21097e50c9a874e54b2412c180e6466fbcc10ce",
+      "regions": [
+        [
+          0.146,
+          0.153,
+          0.262,
+          0.7
+        ],
+        [
+          0.5,
+          0.153,
+          0.616,
+          0.7
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "文本风格化总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "diffstyler-2024"
+    },
+    {
+      "id": "FT043",
+      "title": "Music style transfer with time-varying inversion of diffusion models",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2024/FT043_2024_PUBLISHED_Music style transfer with time-varying inversion of diffusion models.pdf",
+      "source_pdf_sha256": "baa6980126e3c82cb1e3f220587f2ff847d98325171105f912c627936bbd2412",
+      "image": "/images/papers/FT043.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT043/figures/FT043_Fig01_p02.png",
+      "source_asset_sha256": "0bd998beec1ef8ff8f6592a94d0606424b72640cec99322339f719cf0fcbcd3e",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          0.96
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "music-style-transfer-with-time-2024"
+    },
+    {
+      "id": "FT044",
+      "title": "Lighting Image/Video Style Transfer Methods by Iterative Channel Pruning",
+      "number": 4,
+      "page": 4,
+      "source_pdf": "01_论文/2024/FT044_2024_Lighting ImageVideo Style Transfer Methods by Iterative Channel Pruning.pdf",
+      "source_pdf_sha256": "8f720fea8007ff4be00e7029bd1566c0d3dfbf22e4e1393615ec6310b00dd112",
+      "image": "/images/papers/FT044.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT044/figures/FT044_Fig04_p04.png",
+      "source_asset_sha256": "c40b8c6e86a9216150af4195a7d14eac58dc7c87ec892bb6d508b6f98f7091d0",
+      "regions": [
+        [
+          0.312155,
+          0.202381,
+          0.436464,
+          0.56746
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "风格化效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "lighting-image-video-style-2024"
+    },
+    {
+      "id": "FT045",
+      "title": "A unified arbitrary style transfer framework via adaptive contrastive learning",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2023/FT045_2023_PUBLISHED_A unified arbitrary style transfer framework via adaptive contrastive learning.pdf",
+      "source_pdf_sha256": "22ae8d5accc8a60fa7dad9bf5dc1b3973a765bed231d6b7f1bf8e552433cc224",
+      "image": "/images/papers/FT045.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT045/figures/FT045_Fig01_p01.png",
+      "source_asset_sha256": "3df42c4ecde1687c97c772f3cc4146ee986104655c6ff753570b71ecd7fdd3b5",
+      "regions": [
+        [
+          0.16,
+          0.12,
+          0.29,
+          0.4
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "多骨干效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "a-unified-arbitrary-style-transfer-2023"
+    },
+    {
+      "id": "FT046",
+      "title": "ProSpect: Prompt spectrum for attribute-aware personalization of diffusion models",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2023/FT046_2023_PUBLISHED_ProSpect Prompt spectrum for attribute-aware personalization of diffusion models.pdf",
+      "source_pdf_sha256": "c6e76cb024b7c41a3722d9b518ebec39a8e1a176fb0726a3c589c5c22b1c9412",
+      "image": "/images/papers/FT046.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT046/figures/FT046_Fig01_p01.png",
+      "source_asset_sha256": "725cb94eb2df0750b2fbfb8ee421b990925df3524d592e28f27f8c0dafc5b222",
+      "regions": [
+        [
+          0.199,
+          0.606,
+          0.325,
+          0.834
+        ],
+        [
+          0.328,
+          0.606,
+          0.451,
+          0.834
+        ],
+        [
+          0.718,
+          0.606,
+          0.84,
+          0.834
+        ],
+        [
+          0.849,
+          0.606,
+          0.966,
+          0.834
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "属性控制总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "prospect-2023"
+    },
+    {
+      "id": "FT047",
+      "title": "SPA2Net: Structure-preserved attention activated network for weakly supervised object localization",
+      "number": 8,
+      "page": 10,
+      "source_pdf": "01_论文/2023/FT047_2023_SPA2Net Structure-preserved attention activated network for weakly supervised object localization.pdf",
+      "source_pdf_sha256": "bca5dd6b330b62e50d03db38d44a27bd6b3163db7ca0cf9ca474d995b644ee7e",
+      "image": "/images/papers/FT047.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT047/figures/FT047_Fig08_p10.png",
+      "source_asset_sha256": "ba61dd67b4e1f57d63ab43b55e67261ccf44e51664720440114291508fbff96e",
+      "regions": [
+        [
+          0.032,
+          0.51,
+          0.316,
+          0.915
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "定位效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "spa2net-2023"
+    },
+    {
+      "id": "FT048",
+      "title": "Adaptive assignment for geometry aware local feature matching",
+      "number": 5,
+      "page": 7,
+      "source_pdf": "01_论文/2023/FT048_2023_PUBLISHED_Adaptive assignment for geometry aware local feature matching.pdf",
+      "source_pdf_sha256": "45e8bb17a53b7cdf1801b9c3b45e1898ddbd2c947cbca03ec93790e32c37e81f",
+      "image": "/images/papers/FT048.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT048/figures/FT048_Fig05_p07.png",
+      "source_asset_sha256": "8ec6b6155163bace1140760e1dde061aae3bf57f4a559ae32e3fcd60dc9b5860",
+      "regions": [
+        [
+          0.02,
+          0.02,
+          0.36,
+          0.46
+        ],
+        [
+          0.38,
+          0.5,
+          0.72,
+          0.96
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "匹配效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "adaptive-assignment-for-geometry-2023"
+    },
+    {
+      "id": "FT049",
+      "title": "Inversion-based style transfer with diffusion models",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2023/FT049_2023_PUBLISHED_Inversion-based style transfer with diffusion models.pdf",
+      "source_pdf_sha256": "b1e384baa0d74829465145f9170b33574ac7154949a8f181768b341b072ff222",
+      "image": "/images/papers/FT049.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT049/figures/FT049_Fig01_p01.png",
+      "source_asset_sha256": "0cbc5094fd4cf1469f365554eac532ae2b986010ae853cfeea2f8c542641a5f6",
+      "regions": [
+        [
+          0.0257,
+          0.0357,
+          0.1514,
+          0.4796
+        ],
+        [
+          0.465,
+          0.53,
+          0.598,
+          0.902
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "inversion-based-style-transfer-2023"
+    },
+    {
+      "id": "FT050",
+      "title": "Progressive open space expansion for open-set model attribution",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2023/FT050_2023_Progressive open space expansion for open-set model attribution.pdf",
+      "source_pdf_sha256": "5ddd9e1df687106483b1d6f2504119042088daf818ad51521bb42a2f8157e891",
+      "image": "/images/papers/FT050.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT050/figures/FT050_Fig01_p01.png",
+      "source_asset_sha256": "8226fdd91d4ad0724334be4474862c596c636d2b2b70e299722efd1b88c9da4c",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "progressive-open-space-expansion-2023"
+    },
+    {
+      "id": "FT051",
+      "title": "A2Pt: Anti-Associative Prompt Tuning for Open Set Visual Recognition",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2023/FT051_2023_A2Pt Anti-Associative Prompt Tuning for Open Set Visual Recognition.pdf",
+      "source_pdf_sha256": "0be4d3fdacc83aba4bc0b39871490e7b0658c582c887904b89d4613c08c7f37b",
+      "image": "/images/papers/FT051.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT051/figures/FT051_Fig01_p02.png",
+      "source_asset_sha256": "d6972cff710f9dd648c6f4151af4e788d17f3bc2196e19c8b7b755517f2fdda2",
+      "regions": [
+        [
+          0.5,
+          0.1,
+          0.95,
+          0.74
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "a2pt-2023"
+    },
+    {
+      "id": "FT052",
+      "title": "SMNet: Synchronous multi-scale low light enhancement network with local and global concern",
+      "number": 4,
+      "page": 7,
+      "source_pdf": "01_论文/2023/FT052_2023_SMNet Synchronous multi-scale low light enhancement network with local and global concern.pdf",
+      "source_pdf_sha256": "96fc42856b5cf05a026a7155fd07b7857a20b4658ec9ba143a2b70fd0d1b8bc8",
+      "image": "/images/papers/FT052.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT052/figures/FT052_Fig04_p07.png",
+      "source_asset_sha256": "cc61837073ba0f4493e09be02b72248723f4cd667ac8a05d64ba1740402fffa3",
+      "regions": [
+        [
+          0.605,
+          0.745,
+          0.793,
+          0.89
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "低照度效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "smnet-2023"
+    },
+    {
+      "id": "FT053",
+      "title": "Semantic-context graph network for point-based 3D object detection",
+      "number": 5,
+      "page": 9,
+      "source_pdf": "01_论文/2023/FT053_2023_Semantic-context graph network for point-based 3D object detection.pdf",
+      "source_pdf_sha256": "4688819960e9eb6312b31e98bef586400a7e8cb52a9cae8b7e8c231ea084af24",
+      "image": "/images/papers/FT053.jpg",
+      "regions": [
+        [
+          0.745,
+          0.08,
+          0.89,
+          0.154
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "Fig.5：GroupFree3D + ours 的 ScanNet v2 检测结果",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "semantic-context-graph-network-for-2023"
+    },
+    {
+      "id": "FT054",
+      "title": "Exploring the temporal consistency of arbitrary style transfer: A channelwise perspective",
+      "number": 6,
+      "page": 11,
+      "source_pdf": "01_论文/2023/FT054_2023_Exploring the temporal consistency of arbitrary style transfer A channelwise perspective.pdf",
+      "source_pdf_sha256": "62bada7bc21685332803b8a352b82a95f1b5d3644c3495a875a2a24e27f2abdd",
+      "image": "/images/papers/FT054.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT054/figures/FT054_Fig06_p11.png",
+      "source_asset_sha256": "63214ebc60c7343085760c39ddf66ba2c9e0dbf8c4018d89c9a61e3d3b17efa2",
+      "regions": [
+        [
+          0.219,
+          0.123,
+          0.403,
+          0.283
+        ],
+        [
+          0.219,
+          0.57,
+          0.403,
+          0.727
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "视频效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "exploring-the-temporal-consistency-2023"
+    },
+    {
+      "id": "FT055",
+      "title": "Towards harmonized regional style transfer and manipulation for facial images",
+      "number": 8,
+      "page": 10,
+      "source_pdf": "01_论文/2023/FT055_2023_PUBLISHED_Towards harmonized regional style transfer and manipulation for facial images.pdf",
+      "source_pdf_sha256": "c444d3439957b7606d34723cd169befe2d7ea72c4f0650969666eee7c0ee3530",
+      "image": "/images/papers/FT055.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT055/figures/FT055_Fig08_p10.png",
+      "source_asset_sha256": "bacef737c3e488f12a4c12136fd297575bca02db9d2c1518cdd99b5944b4a306",
+      "regions": [
+        [
+          0.195,
+          0.02,
+          0.575,
+          0.47
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "肤色多模态合成；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "towards-harmonized-regional-style-2023"
+    },
+    {
+      "id": "FT056",
+      "title": "Region-aware diffusion for zero-shot text-driven image editing",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2023/FT056_2023_Region-aware diffusion for zero-shot text-driven image editing.pdf",
+      "source_pdf_sha256": "9dc28ccf5aaf327074962d442753a7381a1e629d6ce8aba059e378640e952d8d",
+      "image": "/images/papers/FT056.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT056/figures/FT056_Fig01_p01.png",
+      "source_asset_sha256": "228ec1611a2796f3c1589b1b9503b0b47f0e2684f74f6b1a965e1f935a3c936e",
+      "regions": [
+        [
+          0.023,
+          0.615,
+          0.136,
+          0.944
+        ],
+        [
+          0.859,
+          0.615,
+          0.97,
+          0.944
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "实体编辑总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "region-aware-diffusion-for-zero-2023"
+    },
+    {
+      "id": "FT057",
+      "title": "CrossRectify: Leveraging disagreement for semi-supervised object detection",
+      "number": 5,
+      "page": 8,
+      "source_pdf": "01_论文/2023/FT057_2023_PUBLISHED_CrossRectify Leveraging disagreement for semi-supervised object detection.pdf",
+      "source_pdf_sha256": "390237d0e3b9f4d026908ee0fa26b6de01eca48577354a3dad956ad1f63aef5e",
+      "image": "/images/papers/FT057.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT057/figures/FT057_Fig05_p08.png",
+      "source_asset_sha256": "598ce00247cf8487c951fa475596f6662ac844594ec71906c8c5f40d7b09f00c",
+      "regions": [
+        [
+          0,
+          0.53,
+          0.27,
+          0.96
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "检测效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "crossrectify-2023"
+    },
+    {
+      "id": "FT058",
+      "title": "Domain enhanced arbitrary image style transfer via contrastive learning",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2022/FT058_2022_PUBLISHED_Domain enhanced arbitrary image style transfer via contrastive learning.pdf",
+      "source_pdf_sha256": "375eb2b8da4b200e600430ba91c58b34d430e5d7241f6868120dbb4483a20fbe",
+      "image": "/images/papers/FT058.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT058/figures/FT058_Fig01_p01.png",
+      "source_asset_sha256": "a774afb2a7318a15d649a5326767651f277a64c0b2253310e0468b549bfb2580",
+      "regions": [
+        [
+          0.189,
+          0.084,
+          0.345,
+          0.42
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "风格化总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "domain-enhanced-arbitrary-image-2022"
+    },
+    {
+      "id": "FT059",
+      "title": "StyTr2: Image style transfer with transformers",
+      "number": 4,
+      "page": 6,
+      "source_pdf": "01_论文/2022/FT059_2022_StyTr2 Image style transfer with transformers.pdf",
+      "source_pdf_sha256": "c325a52feec6f7830b80dbdeef4331ecbceb57e0b6cbd6b28c65d3c9247a8e62",
+      "image": "/images/papers/FT059.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT059/figures/FT059_Fig04_p06.png",
+      "source_asset_sha256": "0ceafa12a3157b0ee0f6d37d89a27a5c5ba04b67ed8ddba7b3ddab0f9bf34371",
+      "regions": [
+        [
+          0.175016,
+          0.744212,
+          0.246037,
+          0.866593
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "stytr2-2022"
+    },
+    {
+      "id": "FT060",
+      "title": "SIOD: Single instance annotated per category per image for object detection",
+      "number": 4,
+      "page": 8,
+      "source_pdf": "01_论文/2022/FT060_2022_PUBLISHED_SIOD Single instance annotated per category per image for object detection.pdf",
+      "source_pdf_sha256": "113f1b54edbbeedea659ff34d13b21237798c5158ee4dc178d49f7e178bcd35f",
+      "image": "/images/papers/FT060.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT060/figures/FT060_Fig04_p08.png",
+      "source_asset_sha256": "8a7cbdea40b2ad87914022eb6c3633eced738a24ebd1bf5b26cc594038bef4f2",
+      "regions": [
+        [
+          0.805,
+          0.02,
+          0.997,
+          0.31
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "检测效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "siod-2022"
+    },
+    {
+      "id": "FT061",
+      "title": "Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2022/FT061_2022_PUBLISHED_Draw your art dream Diverse digital art synthesis with multimodal guided diffusion.pdf",
+      "source_pdf_sha256": "ed6a79d1f78a717c3c9d8091e08373b189932936f84101593d414f1b2a81c0f9",
+      "image": "/images/papers/FT061.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT061/figures/FT061_Fig01_p01.png",
+      "source_asset_sha256": "256b007f971e79b9bbe2ae5e101ff6d97d0bd38a7fb844b5b83d77ed27c851b6",
+      "regions": [
+        [
+          0.0257,
+          0.01,
+          0.177,
+          0.283
+        ],
+        [
+          0.509,
+          0.01,
+          0.657,
+          0.283
+        ],
+        [
+          0.346,
+          0.492,
+          0.496,
+          0.73
+        ],
+        [
+          0.661,
+          0.492,
+          0.814,
+          0.73
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "艺术生成总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "draw-your-art-dream-2022"
+    },
+    {
+      "id": "FT062",
+      "title": "Non-dominated sorting based multi-page photo collage",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2022/FT062_2022_Non-dominated sorting based multi-page photo collage.pdf",
+      "source_pdf_sha256": "efc69046515c73ee95550bb83302fcdb4718672ab612b15102d40a3cfb1f39ec",
+      "image": "/images/papers/FT062.jpg",
+      "regions": [
+        [
+          0.514,
+          0.389,
+          0.9,
+          0.486
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "Fig.1：多页照片拼图应用示例",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "non-dominated-sorting-based-multi-2022"
+    },
+    {
+      "id": "FT063",
+      "title": "Transformers in computational visual media: A survey",
+      "number": 13,
+      "page": 12,
+      "source_pdf": "01_论文/2022/FT063_2022_Transformers in computational visual media A survey.pdf",
+      "source_pdf_sha256": "f78a52951b1b7eecaaad778f8dab41baa10a11eac9051ef2acf11775350a32c4",
+      "image": "/images/papers/FT063.jpg",
+      "regions": [
+        [
+          0.247,
+          0.273,
+          0.44,
+          0.312
+        ],
+        [
+          0.443,
+          0.273,
+          0.633,
+          0.312
+        ],
+        [
+          0.645,
+          0.273,
+          0.837,
+          0.312
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "Fig.13：综述中的图像着色应用示例，原图由综述汇编并注明对应论文；不声称为本文新方法结果",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "transformers-in-computational-2022"
+    },
+    {
+      "id": "FT064",
+      "title": "A comparative study of CNN-and transformer-based visual style transfer",
+      "number": 5,
+      "page": 7,
+      "source_pdf": "01_论文/2022/FT064_2022_A comparative study of CNN-and transformer-based visual style transfer.pdf",
+      "source_pdf_sha256": "818a3a08217273e8fc0a26e199bd2bc49fbaed2376ddad2ff97957de82feb17d",
+      "image": "/images/papers/FT064.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT064/figures/FT064_Fig05_p07.png",
+      "source_asset_sha256": "caee2e6197bd0661b8658f9d1e41be58c52f521d77fc5acde0558305afc26728",
+      "regions": [
+        [
+          0.407,
+          0.131,
+          0.497,
+          0.45
+        ],
+        [
+          0.407,
+          0.48,
+          0.497,
+          0.84
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "训练与架构对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "a-comparative-study-of-cnn-and-2022"
+    },
+    {
+      "id": "FT065",
+      "title": "Portrait Map Art Generation by Asymmetric Image-to-Image Translation",
+      "number": 8,
+      "page": 7,
+      "source_pdf": "01_论文/2022/FT065_2022_Portrait Map Art Generation by Asymmetric Image-to-Image Translation.pdf",
+      "source_pdf_sha256": "09446736a8634c60771b8c42016cbf49f39e59b89b7d6f11b2085d9bea2f1ac8",
+      "image": "/images/papers/FT065.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT065/figures/FT065_Fig08_p07.png",
+      "source_asset_sha256": "cbfcd6cd83abbbcc36a992752c814af1db70e5fee00c637b41a3c96609d94b1d",
+      "regions": [
+        [
+          0.5043,
+          0.0607,
+          0.7357,
+          0.4855
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "多输入组合结果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "portrait-map-art-generation-by-2022"
+    },
+    {
+      "id": "FT066",
+      "title": "Balance-aware grid collage for small image collections",
+      "number": 8,
+      "page": 8,
+      "source_pdf": "01_论文/2021/FT066_2021_Balance-aware grid collage for small image collections.pdf",
+      "source_pdf_sha256": "8d6e90b3cf5e0b22f1d731284e96acc1e63154fa8c32a90438ebc0fff9243683",
+      "image": "/images/papers/FT066.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT066/figures/FT066_Fig08_p08.png",
+      "source_asset_sha256": "6a4543fd97e877fcab014722a40dfa9445eee480a04d10b73ced9f3c4c198097",
+      "regions": [
+        [
+          0.675,
+          0.01,
+          0.811,
+          0.12
+        ],
+        [
+          0.675,
+          0.143,
+          0.811,
+          0.264
+        ],
+        [
+          0.675,
+          0.294,
+          0.811,
+          0.415
+        ],
+        [
+          0.675,
+          0.568,
+          0.811,
+          0.69
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "拼图效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "balance-aware-grid-collage-for-2021"
+    },
+    {
+      "id": "FT067",
+      "title": "Unveiling the potential of structure preserving for weakly supervised object localization",
+      "number": 5,
+      "page": 7,
+      "source_pdf": "01_论文/2021/FT067_2021_Unveiling the potential of structure preserving for weakly supervised object localization.pdf",
+      "source_pdf_sha256": "52f08a23c53adb24c8233418e3cacb596ade17bc00a83302256a4eef8f6056e3",
+      "image": "/images/papers/FT067.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT067/figures/FT067_Fig05_p07.png",
+      "source_asset_sha256": "3aca8b4d92802641aade83587bd028cc678d9363439895061a397a95119fcac4",
+      "regions": [
+        [
+          0.03,
+          0.1,
+          0.188,
+          0.32
+        ],
+        [
+          0.03,
+          0.675,
+          0.188,
+          0.99
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "定位效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "unveiling-the-potential-of-2021"
+    },
+    {
+      "id": "FT068",
+      "title": "DAE-GAN: Dynamic aspect-aware GAN for text-to-image synthesis",
+      "number": 4,
+      "page": 7,
+      "source_pdf": "01_论文/2021/FT068_2021_DAE-GAN Dynamic aspect-aware GAN for text-to-image synthesis.pdf",
+      "source_pdf_sha256": "58a2651ad7e4181f32e955b76929cda9cedb1560f70c738a9b414321d59c2d31",
+      "image": "/images/papers/FT068.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT068/figures/FT068_Fig04_p07.png",
+      "source_asset_sha256": "4be88394da52e359222c96c26455e1442022d4eb4a0dde31f0e6651272404627",
+      "regions": [
+        [
+          0.1443,
+          0.3524,
+          0.2614,
+          0.6696
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "dae-gan-2021"
+    },
+    {
+      "id": "FT069",
+      "title": "Arbitrary Video Style Transfer via Multi-Channel Correlation",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2021/FT069_2021_PUBLISHED_Arbitrary Video Style Transfer via Multi-Channel Correlation.pdf",
+      "source_pdf_sha256": "a88b2d76cae9ad16808b37bc0d7849e4dd1691dc6a2f3a7daf94bd5f6cf6764e",
+      "image": "/images/papers/FT069.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT069/figures/FT069_Fig01_p01.png",
+      "source_asset_sha256": "15ed859d90257cd491f5dc397b08a882e2cf3aebf945d3d9d080ca540ae1fc33",
+      "regions": [
+        [
+          0.41,
+          0.031,
+          0.947,
+          0.928
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "arbitrary-video-style-transfer-via-2021"
+    },
+    {
+      "id": "FT070",
+      "title": "Distribution aligned multimodal and multi-domain image stylization",
+      "number": 6,
+      "page": 10,
+      "source_pdf": "01_论文/2021/FT070_2021_PUBLISHED_Distribution aligned multimodal and multi-domain image stylization.pdf",
+      "source_pdf_sha256": "b86dd2720eb69cdabfc68b53aae3cf1039a7b8e44d7ce256738e65ed39bd4ac9",
+      "image": "/images/papers/FT070.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT070/figures/FT070_Fig06_p10.png",
+      "source_asset_sha256": "eb32b0ed088a517311266d10af13f3203d7b303fc4e1fedc81092b4844daaa9b",
+      "regions": [
+        [
+          0.424757,
+          0.113852,
+          0.507282,
+          0.305503
+        ],
+        [
+          0.703074,
+          0.113852,
+          0.785599,
+          0.305503
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "随机风格多样性；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "distribution-aligned-multimodal-2021"
+    },
+    {
+      "id": "FT071",
+      "title": "SiamCPN: Visual tracking with the Siamese center-prediction network",
+      "number": 1,
+      "page": 4,
+      "source_pdf": "01_论文/2021/FT071_2021_SiamCPN Visual tracking with the Siamese center-prediction network.pdf",
+      "source_pdf_sha256": "13a8316cb66a00cede54cd2ea158a15c537a52a61a6b8abf57fad502d6125011",
+      "image": "/images/papers/FT071.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT071/figures/FT071_Fig01_p04.png",
+      "source_asset_sha256": "b43dae2d64894178db9e2de6c8d979e746c6dc739e8a07eaabc4c55d3e102752",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          0.7
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "siamcpn-2021"
+    },
+    {
+      "id": "FT072",
+      "title": "Self-supervised feature augmentation for large image object detection",
+      "number": 5,
+      "page": 8,
+      "source_pdf": "01_论文/2020/FT072_2020_Self-supervised feature augmentation for large image object detection.pdf",
+      "source_pdf_sha256": "455ea3de246227b1043bb0a1e393932befb584237e0ee1939ae423dc223aed96",
+      "image": "/images/papers/FT072.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT072/figures/FT072_Fig05_p08.png",
+      "source_asset_sha256": "b90d34ff794655a8b359bb9a4417be580f3af061ecc400e6505bfd34ce5bfdcf",
+      "regions": [
+        [
+          0.02,
+          0,
+          0.49,
+          0.24
+        ],
+        [
+          0.51,
+          0.75,
+          0.99,
+          0.98
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "大图分割检测效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "self-supervised-feature-2020"
+    },
+    {
+      "id": "FT073",
+      "title": "Exploring the representativity of art paintings",
+      "number": 2,
+      "page": 2,
+      "source_pdf": "01_论文/2020/FT073_2020_Exploring the representativity of art paintings.pdf",
+      "source_pdf_sha256": "0fd83a00644ba2a24620486a824e72486cd164864f15cf07031437d506abac08",
+      "image": "/images/papers/FT073.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT073/figures/FT073_Fig02_p02.png",
+      "source_asset_sha256": "c1d23af49c9c44051f9679e826d83c709b5f77282f68849ad3b9207112775c52",
+      "regions": [
+        [
+          0.2,
+          0.01,
+          0.69,
+          0.5
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "代表性任务总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "exploring-the-representativity-of-2020"
+    },
+    {
+      "id": "FT074",
+      "title": "Arbitrary style transfer via multi-adaptation network",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2020/FT074_2020_PUBLISHED_Arbitrary style transfer via multi-adaptation network.pdf",
+      "source_pdf_sha256": "4bc5645502804b9854458b27d0cb9d248f692ca7dbf0db2483b9cd4779c354be",
+      "image": "/images/papers/FT074.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT074/figures/FT074_Fig01_p02.png",
+      "source_asset_sha256": "6cd6bf18b21a117596dd6c062835a1b096ac1c7da0ef014e4e0fd5f5d4e3edec",
+      "regions": [
+        [
+          0.665,
+          0.015,
+          0.99,
+          0.35
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "风格效果总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "arbitrary-style-transfer-via-multi-2020"
+    },
+    {
+      "id": "FT075",
+      "title": "Content-based visual summarization for image collections",
+      "number": 7,
+      "page": 10,
+      "source_pdf": "01_论文/2019/FT075_2019_Content-based visual summarization for image collections.pdf",
+      "source_pdf_sha256": "45a877e0da41fe26c9239fb2b008ce5b59cb8a97ea950bb7ef406174e015f000",
+      "image": "/images/papers/FT075.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT075/figures/FT075_Fig07_p10.png",
+      "source_asset_sha256": "75428a6d6f5cc68012aa2d0f59fd469f5fcc0aa86852e1e833f04b597c3de673",
+      "regions": [
+        [
+          0.7443,
+          0.0072,
+          0.9729,
+          0.2388
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "布局效果对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "content-based-visual-summarization-2019"
+    },
+    {
+      "id": "FT076",
+      "title": "Image retargetability",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2019/FT076_2019_PUBLISHED_Image retargetability.pdf",
+      "source_pdf_sha256": "bf41ba7a32a15fe44ecf50e203cf301184b76e6efb9db24375bd02d6f34e53bc",
+      "image": "/images/papers/FT076.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT076/figures/FT076_Fig01_p02.png",
+      "source_asset_sha256": "ec871a14af92dae81e0bd6afdb11107c018dd0ce746a78c11590e8635ad8f176",
+      "regions": [
+        [
+          0.3429,
+          0.0842,
+          0.5386,
+          0.4212
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "可重定向性示例；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "image-retargetability-2019"
+    },
+    {
+      "id": "FT077",
+      "title": "Joint face alignment and segmentation via deep multi-task learning",
+      "number": 7,
+      "page": 13,
+      "source_pdf": "01_论文/2019/FT077_2019_Joint face alignment and segmentation via deep multi-task learning.pdf",
+      "source_pdf_sha256": "33e9e459f26ebec06c729d9dd14f78d08a98f5cecca36cef8f9f5816c66cf23c",
+      "image": "/images/papers/FT077.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT077/figures/FT077_Fig07_p13.png",
+      "source_asset_sha256": "5eaef4f67c908235eb13193b0ba30e85a030703b1d6bc59b8bb3eaac94f024d4",
+      "regions": [
+        [
+          0.228368,
+          0.05318,
+          0.416592,
+          0.273201
+        ],
+        [
+          0.228368,
+          0.277372,
+          0.416592,
+          0.497393
+        ],
+        [
+          0.228368,
+          0.500521,
+          0.416592,
+          0.722628
+        ],
+        [
+          0.228368,
+          0.724713,
+          0.416592,
+          0.943691
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "虚拟化妆应用；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "joint-face-alignment-and-2019"
+    },
+    {
+      "id": "FT078",
+      "title": "Selective clustering for representative paintings selection",
+      "number": 4,
+      "page": 9,
+      "source_pdf": "01_论文/2019/FT078_2019_Selective clustering for representative paintings selection.pdf",
+      "source_pdf_sha256": "3ecc9c741eed5355c1dedf79f1115b034ba2efffc9d7183dee79738bd6fae20c",
+      "image": "/images/papers/FT078.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT078/figures/FT078_Fig04_p09.png",
+      "source_asset_sha256": "f35d0e3294dce462d902f70876b72ab60dc6ac89f76159296351c4c5898724b5",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "代表画作选择；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "selective-clustering-for-2019"
+    },
+    {
+      "id": "FT079",
+      "title": "Photo squarization by deep multi-operator retargeting",
+      "number": 8,
+      "page": 8,
+      "source_pdf": "01_论文/2018/FT079_2018_Photo squarization by deep multi-operator retargeting.pdf",
+      "source_pdf_sha256": "f0429aef40d11045e4491b3366b8502c72b60c0d6a8fd8a73ab669ba198d533a",
+      "image": "/images/papers/FT079.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT079/figures/FT079_Fig08_p08.png",
+      "source_asset_sha256": "edf06e6de58ef4f9ee5107456ed29b7b85ba6d6b60c58cd07c5a08b3b333eecd",
+      "regions": [
+        [
+          0.3614,
+          0.0729,
+          0.5757,
+          0.4095
+        ],
+        [
+          0.362,
+          0.499,
+          0.575,
+          0.755
+        ]
+      ],
+      "columns": 2,
+      "fit": "contain",
+      "selection_note": "多比例应用；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "photo-squarization-by-deep-multi-2018"
+    },
+    {
+      "id": "FT080",
+      "title": "Animated construction of Chinese brush paintings",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2017/FT080_2017_Animated construction of Chinese brush paintings.pdf",
+      "source_pdf_sha256": "25ef951d80dff388a714357ec08f313abe8c6e8cc0bdd374cd2b951f5db200ce",
+      "image": "/images/papers/FT080.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT080/figures/FT080_Fig01_p02.png",
+      "source_asset_sha256": "b9db6b4175a2d7630fe3e5e8f14097359ca7bf5e7e8351525dae851647fa83ea",
+      "regions": [
+        [
+          0.883978,
+          0.052083,
+          0.985267,
+          0.455729
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "绘制动画总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "animated-construction-of-chinese-2017"
+    },
+    {
+      "id": "FT082",
+      "title": "Style-oriented representative paintings selection",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2017/FT082_2017_Style-oriented representative paintings selection.pdf",
+      "source_pdf_sha256": "af53114bc0cb1c6a41d540b6d3ba5f540cc5311e064b63f37c88bfbe8a4872a0",
+      "image": "/images/papers/FT082.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT082/figures/FT082_Fig01_p01.png",
+      "source_asset_sha256": "8834fec085bb7eac960151e8ba06d945d2fcba7d90fcab2348cc53a32cac7199",
+      "regions": [
+        [
+          0.41,
+          0.5662,
+          0.5557,
+          0.8767
+        ],
+        [
+          0.834,
+          0.566,
+          0.976,
+          0.875
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "代表选择与风格迁移；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "style-oriented-representative-2017"
+    },
+    {
+      "id": "FT083",
+      "title": "Flower classification via convolutional neural network",
+      "number": 2,
+      "page": 2,
+      "source_pdf": "01_论文/2016/FT083_2016_Flower classification via convolutional neural network.pdf",
+      "source_pdf_sha256": "249de3fc4f70837595eff0c58357952088834ee4396126e05c297e6d1d1500af",
+      "image": "/images/papers/FT083.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT083/figures/FT083_Fig02_p02.png",
+      "source_asset_sha256": "87ce4b860065da450de0a62041884805bbcd1dd83d3e89eda4a43dc5b73d2bf1",
+      "regions": [
+        [
+          0.01,
+          0.01,
+          0.99,
+          0.99
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "花卉数据示例；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "flower-classification-via-2016"
+    },
+    {
+      "id": "FT084",
+      "title": "Optimal character composing for Chinese calligraphic artwork",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2016/FT084_2016_Optimal character composing for Chinese calligraphic artwork.pdf",
+      "source_pdf_sha256": "edc5d1d3a3e39f9a954a842868c9d5d5efe44580cc3dc9c14031a67ad2a8f5d6",
+      "image": "/images/papers/FT084.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT084/figures/FT084_Fig01_p01.png",
+      "source_asset_sha256": "9839d87d6b15ba77c297c13ef730c4c240286bf0a0618a0a25ac7ec133529441",
+      "regions": [
+        [
+          0.361282,
+          0.082988,
+          0.637355,
+          0.705394
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "书法组合效果；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "optimal-character-composing-for-2016"
+    },
+    {
+      "id": "FT085",
+      "title": "Animated construction of ink-wash paintings",
+      "number": 1,
+      "page": 1,
+      "source_pdf": "01_论文/2014/FT085_2014_Animated construction of ink-wash paintings.pdf",
+      "source_pdf_sha256": "1cb9b7c7a0580970355b63602d0e48951a0b7154e37c5961ea924866e9a61d48",
+      "image": "/images/papers/FT085.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT085/figures/FT085_Fig01_p01.png",
+      "source_asset_sha256": "9e0f4dcde2eb039cb56de38b4a6bfc1e52d3f2fcb713f00ff68b60de45b2245d",
+      "regions": [
+        [
+          0.83832,
+          0.105105,
+          0.923616,
+          0.498498
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "绘制过程总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "animated-construction-of-ink-wash-2014"
+    },
+    {
+      "id": "FT086",
+      "title": "FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects",
+      "number": 1,
+      "page": 2,
+      "source_pdf": "01_论文/2026/FT086_2026_FlatLab A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects.pdf",
+      "source_pdf_sha256": "ee9e9423fb75a71c4d94a5b98f4f8173c49f240e6662d14562f3fb6372d88167",
+      "image": "/images/papers/FT086.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT086/figures/FT086_Fig01_p02.png",
+      "source_asset_sha256": "1b598da0823f01769039205b76d8b904a8b8e31922f4c86cb627e7d9a9b83b68",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "平台总览；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "flatlab-2026"
+    },
+    {
+      "id": "FT087",
+      "title": "Row-Column Separated Attention Based Low-Light Image/Video Enhancement",
+      "number": 7,
+      "page": 8,
+      "source_pdf": "01_论文/2024/FT087_2024_Row-Column Separated Attention Based Low-Light ImageVideo Enhancement.pdf",
+      "source_pdf_sha256": "e27ea7e421c02ac38e444b7938bccb6dc3bf4e3d10b8ab8f77b2fc6a83adb056",
+      "image": "/images/papers/FT087.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT087/figures/FT087_Fig07_p08.png",
+      "source_asset_sha256": "74a0b89e76e2bdcf2d4566bbf13fa1215bb9dd4e5610445549e3e6267dd4cdf8",
+      "regions": [
+        [
+          0.486328,
+          0.558909,
+          0.714844,
+          0.736125
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "视频增强对比；截取实际结果或应用样例，保留原始像素内容",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "row-column-low-light-2024"
+    },
+    {
+      "id": "FT088",
+      "title": "Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation",
+      "number": 4,
+      "page": 8,
+      "source_pdf": "01_论文/2024/FT088_2024_Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation.pdf",
+      "source_pdf_sha256": "38d8b4742dee81aa168527a84e223b34a69a3aea7e337989c6e1f2a984bc1691",
+      "image": "/images/papers/FT088.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT088/figures/FT088_Fig04_p08.png",
+      "source_asset_sha256": "e8988f3025a0e937cc7f7976033ff3e9530878fc2d25f49b346cb710c894bdb8",
+      "regions": [
+        [
+          0.67,
+          0.05,
+          0.99,
+          0.83
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "topology-preserving-adversarial-training-2024"
+    },
+    {
+      "id": "FT090",
+      "title": "A Survey on Cross-Modal Interaction Between Music and Multimodal Data",
+      "number": 1,
+      "page": 3,
+      "source_pdf": "01_论文/已接收未发表/FT090_2026_A Survey on Cross-Modal Interaction Between Music and Multimodal Data.pdf",
+      "source_pdf_sha256": "33de84ba8ffe99d9ab90bd9dcb2ac22499a1f4aaf64b837b2fb234048c7e7cbe",
+      "image": "/images/papers/FT090.jpg",
+      "source_asset": "03_汇报素材/论文素材/FT090/figures/FT090_Fig01_p03.png",
+      "source_asset_sha256": "75c21ba6a63689a2202f80c4934b095581ce524549823de6451e05f7d5e70eef",
+      "regions": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "columns": 1,
+      "fit": "contain",
+      "selection_note": "方法、任务、评测或表征示意；不将对比方法的结果作为 ours",
+      "reviewed_on": "2026-10-19",
+      "paper_id": "music-multimodal-survey"
+    }
+  ]
+}

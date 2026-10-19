@@ -8,6 +8,9 @@
   {% if scholar.h_index %}<div class="stat"><strong>{{ scholar.h_index }}</strong><span>h-index</span></div>{% endif %}
   {% if stats.stars %}<div class="stat"><strong>{{ '{:,}'.format(stats.stars) }}</strong><span>GitHub stars</span></div>{% endif %}
 </div>
+{% if stats.accepted_unpublished %}
+<p class="pub-legend">Total includes {{ stats.accepted_unpublished }} accepted paper{{ 's' if stats.accepted_unpublished != 1 else '' }} awaiting publication{% if stats.preprints %} and {{ stats.preprints }} preprints{% endif %}. Accepted papers are listed separately below.</p>
+{% endif %}
 
 <div class="pub-toolbar">
   <label class="search">

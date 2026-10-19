@@ -181,6 +181,11 @@ CGF:
   type: journal
   rank: CCF-B
 
+BMVC:
+  name: British Machine Vision Conference
+  type: conference
+  rank:            # 等级尚未核验，暂不计入分级统计
+
 PG:
   name: Pacific Conference on Computer Graphics and Applications
   type: conference

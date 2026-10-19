@@ -16,11 +16,13 @@ data/                  ← 日常只改这里
 ├── pages/intro.md     首页个人简介
 ├── pages/join-us.md   招生信息（首页和团队页都会显示）
 ├── metrics.json       引用数 / star 数（自动生成，不要手改）
+├── pdf_downloads.json  下载副本的来源、版本、大小及校验值（工具生成）
 └── legacy_redirects.yml  旧网址跳转（不用管）
 static/                图片、PDF 等，原样发布到网站根目录
   ├── images/members/  成员照片
   ├── images/papers/   论文缩略图（可选）
   └── files/           想放到网站上的 PDF 等
+      └── papers/      按固定 FT 编号保存的论文下载副本
 templates/  build.py  scripts/   网站程序（一般不用动）
 ```
 
@@ -35,7 +37,8 @@ templates/  build.py  scripts/   网站程序（一般不用动）
 | 标题 `title` | 必填 | 含英文冒号时整体加英文双引号 |
 | 作者 `authors` | 必填 | 按署名顺序，英文名，如 `[Zhang San, Fan Tang]` |
 | 会议/期刊 `venue` | 必填 | 写简称，如 `CVPR`、`TOG`、`TVCG`，必须是 `venues.yml` 里有的 |
-| 年份 `year` | 必填 | |
+| 年份 `year` | 必填，已接收未发表时省略 | 正式发表年份，不以预印本年或接收确认年替代 |
+| 状态 `publication_status` | 可选 | 已接收未发表填写 `accepted_unpublished`，单独分组展示 |
 | 通讯作者 `corresponding` | 建议 | 名字写法须与 `authors` 中完全一致，可多个；显示 ✉ |
 | 代码 `links.code` | 建议 | GitHub 地址，自动显示 GitHub 图标和 star 数 |
 | 论文链接 `links.pdf` / `links.arxiv` | 建议 | 标题会链接到 PDF（没有则链接到 arXiv） |
@@ -95,7 +98,36 @@ ECCV:
   aliases: [eccv2026]     # 可选别名
 ```
 
-预印本用 `venue: arXiv`，会显示在论文页最上方的 Preprints 分组；正式录用后把 `venue` 和 `year` 改掉即可。
+预印本用 `venue: arXiv`，会显示在论文页最上方的 Preprints 分组；录用后更新接收状态和 `venue`，正式发表后再填发表年份。
+
+已接收、尚未正式发表的论文填写接收期刊或会议的 `venue`，加上
+`publication_status: accepted_unpublished`，省略 `year`，并提供不含推定发表年份的 `bibtex`。
+建议显式填写固定 `id`，以便正式发表后保留论文锚点。页面会单列
+“Accepted (not yet published)”，纳入论文总数和同行评审总数，不进入发表年份分组。
+正式发表后再更新状态、年份和正式引文。`hidden: true` 的记录不展示，也不计入各页统计。
+
+### 论文 PDF 下载
+
+每篇展示论文的 PDF 按钮位于 BibTeX 之后、引用次数之前。鼠标提示会注明所存版本和文件大小；
+预印本、作者公开版本和版本未核定的存档不标作出版社正式版。已有外部 PDF 来源仍保留在论文数据中。
+
+压缩副本由 `scripts/prepare_pdf_downloads.py` 从独立成果知识库生成，原始 PDF 只读。
+文字、公式和矢量内容保持不变，图片按需降采样；逐篇核验页数、正文、链接、页面尺寸及抽样渲染，
+校验值保存在 `data/pdf_downloads.json`。构建会核对题名与下载文件的校验值，防止错配和失效下载。
+
+仅准备或更新下载副本时需要额外安装 `scripts/requirements-pdf.txt` 中的依赖。
+首次准备命令为 `python scripts/prepare_pdf_downloads.py --library <成果知识库目录> --finalize`；
+工具发现已有下载目录时会停止，先检查已有文件和核验记录，再决定如何更新，避免覆盖原件或静默替换版本。
+
+2026-10-19 原先 31 项已补齐正式出版版或官方会议开放版，当前待补为 0。FT016 为 CVF 官方会议开放版，区别于 IEEE 论文集排版版，下载提示已说明。
+31 篇原文件约 329.00 MB，压缩副本约 157.25 MB；88 篇下载副本合计约 460.36 MB。
+当前正式版原文保留；已被替代的旧 arXiv 文件在引用核验后清理，下载清单记录实际版本及来源，旧版来源与校验值留作历史。
+
+后续更新可先用 `scripts/prepare_formal_pdf_batch.py` 准备经人工核验的批次，
+再运行 `scripts/verify_formal_pdf_batch.py` 对全部页面进行独立渲染对照。
+必要时使用 `--conservative` 保留图片颜色空间；全部检查通过后，
+由 `scripts/install_pdf_batch.py` 检查原件、候选副本和核验记录的校验值，再更新本地下载文件与清单。
+这些工具不会提交或发布 GitHub。
 
 ---
 
@@ -140,6 +172,17 @@ ECCV:
 - 分组名称和顺序在 `site.yml → team.groups` 中修改
 
 ---
+
+### 论文左侧配图
+
+在论文条目填写 `image: /images/papers/FTxxx.jpg`，图片放在 `static/images/papers/`。
+建议使用论文实际结果或应用样例，统一为 640 × 480；构建时自动生成 480 × 360 的压缩缩略图并延迟加载。
+电脑端图在左、信息在右；手机端保留左图和右侧标题，作者与下载链接另起一行。
+
+当前 88 篇配图的论文编号、PDF 页码、图号、来源校验值及裁剪位置记录在 `data/paper_images.json`。
+需要从本地成果知识库重做图片时运行 `python scripts/prepare_paper_images.py --library-root "知识库根目录"`；
+加 `--check` 可只核验是否可复现。普通网站构建直接使用现有图片，无须访问本地知识库或安装 PDF 工具。
+换图时确认截取的是本方法结果；综述可使用所介绍的应用样例，并在配图记录中说明来源。不要用生成图片冒充论文结果。
 
 ## 四、其他内容
 

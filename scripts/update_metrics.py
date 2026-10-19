@@ -199,6 +199,8 @@ def code_repos() -> list[str]:
     papers = yaml.safe_load((ROOT / "data" / "papers.yml").read_text(encoding="utf-8")) or []
     repos = []
     for p in papers:
+        if (p or {}).get("hidden"):
+            continue
         url = str(((p or {}).get("links") or {}).get("code") or "")
         m = re.match(r"https?://github\.com/([^/\s]+/[^/\s#?]+)", url)
         if m:

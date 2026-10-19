@@ -1,0 +1,4081 @@
+{
+  "generated_on": "2026-10-19",
+  "summary": {
+    "count": 88,
+    "pages": 1211,
+    "source_bytes": 986626326,
+    "bytes": 460356506,
+    "reduction_percent": 53.3
+  },
+  "downloads": {
+    "agenthoi-2026": {
+      "library_id": "FT001",
+      "paper_id": "agenthoi-2026",
+      "title": "AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment",
+      "path": "/files/papers/FT001.pdf",
+      "pages": 32,
+      "bytes": 12678750,
+      "source_bytes": 13957780,
+      "source_sha256": "226601fff05d6603adf59a99f2b9b6dbc76c9ce60c12584a148f7939c60f9c3b",
+      "sha256": "242033f42b3fd64bb79e4e8f15c6fd9760a788b0465ecf9f9eafef1b3f515fad",
+      "source_url": "https://arxiv.org/pdf/2607.22241",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0001
+          },
+          {
+            "page": 32,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 32,
+        "max_mean_absolute_pixel_difference": 0.1453,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "streamhoi-2026": {
+      "library_id": "FT002",
+      "paper_id": "streamhoi-2026",
+      "title": "StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation",
+      "path": "/files/papers/FT002.pdf",
+      "pages": 15,
+      "bytes": 11771661,
+      "source_bytes": 21485354,
+      "source_sha256": "c5146298f6203d51a99ef1141cec631bc0230c5906eb19b95d953d6234349a9d",
+      "sha256": "65309ccd4d537910683ffe35500382677442c9de8d94eeceda78f857c1f95d86",
+      "source_url": "https://arxiv.org/pdf/2607.20174",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0614
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0295
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 0.3624,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "no-corners-cut-2026": {
+      "library_id": "FT003",
+      "paper_id": "no-corners-cut-2026",
+      "title": "No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation",
+      "path": "/files/papers/FT003.pdf",
+      "pages": 34,
+      "bytes": 8910673,
+      "source_bytes": 8929386,
+      "source_sha256": "5c4fd155cd19ea7634d9546377c96e339b7ed3dbbd5c927c962351be21706173",
+      "sha256": "32604a77687e597ee3c43b84f1885158ef1e975c90ad6aa05e9946c199233ef8",
+      "source_url": "https://arxiv.org/pdf/2609.38691",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 34,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 34,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "sissi-2026": {
+      "library_id": "FT004",
+      "paper_id": "sissi-2026",
+      "title": "Sissi: Zero-shot Style-guided Image Synthesis via Semantic-style Integration",
+      "path": "/files/papers/FT004.pdf",
+      "pages": 27,
+      "bytes": 8152840,
+      "source_bytes": 19860956,
+      "source_sha256": "73cb14abd6a3d1472476f9bada72c5cf24cb0ec6e4bcfa65fb08bcf801449f79",
+      "sha256": "14d2b17d756a152b5765449bab2a59dcabc69dbbb1f8737a62a616214f722394",
+      "source_url": "https://arxiv.org/pdf/2601.06605",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 17,
+            "mean_absolute_pixel_difference": 0.2511
+          },
+          {
+            "page": 27,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 27,
+        "max_mean_absolute_pixel_difference": 0.8916,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "inversion-free-style-transfer-with-2025": {
+      "library_id": "FT005",
+      "paper_id": "inversion-free-style-transfer-with-2025",
+      "title": "Inversion-Free Style Transfer with Dual Rectified Flows",
+      "path": "/files/papers/FT005.pdf",
+      "pages": 12,
+      "bytes": 15745185,
+      "source_bytes": 16744708,
+      "source_sha256": "e1d9b6d007ba8884148553c31d967d659f0bbd6d70a0b23b23064f592d9149a5",
+      "sha256": "3ca1d4a20be708f42e6d09334a9994d04dde6f69104a6ddf993ef754dca52aee",
+      "source_url": "https://arxiv.org/pdf/2511.20986",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 12,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "headrouter-2026": {
+      "library_id": "FT006",
+      "paper_id": "headrouter-2026",
+      "title": "HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads",
+      "path": "/files/papers/FT006.pdf",
+      "pages": 14,
+      "bytes": 6851189,
+      "source_bytes": 7319097,
+      "source_sha256": "9efa5179e9a7bbe7e7b225536d4bf5d072da5b9e72fd439096d096fe005f7ab7",
+      "sha256": "4e21bafa2a8c56a00585bc9785af713db19d2029152855ae3f8935b6d3ad9382",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0097
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 14,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0116
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。正式版署名 Xiaoyu Kong 在 Yuxin Zhang 前；保留旧主页/预印本作者顺序历史。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1145/3797956"
+    },
+    "anchorcrafter-2026": {
+      "library_id": "FT007",
+      "paper_id": "anchorcrafter-2026",
+      "title": "AnchorCrafter: Animate cyber-anchors selling your products via human-object interacting video generation",
+      "path": "/files/papers/FT007.pdf",
+      "pages": 15,
+      "bytes": 9421661,
+      "source_bytes": 42374467,
+      "source_sha256": "ed8447f61c68dd0209a52935dacc63f7e9c839c560543cfbc4eb96a3feacdb30",
+      "sha256": "d3d2bd3839a95c56b76099693506f0aba63a9d1c2076713a170150c463a813bc",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 1.3165
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 15,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 1.2748
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。正式版 9 位作者不含旧预印本中的 Jintao Li；保留旧版本作者名单。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1109/TVCG.2026.3662720"
+    },
+    "interactive-visual-assessment-for-2026": {
+      "library_id": "FT008",
+      "paper_id": "interactive-visual-assessment-for-2026",
+      "title": "Interactive Visual Assessment for Text-to-Image Generation Models",
+      "path": "/files/papers/FT008.pdf",
+      "pages": 18,
+      "bytes": 3590910,
+      "source_bytes": 4287904,
+      "source_sha256": "b436dcefa9f235b4d9116cfd61687d84509d3d9c3389fef84e3963a61fe09555",
+      "sha256": "e7741fcc89603e416fed07a4c1bb2d39f6ea69e942c33d5497f899f703d1806b",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.1544
+          },
+          {
+            "page": 18,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 18,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.1931
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1109/TVCG.2026.3658714"
+    },
+    "make-your-anchor-2026": {
+      "library_id": "FT009",
+      "paper_id": "make-your-anchor-2026",
+      "title": "Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior",
+      "path": "/files/papers/FT009.pdf",
+      "pages": 15,
+      "bytes": 4990713,
+      "source_bytes": 70102751,
+      "source_sha256": "98a5362b3c5bc66ffa22fcfbe97e60daaf0c927642bc0ea2a6a7c668f31f4b38",
+      "sha256": "821530154f864fff8de18273e0feb31f1850299b50e1541b5cbba31ee8596f4c",
+      "source_url": "https://tfan108.github.io/publications/#make-your-anchor-2026",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 1.0389
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 1.4038,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "resca-2026": {
+      "library_id": "FT010",
+      "paper_id": "resca-2026",
+      "title": "ResCa: Residual Caching for Diffusion Transformers Acceleration",
+      "path": "/files/papers/FT010.pdf",
+      "pages": 10,
+      "bytes": 4556823,
+      "source_bytes": 11520101,
+      "source_sha256": "945ce6e3aec52ccaf81e787c4b6671785945a4eae3af6720676e17a3867c4817",
+      "sha256": "429df112ee60672ac0b97824a43c89967c3648377624b40829847587d92a91a4",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fang_ResCa_Residual_Caching_for_Diffusion_Transformers_Acceleration_CVPR_2026_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0001
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.019
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.0535,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "tag-moe-2026": {
+      "library_id": "FT011",
+      "paper_id": "tag-moe-2026",
+      "title": "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts",
+      "path": "/files/papers/FT011.pdf",
+      "pages": 11,
+      "bytes": 5096692,
+      "source_bytes": 5684907,
+      "source_sha256": "cd4829799d1643f5a210bd64cdb3df5949115d116fac006f35757c147b7e9f13",
+      "sha256": "3d49e53ece1548caea43bccd4aeb5328bc5b8ad1cc93059d5c9cad5e048e80a7",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_TAG-MoE_Task-Aware_Gating_for_Unified_Generative_Mixture-of-Experts_CVPR_2026_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0295
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.005
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 11,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0313
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "graspall-2026": {
+      "library_id": "FT012",
+      "paper_id": "graspall-2026",
+      "title": "GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions",
+      "path": "/files/papers/FT012.pdf",
+      "pages": 11,
+      "bytes": 6283996,
+      "source_bytes": 6452481,
+      "source_sha256": "b88c46ac11768b01dda720567a8b5f9517c36efe422536aa26b133dfae706fa0",
+      "sha256": "61e3b088d284be0531af858b0ac747ebfc90221d6b11160b727a2da5dd104a39",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhong_GraspALL_Adaptive_Structural_Compensation_from_Illumination_Variation_for_Robotic_Garment_CVPR_2026_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "lossless_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 11,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [
+        "image_optimized: Page geometry, text, links, annotations or metadata changed"
+      ],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "beyond-pixels-2026": {
+      "library_id": "FT013",
+      "paper_id": "beyond-pixels-2026",
+      "title": "Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning",
+      "path": "/files/papers/FT013.pdf",
+      "pages": 12,
+      "bytes": 7409025,
+      "source_bytes": 10774485,
+      "source_sha256": "85b6d762140df2dd48eba73ac638d3c2048eb71b95517b52f94e6119131c8ac1",
+      "sha256": "0c935adcdf5fc19d56e29caf6b8d32b2de73bc0eef235d84368677e97108573f",
+      "source_url": "https://arxiv.org/pdf/2602.01335",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.041
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 12,
+        "max_mean_absolute_pixel_difference": 0.3542,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "breaking-the-uniformity-trap-2026": {
+      "library_id": "FT014",
+      "paper_id": "breaking-the-uniformity-trap-2026",
+      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+      "path": "/files/papers/FT014.pdf",
+      "pages": 13,
+      "bytes": 4623324,
+      "source_bytes": 8529899,
+      "source_sha256": "ca71843d693b564cf47b3b6a5326b7dc4654ba0322320e42d7162fdebccdb2bc",
+      "sha256": "2fe44db497f9b74dd46c91b6aafb32cbf410855865d0e983a254a03599fc3abb",
+      "source_url": "https://arxiv.org/pdf/2609.38140",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0191
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0947
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.0953,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "imitating-the-truth-2026": {
+      "library_id": "FT015",
+      "paper_id": "imitating-the-truth-2026",
+      "title": "Imitating the Truth: Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models",
+      "path": "/files/papers/FT015.pdf",
+      "pages": 27,
+      "bytes": 2755141,
+      "source_bytes": 2886463,
+      "source_sha256": "6546306fbd9f3955a7311ef85c8be5313da3c27271854f11f3c071ad45f3cd1c",
+      "sha256": "ed5cd189d4a45f816a70b6b389658e0ee09b5c17ce5243d8a1b3e2e87d7b5978",
+      "source_url": "https://tfan108.github.io/publications/#imitating-the-truth-2026",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 18,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 27,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 27,
+        "max_mean_absolute_pixel_difference": 0.014,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "video-generation-models-are-good-2026": {
+      "library_id": "FT016",
+      "paper_id": "video-generation-models-are-good-2026",
+      "title": "Video Generation Models Are Good Latent Reward Models",
+      "path": "/files/papers/FT016.pdf",
+      "pages": 10,
+      "bytes": 1604387,
+      "source_bytes": 2186732,
+      "source_sha256": "ad4bd9130dab5d6c8e22dbeee6262fa4b04e707a90e8b08ef2f28a9d16d4d42e",
+      "sha256": "7b31203283b03ba97d2a2a9e1f249e0835b07852b41b4e6dccdc1df5e9c5574e",
+      "source_url": null,
+      "version": "conference_published",
+      "version_label": "Official conference open-access version (CVF)",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0226
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.1748
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名、12 位作者及正式页码 4719-4728 核对通过；CVF 官方开放版首页明确说明：除 CVPR Findings 水印外与接收稿一致，最终论文集版本位于 IEEE Xplore。此处标为会议官方开放版，不称 IEEE 排版版；DOI 为此前核实的出版定位信息。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1109/CVPRF71909.2026.00454"
+    },
+    "geohoi-2026": {
+      "library_id": "FT017",
+      "paper_id": "geohoi-2026",
+      "title": "GeoHOI: Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection",
+      "path": "/files/papers/FT017.pdf",
+      "pages": 10,
+      "bytes": 3476633,
+      "source_bytes": 7513265,
+      "source_sha256": "bebacdb68c3a13f213630c7b5a7270add085401692decc10f2bf76059f18ab04",
+      "sha256": "cf82c708e83ba7999f93a6775105ecc1c05a8b5dad99211ff146cc40f88810fa",
+      "source_url": "https://tfan108.github.io/publications/#geohoi-2026",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0829
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.2328
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.3734,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "parameter-efficient-emotional-2026": {
+      "library_id": "FT018",
+      "paper_id": "parameter-efficient-emotional-2026",
+      "title": "Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation",
+      "path": "/files/papers/FT018.pdf",
+      "pages": 13,
+      "bytes": 6626275,
+      "source_bytes": 17365621,
+      "source_sha256": "28e13b0e5f52be17ab267f612c3ca2bdacab08941fea075e98ea16b0b0bc7f0c",
+      "sha256": "0de0004a5bd9142f416548e7bd50fe07b1a07b716185d2585cd0f0676a7dc5fc",
+      "source_url": "https://tfan108.github.io/publications/#parameter-efficient-emotional-2026",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.2254
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.546,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "visual-friendly-concept-protection-2026": {
+      "library_id": "FT019",
+      "paper_id": "visual-friendly-concept-protection-2026",
+      "title": "Visual-friendly concept protection via selective adversarial perturbations",
+      "path": "/files/papers/FT019.pdf",
+      "pages": 9,
+      "bytes": 1779476,
+      "source_bytes": 10295385,
+      "source_sha256": "e1648d22071a74dff163ecb73a4ecb8c1d035655a730fec428d7a8ceb873f678",
+      "sha256": "035badae58c4bd74d6fd5b178e48fdc9e318a0d2c709f45162c4de3bcfb6c072",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/41250/45211",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.5731
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 9,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.3875
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；AAAI 官方下载；PDF 有对应届次、版权及正式页码。"
+    },
+    "z-star-2026": {
+      "library_id": "FT020",
+      "paper_id": "z-star-2026",
+      "title": "Z-STAR+: A Zero-shot Style Transfer Method via Adjusting Style Distribution",
+      "path": "/files/papers/FT020.pdf",
+      "pages": 22,
+      "bytes": 10009986,
+      "source_bytes": 10052232,
+      "source_sha256": "693b59fee1ae468c253758dff37bcdec6ea5b6d73f08b0c899ba989f779d443f",
+      "sha256": "ffa05e61966bc5caec540bab0e8bbc00f1c4b52dca0de37cab2a372742f2a324",
+      "source_url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11534480",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 22,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 22,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有期刊正式卷期、页码／文章号及出版 DOI。正式题名省略主页中的 via；按作者、摘要、DOI 和期刊页码人工确认匹配，主页原题名不静默改写。"
+    },
+    "b4m-2025": {
+      "library_id": "FT021",
+      "paper_id": "b4m-2025",
+      "title": "B4M: Breaking Low-Rank Adapter for Making Content-Style Customization",
+      "path": "/files/papers/FT021.pdf",
+      "pages": 18,
+      "bytes": 53689183,
+      "source_bytes": 53689183,
+      "source_sha256": "e28cf15dbf2a3f68f33472c27048d8092427e09eec1e3f9e6eced93598e955fe",
+      "sha256": "e28cf15dbf2a3f68f33472c27048d8092427e09eec1e3f9e6eced93598e955fe",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Xu2025B4MBreakingLow/paper.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 2,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 18,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 18,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "creativesynth-2025": {
+      "library_id": "FT022",
+      "paper_id": "creativesynth-2025",
+      "title": "CreativeSynth: Cross-art-attention for artistic image synthesis with multimodal diffusion",
+      "path": "/files/papers/FT022.pdf",
+      "pages": 14,
+      "bytes": 6011320,
+      "source_bytes": 21450400,
+      "source_sha256": "ccdd6fdd727fd10430ee38c085520afc19fd3b16422c4be68e10e97d1c56d749",
+      "sha256": "b102618ebafb917ea35ad67cfec1e4270c73249725cd00f93c591bf2a2e08bcb",
+      "source_url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11006017",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 1.0881
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 14,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 1.131
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有期刊正式卷期、页码／文章号及出版 DOI。"
+    },
+    "motioncrafter-2025": {
+      "library_id": "FT023",
+      "paper_id": "motioncrafter-2025",
+      "title": "MotionCrafter: Plug-and-Play Motion Guidance for Diffusion Models",
+      "path": "/files/papers/FT023.pdf",
+      "pages": 13,
+      "bytes": 6432224,
+      "source_bytes": 9928868,
+      "source_sha256": "391ede0e5cb87072481f6ac274cf589faf970551b299688903f46a5757342996",
+      "sha256": "496768dc4c4885f533f064cced7a8f4a4e1401227e9ee0a23e5ce4e1c74d8536",
+      "source_url": "https://tfan108.github.io/publications/#motioncrafter-2025",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 1.2785
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 1.5349,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "attend-to-not-attended-2025": {
+      "library_id": "FT024",
+      "paper_id": "attend-to-not-attended-2025",
+      "title": "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration",
+      "path": "/files/papers/FT024.pdf",
+      "pages": 10,
+      "bytes": 2513563,
+      "source_bytes": 3752612,
+      "source_sha256": "5896aacb913ff0bff35576293a4c51f25ffd225d4fe4473718961c3fbf67b6bb",
+      "sha256": "9d95e0c9c161445a411a8c39844e59abe9e96e90175cca2078948939a2238aed",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Fang_Attend_to_Not_Attended_Structure-then-Detail_Token_Merging_for_Post-training_DiT_CVPR_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0339
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0407
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0748
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "beyond-words-2025": {
+      "library_id": "FT025",
+      "paper_id": "beyond-words-2025",
+      "title": "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning",
+      "path": "/files/papers/FT025.pdf",
+      "pages": 10,
+      "bytes": 1632050,
+      "source_bytes": 1746901,
+      "source_sha256": "cf8deec759f9597dade407e110478cafa728d8c5998e3da959c2ea80f733a5fd",
+      "sha256": "70972130527690c3a422fdf11220c803a7cfee33c10cd262462e0f125b111904",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ren_Beyond_Words_Augmenting_Discriminative_Richness_via_Diffusions_in_Unsupervised_Prompt_CVPR_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "z-magic-2025": {
+      "library_id": "FT026",
+      "paper_id": "z-magic-2025",
+      "title": "Z-Magic: Zero-shot Multiple Attributes Guided Image Creator",
+      "path": "/files/papers/FT026.pdf",
+      "pages": 11,
+      "bytes": 4179180,
+      "source_bytes": 9791292,
+      "source_sha256": "177e6d91944b10a5d5c65ad9768d4a075d7d72a1ff62503a03d102f1271ca05a",
+      "sha256": "09d75886bc591058eebd77b8b147ca88af340a102cdfa1cd7ec059af62d41f8b",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Deng_Z-Magic_Zero-shot_Multiple_Attributes_Guided_Image_Creator_CVPR_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.1606
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 11,
+        "max_mean_absolute_pixel_difference": 0.4226,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "adversarial-robust-memory-based-2025": {
+      "library_id": "FT027",
+      "paper_id": "adversarial-robust-memory-based-2025",
+      "title": "Adversarial robust memory-based continual learner",
+      "path": "/files/papers/FT027.pdf",
+      "pages": 11,
+      "bytes": 3861900,
+      "source_bytes": 12457715,
+      "source_sha256": "fe5fa6bc79f9d23c2cf9c23ba731ffe50a0aa9ecf466823e19106a56d26cb9fc",
+      "sha256": "c15190bb00c729ca8b968fddec9fcbf82725449ac9f7824d19d5ca66063c5aad",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Mi_Adversarial_Robust_Memory-Based_Continual_Learner_ICCV_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 5,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 11,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "amdanet-2025": {
+      "library_id": "FT028",
+      "paper_id": "amdanet-2025",
+      "title": "AMDANet: Attention-Driven Multi-Perspective Discrepancy Alignment for RGB-Infrared Image Fusion and Segmentation",
+      "path": "/files/papers/FT028.pdf",
+      "pages": 11,
+      "bytes": 2100983,
+      "source_bytes": 19902029,
+      "source_sha256": "560ea219068886aa539fa61b63018971b1a70b7ff29b396d2f17c33e2894340d",
+      "sha256": "ee8b0bae9bf4503056d637f0d48fd8aa25ea1b3d75469c16ad5164560cdd0609",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_AMDANet_Attention-Driven_Multi-Perspective_Discrepancy_Alignment_for_RGB-Infrared_Image_Fusion_and_ICCV_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.1448
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.9169
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 11,
+        "max_mean_absolute_pixel_difference": 0.7971,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "multi-turn-consistent-image-2025": {
+      "library_id": "FT029",
+      "paper_id": "multi-turn-consistent-image-2025",
+      "title": "Multi-turn Consistent Image Editing",
+      "path": "/files/papers/FT029.pdf",
+      "pages": 10,
+      "bytes": 3975617,
+      "source_bytes": 13582737,
+      "source_sha256": "ef087fc877ee5cc212cfbbe0e913b9f656701c2855993c75b73975feeecd28cc",
+      "sha256": "6221a00123e42cf3cf55f643e98d2908e567f9274ec0ea22de29b4526b4a6c29",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_Multi-turn_Consistent_Image_Editing_ICCV_2025_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.4714
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.9599
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "homa-2025": {
+      "library_id": "FT030",
+      "paper_id": "homa-2025",
+      "title": "HOMA: Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions",
+      "path": "/files/papers/FT030.pdf",
+      "pages": 12,
+      "bytes": 6064182,
+      "source_bytes": 6399677,
+      "source_sha256": "a1e6670d65f956da96b2a93d775eb008c02a2d373632d2aade13b13efccfd832",
+      "sha256": "2fe07adfb054eb5cd1ea8007f971ab9f52e90960febecec2fd26250703558a98",
+      "source_url": "https://tfan108.github.io/publications/#homa-2025",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0009
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.002
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 12,
+        "max_mean_absolute_pixel_difference": 0.0297,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "in-context-brush-2025": {
+      "library_id": "FT031",
+      "paper_id": "in-context-brush-2025",
+      "title": "In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation",
+      "path": "/files/papers/FT031.pdf",
+      "pages": 13,
+      "bytes": 12771894,
+      "source_bytes": 12858352,
+      "source_sha256": "fc948a6bcdffe9d15e12a116484110a59a4759c1c14605a16bbc373db5dba478",
+      "sha256": "f5e7cbd8689aeacf84c918edef6fc6b873654d903c9ef7fcb3afe4d77c7c6076",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Xu2025ContextBrushZero/paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "lossless_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 2,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 13,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [
+        "image_optimized: Page geometry, text, links, annotations or metadata changed"
+      ],
+      "version_evidence": "题名与作者名单核对通过；PDF 有 ACM 会议出版标识、ISBN 与正式 DOI。PDF 共 13 页，含 ACM 下载封面 1 页及论文 12 页。"
+    },
+    "fireflow-2025": {
+      "library_id": "FT032",
+      "paper_id": "fireflow-2025",
+      "title": "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing",
+      "path": "/files/papers/FT032.pdf",
+      "pages": 19,
+      "bytes": 3411510,
+      "source_bytes": 8749469,
+      "source_sha256": "c27aaf03e3a7864c2f9e6c67bdc0f90d342339810b24b397e184d53b0302f916",
+      "sha256": "76c9c38a3728ad468291c26ed2a763c8ed8558957ea8d043c98c1623bb87909d",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/deng25c/deng25c.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0028
+          },
+          {
+            "page": 17,
+            "mean_absolute_pixel_difference": 0.2482
+          },
+          {
+            "page": 19,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 19,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.3746
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PMLR 官方论文页直接链接；PDF 有 ICML 2025、PMLR 267 和正式页码。"
+    },
+    "moanimate-2025": {
+      "library_id": "FT033",
+      "paper_id": "moanimate-2025",
+      "title": "MoAnimate: Bridging the Motion-Oriented Latent Representation Gaps in Human Video Animation",
+      "path": "/files/papers/FT033.pdf",
+      "pages": 14,
+      "bytes": 4009715,
+      "source_bytes": 8119435,
+      "source_sha256": "946109c15e5007853ddd8265b50b30d459eecdf037c665def3050c2ddd7b99e8",
+      "sha256": "10906a1faf54f2650bb5612fef7d5f4d37549d8b010eec611af08b10bd0348a3",
+      "source_url": "https://tfan108.github.io/publications/#moanimate-2025",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0552
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.4285
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 14,
+        "max_mean_absolute_pixel_difference": 0.629,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "identity-preserving-face-swapping-2024": {
+      "library_id": "FT034",
+      "paper_id": "identity-preserving-face-swapping-2024",
+      "title": "Identity-preserving face swapping via dual surrogate generative models",
+      "path": "/files/papers/FT034.pdf",
+      "pages": 19,
+      "bytes": 5686257,
+      "source_bytes": 30270294,
+      "source_sha256": "fbe236a81b47496699488b60b9d728c87e142196d331e7dc5198f76014003355",
+      "sha256": "c4c59e5f4e4ec49980ede6bbceb80479be22007efa07e08967b3f420b25c8e17",
+      "source_url": "https://cgvsl-ncku.github.io/TOG_face_change_2024/cscs.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.2882
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.4374
+          },
+          {
+            "page": 19,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 19,
+        "max_mean_absolute_pixel_difference": 0.8893,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "a-comprehensive-evaluation-of-2024": {
+      "library_id": "FT035",
+      "paper_id": "a-comprehensive-evaluation-of-2024",
+      "title": "A comprehensive evaluation of arbitrary image style transfer methods",
+      "path": "/files/papers/FT035.pdf",
+      "pages": 19,
+      "bytes": 7577655,
+      "source_bytes": 52305714,
+      "source_sha256": "c098b99e6145fef34014c12b5c829e5a62f33ae1bdc2dc8eaf1324e24bd1f15d",
+      "sha256": "8f74b2440d7d4bfc62e24a0924fef2b341deaa90fa89977862ed6fc705f2b550",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Zhou2024ComprehensiveEvaluationArbitrary/paper.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.1566
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.4775
+          },
+          {
+            "page": 19,
+            "mean_absolute_pixel_difference": 0.0113
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 19,
+        "max_mean_absolute_pixel_difference": 0.9037,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "u-vap-2024": {
+      "library_id": "FT036",
+      "paper_id": "u-vap-2024",
+      "title": "U-VAP: User-specified visual appearance personalization via decoupled self augmentation",
+      "path": "/files/papers/FT036.pdf",
+      "pages": 10,
+      "bytes": 6097086,
+      "source_bytes": 10218379,
+      "source_sha256": "4cc3987fa86464bc3cfd877735cf93aa2563d2b1ac548ac01f12cd5e988bef85",
+      "sha256": "bea07d3f7ba9763d974af3fab329d4a8e6b728095e269e1efde0a38304042cab",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_U-VAP_User-specified_Visual_Appearance_Personalization_via_Decoupled_Self_Augmentation_CVPR_2024_paper.pdf",
+      "version": "unknown",
+      "version_label": "Archived copy (version not confirmed)",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0837
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.1064,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "z-2024": {
+      "library_id": "FT037",
+      "paper_id": "z-2024",
+      "title": "Z*: Zero-shot style transfer via attention reweighting",
+      "path": "/files/papers/FT037.pdf",
+      "pages": 11,
+      "bytes": 3927301,
+      "source_bytes": 4382059,
+      "source_sha256": "4ea912866e73ebe0d2634a5e32c7c99d638270a83a270681d72bc2aed0ac0c8a",
+      "sha256": "64527099d78d90cdcc6816dbba1033d51b435df979bba6ae8f75097a75dc5540",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Deng_Z_Zero-shot_Style_Transfer_via_Attention_Reweighting_CVPR_2024_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0498
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.0059
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 11,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0423
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "make-your-anchor-2024": {
+      "library_id": "FT038",
+      "paper_id": "make-your-anchor-2024",
+      "title": "Make-Your-Anchor: A diffusion-based 2D avatar generation framework",
+      "path": "/files/papers/FT038.pdf",
+      "pages": 10,
+      "bytes": 4516976,
+      "source_bytes": 8846143,
+      "source_sha256": "df85d733ff679cf92575ec39b36aa10da90d23524423099b19b780339332ce22",
+      "sha256": "8defc3050e719708a264000bf09cf7888d2aa82740bd51be4cb492ca5e8953d9",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_Make-Your-Anchor_A_Diffusion-based_2D_Avatar_Generation_Framework_CVPR_2024_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0018
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.1707
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "dance-to-music-generation-with-2024": {
+      "library_id": "FT039",
+      "paper_id": "dance-to-music-generation-with-2024",
+      "title": "Dance-to-music generation with encoder-based textual inversion",
+      "path": "/files/papers/FT039.pdf",
+      "pages": 11,
+      "bytes": 6640250,
+      "source_bytes": 8412942,
+      "source_sha256": "9be6f5c989c6eba0a7eb1e2be4ad531b7e6123c059c5a1f02d7946b027d24fe8",
+      "sha256": "905c64bfb6c538197779d596868a93a0df0104ed4175a1ac5ce0459271fa6b2f",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Li2024DanceMusicGeneration/paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0039
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0211
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 11,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.8466
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有 ACM 会议出版标识、ISBN 与正式 DOI。"
+    },
+    "revealing-the-two-sides-of-data-2024": {
+      "library_id": "FT040",
+      "paper_id": "revealing-the-two-sides-of-data-2024",
+      "title": "Revealing the Two Sides of Data Augmentation: An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition",
+      "path": "/files/papers/FT040.pdf",
+      "pages": 9,
+      "bytes": 718177,
+      "source_bytes": 741254,
+      "source_sha256": "e90a01b05ac072677d412840210be326676d0f521e2fa128830880c1c101407b",
+      "sha256": "0917cb3627b8d4370a3fbadb106567711d0c9742704a38067a448f77ba300247",
+      "source_url": "https://www.ijcai.org/proceedings/2024/0101.pdf",
+      "version": "unknown",
+      "version_label": "Archived copy (version not confirmed)",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 3,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 9,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "modality-consistent-prompt-tuning-2024": {
+      "library_id": "FT041",
+      "paper_id": "modality-consistent-prompt-tuning-2024",
+      "title": "Modality-consistent prompt tuning with optimal transport",
+      "path": "/files/papers/FT041.pdf",
+      "pages": 14,
+      "bytes": 2056550,
+      "source_bytes": 2984630,
+      "source_sha256": "44857ba0097d67e68f245f9e2da4d7745f79387cf1f9808b99f5dab01c6722fb",
+      "sha256": "5a13f6ac2d0c7328e4a58379e324413956ea7ab867ba9571365105b87fa9bd6e",
+      "source_url": "https://tfan108.github.io/publications/#modality-consistent-prompt-tuning-2024",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0121
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.3763
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 14,
+        "max_mean_absolute_pixel_difference": 0.6038,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "diffstyler-2024": {
+      "library_id": "FT042",
+      "paper_id": "diffstyler-2024",
+      "title": "DiffStyler: Controllable dual diffusion for text-driven image stylization",
+      "path": "/files/papers/FT042.pdf",
+      "pages": 14,
+      "bytes": 3809771,
+      "source_bytes": 5575770,
+      "source_sha256": "4e7e5e30ec0c7bc97f931b07857edf4fc70b71de35f919a4408801f9da37354f",
+      "sha256": "ae97263d57461fe8f95fb4a9809c9d971f925d0bc43d87c6157f42821c9c85f1",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.1952
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.011
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 14,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.9798
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。PDF 标注 2024-01-10 在线发表、2025 年 2 月卷期；原主页归档年 2024 保留。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1109/TNNLS.2023.3342645"
+    },
+    "music-style-transfer-with-time-2024": {
+      "library_id": "FT043",
+      "paper_id": "music-style-transfer-with-time-2024",
+      "title": "Music style transfer with time-varying inversion of diffusion models",
+      "path": "/files/papers/FT043.pdf",
+      "pages": 9,
+      "bytes": 1477734,
+      "source_bytes": 1495009,
+      "source_sha256": "baa6980126e3c82cb1e3f220587f2ff847d98325171105f912c627936bbd2412",
+      "sha256": "5611faf8df0f5cefec92f8b2537671484333bb3ee1b22eb65599758ce07be650",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/27810/27651",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 9,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；AAAI 官方下载；PDF 有对应届次、版权及正式页码。"
+    },
+    "lighting-image-video-style-2024": {
+      "library_id": "FT044",
+      "paper_id": "lighting-image-video-style-2024",
+      "title": "Lighting Image/Video Style Transfer Methods by Iterative Channel Pruning",
+      "path": "/files/papers/FT044.pdf",
+      "pages": 5,
+      "bytes": 704465,
+      "source_bytes": 733687,
+      "source_sha256": "8f720fea8007ff4be00e7029bd1566c0d3dfbf22e4e1393615ec6310b00dd112",
+      "sha256": "2b8c53c3099bbb5d4a4c0216bebd0dd4b377fb45e19998067df31c4e56109593",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Wu2024LightingImageVideoStyle/paper.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 5,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 5,
+        "max_mean_absolute_pixel_difference": 0.0001,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "a-unified-arbitrary-style-transfer-2023": {
+      "library_id": "FT045",
+      "paper_id": "a-unified-arbitrary-style-transfer-2023",
+      "title": "A unified arbitrary style transfer framework via adaptive contrastive learning",
+      "path": "/files/papers/FT045.pdf",
+      "pages": 16,
+      "bytes": 5328057,
+      "source_bytes": 33327201,
+      "source_sha256": "22ae8d5accc8a60fa7dad9bf5dc1b3973a765bed231d6b7f1bf8e552433cc224",
+      "sha256": "f5f65a7f2ae43056a463a2be02f7877298feac76f3b4ed1580bb431bc078ba6f",
+      "source_url": "https://cgvsl-ncku.github.io/TOG_art_2023/UCAST_Final.pdf",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.2445
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.1994
+          },
+          {
+            "page": 16,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 16,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 1.9599
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有期刊正式卷期、页码／文章号及出版 DOI。"
+    },
+    "prospect-2023": {
+      "library_id": "FT046",
+      "paper_id": "prospect-2023",
+      "title": "ProSpect: Prompt spectrum for attribute-aware personalization of diffusion models",
+      "path": "/files/papers/FT046.pdf",
+      "pages": 14,
+      "bytes": 9618557,
+      "source_bytes": 16747361,
+      "source_sha256": "c6e76cb024b7c41a3722d9b518ebec39a8e1a176fb0726a3c589c5c22b1c9412",
+      "sha256": "62a23db4d221f29724f9e87499759aaca414e0de437e1f1a1e0c77661e9442fe",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/zhang2023prospect/paper.pdf",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.1663
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.3262
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 14,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.5587
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名、作者、正式 DOI、卷期及文章号核对通过。选用 Konstanz 大学公开存档的 Article 244 版本，与 NCKU 机构出版记录和正式引文相符；NCKU 实验室另一份 Article 246 旧排版稿未采用。核验来源：https://researchoutput.ncku.edu.tw/en/publications/prospect-prompt-spectrum-for-attribute-aware-personalization-of-d/"
+    },
+    "spa2net-2023": {
+      "library_id": "FT047",
+      "paper_id": "spa2net-2023",
+      "title": "SPA2Net: Structure-preserved attention activated network for weakly supervised object localization",
+      "path": "/files/papers/FT047.pdf",
+      "pages": 15,
+      "bytes": 2894174,
+      "source_bytes": 4553768,
+      "source_sha256": "bca5dd6b330b62e50d03db38d44a27bd6b3163db7ca0cf9ca474d995b644ee7e",
+      "sha256": "1bd69ea89e93aa23abe31838a88437f5a8b94975d1c08d89ef45a95519a6a55c",
+      "source_url": "https://tfan108.github.io/publications/#spa2net-2023",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.5985
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 0.6328,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "adaptive-assignment-for-geometry-2023": {
+      "library_id": "FT048",
+      "paper_id": "adaptive-assignment-for-geometry-2023",
+      "title": "Adaptive assignment for geometry aware local feature matching",
+      "path": "/files/papers/FT048.pdf",
+      "pages": 10,
+      "bytes": 448224,
+      "source_bytes": 582678,
+      "source_sha256": "45e8bb17a53b7cdf1801b9c3b45e1898ddbd2c947cbca03ec93790e32c37e81f",
+      "sha256": "1e83f39608a10b2cccb67ae43b5a51a72b39c4b641d6e51aaf7db2fd6c3a9a70",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Adaptive_Assignment_for_Geometry_Aware_Local_Feature_Matching_CVPR_2023_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "inversion-based-style-transfer-2023": {
+      "library_id": "FT049",
+      "paper_id": "inversion-based-style-transfer-2023",
+      "title": "Inversion-based style transfer with diffusion models",
+      "path": "/files/papers/FT049.pdf",
+      "pages": 11,
+      "bytes": 4186704,
+      "source_bytes": 4285671,
+      "source_sha256": "b1e384baa0d74829465145f9170b33574ac7154949a8f181768b341b072ff222",
+      "sha256": "53ef9ad23f457bd8b03ad2218ff96756dc96ae73131363cd027b8df2f05e31de",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Inversion-Based_Style_Transfer_With_Diffusion_Models_CVPR_2023_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 5,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 11,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "progressive-open-space-expansion-2023": {
+      "library_id": "FT050",
+      "paper_id": "progressive-open-space-expansion-2023",
+      "title": "Progressive open space expansion for open-set model attribution",
+      "path": "/files/papers/FT050.pdf",
+      "pages": 10,
+      "bytes": 1268551,
+      "source_bytes": 2768471,
+      "source_sha256": "5ddd9e1df687106483b1d6f2504119042088daf818ad51521bb42a2f8157e891",
+      "sha256": "93b2c3b981a201176540df9a79d4f1ceef5a9ec4a4657ff7d4bb6782582e6a10",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Progressive_Open_Space_Expansion_for_Open-Set_Model_Attribution_CVPR_2023_paper.pdf",
+      "version": "unknown",
+      "version_label": "Archived copy (version not confirmed)",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0393
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.8861
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 1.0404,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "a2pt-2023": {
+      "library_id": "FT051",
+      "paper_id": "a2pt-2023",
+      "title": "A2Pt: Anti-Associative Prompt Tuning for Open Set Visual Recognition",
+      "path": "/files/papers/FT051.pdf",
+      "pages": 13,
+      "bytes": 2634280,
+      "source_bytes": 3085539,
+      "source_sha256": "0be4d3fdacc83aba4bc0b39871490e7b0658c582c887904b89d4613c08c7f37b",
+      "sha256": "a1c284f862676d38f6e37f16336d3dd3125e703906c9be2149294b8c1d2a2ea5",
+      "source_url": "https://tfan108.github.io/publications/#a2pt-2023",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0243
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.2444,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "smnet-2023": {
+      "library_id": "FT052",
+      "paper_id": "smnet-2023",
+      "title": "SMNet: Synchronous multi-scale low light enhancement network with local and global concern",
+      "path": "/files/papers/FT052.pdf",
+      "pages": 12,
+      "bytes": 2730380,
+      "source_bytes": 19652441,
+      "source_sha256": "96fc42856b5cf05a026a7155fd07b7857a20b4658ec9ba143a2b70fd0d1b8bc8",
+      "sha256": "792ae1593f1e3cfce53101fae90794d2af0d3bbfeb14c66b9d4dc48419f1b241",
+      "source_url": "https://tfan108.github.io/publications/#smnet-2023",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.4985
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 12,
+        "max_mean_absolute_pixel_difference": 0.4015,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "semantic-context-graph-network-for-2023": {
+      "library_id": "FT053",
+      "paper_id": "semantic-context-graph-network-for-2023",
+      "title": "Semantic-context graph network for point-based 3D object detection",
+      "path": "/files/papers/FT053.pdf",
+      "pages": 13,
+      "bytes": 1659894,
+      "source_bytes": 2594166,
+      "source_sha256": "4688819960e9eb6312b31e98bef586400a7e8cb52a9cae8b7e8c231ea084af24",
+      "sha256": "112c66b79593be458f3924aedd4ad6b047e19bba431883b0ae3a6dbbc6e05f11",
+      "source_url": "https://tfan108.github.io/publications/#semantic-context-graph-network-for-2023",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.9438
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0042
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 1.1624,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "exploring-the-temporal-consistency-2023": {
+      "library_id": "FT054",
+      "paper_id": "exploring-the-temporal-consistency-2023",
+      "title": "Exploring the temporal consistency of arbitrary style transfer: A channelwise perspective",
+      "path": "/files/papers/FT054.pdf",
+      "pages": 15,
+      "bytes": 6266357,
+      "source_bytes": 10289118,
+      "source_sha256": "62bada7bc21685332803b8a352b82a95f1b5d3644c3495a875a2a24e27f2abdd",
+      "sha256": "e70bb06ba5d4d54d0d0e8d7f4d20c704fed71883b2dc749c281a9681971332f2",
+      "source_url": "https://tfan108.github.io/publications/#exploring-the-temporal-consistency-2023",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.7971
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.058
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 1.3165,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "towards-harmonized-regional-style-2023": {
+      "library_id": "FT055",
+      "paper_id": "towards-harmonized-regional-style-2023",
+      "title": "Towards harmonized regional style transfer and manipulation for facial images",
+      "path": "/files/papers/FT055.pdf",
+      "pages": 16,
+      "bytes": 3276180,
+      "source_bytes": 9358224,
+      "source_sha256": "c444d3439957b7606d34723cd169befe2d7ea72c4f0650969666eee7c0ee3530",
+      "sha256": "e768a3365c55152071913ba5281f68507f79f079e6487a137680ddb41b9dc342",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s41095-022-0284-6.pdf",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0023
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.3193
+          },
+          {
+            "page": 16,
+            "mean_absolute_pixel_difference": 0.0255
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 16,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.2588
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有期刊正式卷期、页码／文章号及出版 DOI。"
+    },
+    "region-aware-diffusion-for-zero-2023": {
+      "library_id": "FT056",
+      "paper_id": "region-aware-diffusion-for-zero-2023",
+      "title": "Region-aware diffusion for zero-shot text-driven image editing",
+      "path": "/files/papers/FT056.pdf",
+      "pages": 17,
+      "bytes": 3376310,
+      "source_bytes": 17347016,
+      "source_sha256": "9dc28ccf5aaf327074962d442753a7381a1e629d6ce8aba059e378640e952d8d",
+      "sha256": "6cff8bb82297eed60257376f15126da1680fb08825d971c8048a644acf72fbe6",
+      "source_url": "https://arxiv.org/pdf/2302.11797",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.183
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.6756
+          },
+          {
+            "page": 17,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 17,
+        "max_mean_absolute_pixel_difference": 0.7802,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "crossrectify-2023": {
+      "library_id": "FT057",
+      "paper_id": "crossrectify-2023",
+      "title": "CrossRectify: Leveraging disagreement for semi-supervised object detection",
+      "path": "/files/papers/FT057.pdf",
+      "pages": 10,
+      "bytes": 1647763,
+      "source_bytes": 2039875,
+      "source_sha256": "390237d0e3b9f4d026908ee0fa26b6de01eca48577354a3dad956ad1f63aef5e",
+      "sha256": "3bfe5739f75c4614c6038eee8d5e33ba739dc1eec2ccdadad78633ce38f78ded",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0106
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0279
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0796
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1016/j.patcog.2022.109280"
+    },
+    "domain-enhanced-arbitrary-image-2022": {
+      "library_id": "FT058",
+      "paper_id": "domain-enhanced-arbitrary-image-2022",
+      "title": "Domain enhanced arbitrary image style transfer via contrastive learning",
+      "path": "/files/papers/FT058.pdf",
+      "pages": 8,
+      "bytes": 3234847,
+      "source_bytes": 16485781,
+      "source_sha256": "375eb2b8da4b200e600430ba91c58b34d430e5d7241f6868120dbb4483a20fbe",
+      "sha256": "32b33fa44ec6d2b5e0f2d36b796a08ac3b2323ee790bc71b2960175361ab6905",
+      "source_url": "https://cgvsl-ncku.github.io/Weiming/CASTFinal_ArXiv.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.1799
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 8,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.6939
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有 ACM 会议出版标识、ISBN 与正式 DOI。"
+    },
+    "stytr2-2022": {
+      "library_id": "FT059",
+      "paper_id": "stytr2-2022",
+      "title": "StyTr2: Image style transfer with transformers",
+      "path": "/files/papers/FT059.pdf",
+      "pages": 11,
+      "bytes": 2284204,
+      "source_bytes": 10265665,
+      "source_sha256": "c325a52feec6f7830b80dbdeef4331ecbceb57e0b6cbd6b28c65d3c9247a8e62",
+      "sha256": "60c5883432023d2ffb2ab4514a31aae4c406eb859bba720609aad00b0c3cb31e",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Deng_StyTr2_Image_Style_Transfer_With_Transformers_CVPR_2022_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0744
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.7125
+          },
+          {
+            "page": 11,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 11,
+        "max_mean_absolute_pixel_difference": 0.5276,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "siod-2022": {
+      "library_id": "FT060",
+      "paper_id": "siod-2022",
+      "title": "SIOD: Single instance annotated per category per image for object detection",
+      "path": "/files/papers/FT060.pdf",
+      "pages": 10,
+      "bytes": 1389099,
+      "source_bytes": 3429248,
+      "source_sha256": "113f1b54edbbeedea659ff34d13b21237798c5158ee4dc178d49f7e178bcd35f",
+      "sha256": "4dc8b24b6c423091dfd5c28ea71bdf1a550ca953e1424de308a3530ad916148a",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Li_SIOD_Single_Instance_Annotated_per_Category_per_Image_for_Object_CVPR_2022_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.3895
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.5431
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；CVF 官方正式论文下载；题名、作者与正式页码相符。"
+    },
+    "draw-your-art-dream-2022": {
+      "library_id": "FT061",
+      "paper_id": "draw-your-art-dream-2022",
+      "title": "Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion",
+      "path": "/files/papers/FT061.pdf",
+      "pages": 10,
+      "bytes": 8876161,
+      "source_bytes": 16818394,
+      "source_sha256": "ed6a79d1f78a717c3c9d8091e08373b189932936f84101593d414f1b2a81c0f9",
+      "sha256": "5112a75e984afba4600033d7bc3df841af1c169bae62de1290c577707937c7e4",
+      "source_url": null,
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.3469
+          },
+          {
+            "page": 5,
+            "mean_absolute_pixel_difference": 0.1041
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 10,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.4191
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1145/3503161.3548282"
+    },
+    "non-dominated-sorting-based-multi-2022": {
+      "library_id": "FT062",
+      "paper_id": "non-dominated-sorting-based-multi-2022",
+      "title": "Non-dominated sorting based multi-page photo collage",
+      "path": "/files/papers/FT062.pdf",
+      "pages": 13,
+      "bytes": 4251281,
+      "source_bytes": 9531216,
+      "source_sha256": "efc69046515c73ee95550bb83302fcdb4718672ab612b15102d40a3cfb1f39ec",
+      "sha256": "1d0458462e5cf6c03da12f8891320908259a62c73696427b62c291a57a7b857b",
+      "source_url": "https://iccvm.org/2021/papers/S1-2-CVMJ.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0084
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.5996
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.5789,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "transformers-in-computational-2022": {
+      "library_id": "FT063",
+      "paper_id": "transformers-in-computational-2022",
+      "title": "Transformers in computational visual media: A survey",
+      "path": "/files/papers/FT063.pdf",
+      "pages": 30,
+      "bytes": 4994279,
+      "source_bytes": 5494792,
+      "source_sha256": "f78a52951b1b7eecaaad778f8dab41baa10a11eac9051ef2acf11775350a32c4",
+      "sha256": "b051305a59aad4e42bc9a152ad90bcd8e8ae04f09a597fc77f3f08f516395887",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s41095-021-0247-3.pdf?error=cookies_not_supported&code=e2f2c640-ed42-4b01-a093-f13fc6fa24ff",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0066
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.008
+          },
+          {
+            "page": 30,
+            "mean_absolute_pixel_difference": 0.008
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 30,
+        "max_mean_absolute_pixel_difference": 0.0489,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "a-comparative-study-of-cnn-and-2022": {
+      "library_id": "FT064",
+      "paper_id": "a-comparative-study-of-cnn-and-2022",
+      "title": "A comparative study of CNN-and transformer-based visual style transfer",
+      "path": "/files/papers/FT064.pdf",
+      "pages": 14,
+      "bytes": 4426253,
+      "source_bytes": 4535174,
+      "source_sha256": "818a3a08217273e8fc0a26e199bd2bc49fbaed2376ddad2ff97957de82feb17d",
+      "sha256": "3584cb489aa0b081cba246da4b06d67551d342450f158a50cd4ed95919f7688a",
+      "source_url": "https://jcst.ict.ac.cn/fileup/1000-9000/PDF/2022-3-8-2140.pdf",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 14,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "portrait-map-art-generation-by-2022": {
+      "library_id": "FT065",
+      "paper_id": "portrait-map-art-generation-by-2022",
+      "title": "Portrait Map Art Generation by Asymmetric Image-to-Image Translation",
+      "path": "/files/papers/FT065.pdf",
+      "pages": 9,
+      "bytes": 4813318,
+      "source_bytes": 4843244,
+      "source_sha256": "09446736a8634c60771b8c42016cbf49f39e59b89b7d6f11b2085d9bea2f1ac8",
+      "sha256": "bbf272a8c3d1a6335b4113018225fdd12d21253dfc698e9a22c61d50ca3767b6",
+      "source_url": "https://lehanhcs.github.io/pdfs/leonado.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 9,
+        "max_mean_absolute_pixel_difference": 1.4324,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "balance-aware-grid-collage-for-2021": {
+      "library_id": "FT066",
+      "paper_id": "balance-aware-grid-collage-for-2021",
+      "title": "Balance-aware grid collage for small image collections",
+      "path": "/files/papers/FT066.pdf",
+      "pages": 15,
+      "bytes": 3151995,
+      "source_bytes": 3204305,
+      "source_sha256": "8d6e90b3cf5e0b22f1d731284e96acc1e63154fa8c32a90438ebc0fff9243683",
+      "sha256": "faa8f6d47ffd29a5753ff8d972b51eae434075eb2ab7b2664e509a62bd756ec9",
+      "source_url": "https://tfan108.github.io/publications/#balance-aware-grid-collage-for-2021",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 0.0176,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "unveiling-the-potential-of-2021": {
+      "library_id": "FT067",
+      "paper_id": "unveiling-the-potential-of-2021",
+      "title": "Unveiling the potential of structure preserving for weakly supervised object localization",
+      "path": "/files/papers/FT067.pdf",
+      "pages": 10,
+      "bytes": 3358412,
+      "source_bytes": 3595974,
+      "source_sha256": "52f08a23c53adb24c8233418e3cacb596ade17bc00a83302256a4eef8f6056e3",
+      "sha256": "e93439006c26adf56d6700e68bcb7addd28e775abacf1e135b05dcb1fcb4caed",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Pan_Unveiling_the_Potential_of_Structure_Preserving_for_Weakly_Supervised_Object_CVPR_2021_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "dae-gan-2021": {
+      "library_id": "FT068",
+      "paper_id": "dae-gan-2021",
+      "title": "DAE-GAN: Dynamic aspect-aware GAN for text-to-image synthesis",
+      "path": "/files/papers/FT068.pdf",
+      "pages": 10,
+      "bytes": 1584433,
+      "source_bytes": 1704621,
+      "source_sha256": "58a2651ad7e4181f32e955b76929cda9cedb1560f70c738a9b414321d59c2d31",
+      "sha256": "a852b64bec698bf5a79a3bbd4762abd84271bdae839acf7297e0ef1b8bcda6f2",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Ruan_DAE-GAN_Dynamic_Aspect-Aware_GAN_for_Text-to-Image_Synthesis_ICCV_2021_paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 10,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "arbitrary-video-style-transfer-via-2021": {
+      "library_id": "FT069",
+      "paper_id": "arbitrary-video-style-transfer-via-2021",
+      "title": "Arbitrary Video Style Transfer via Multi-Channel Correlation",
+      "path": "/files/papers/FT069.pdf",
+      "pages": 8,
+      "bytes": 9037628,
+      "source_bytes": 13496626,
+      "source_sha256": "a88b2d76cae9ad16808b37bc0d7849e4dd1691dc6a2f3a7daf94bd5f6cf6764e",
+      "sha256": "3880976afec0c3bbbecadb9f55b6efb1b8e15556797ecd8fd6c37f471a6dd9f9",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/16208/16015",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0239
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0168
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 8,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.1572
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；AAAI 官方下载；PDF 有对应届次、版权及正式页码。"
+    },
+    "distribution-aligned-multimodal-2021": {
+      "library_id": "FT070",
+      "paper_id": "distribution-aligned-multimodal-2021",
+      "title": "Distribution aligned multimodal and multi-domain image stylization",
+      "path": "/files/papers/FT070.pdf",
+      "pages": 17,
+      "bytes": 2799840,
+      "source_bytes": 15631573,
+      "source_sha256": "b86dd2720eb69cdabfc68b53aae3cf1039a7b8e44d7ce256738e65ed39bd4ac9",
+      "sha256": "bb78eb29329ca9e5566ae33edbd237bd7e5f278b70592abbf87e77658f69e7fd",
+      "source_url": null,
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.3519
+          },
+          {
+            "page": 17,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 17,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.8268
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1145/3450525"
+    },
+    "siamcpn-2021": {
+      "library_id": "FT071",
+      "paper_id": "siamcpn-2021",
+      "title": "SiamCPN: Visual tracking with the Siamese center-prediction network",
+      "path": "/files/papers/FT071.pdf",
+      "pages": 13,
+      "bytes": 1238684,
+      "source_bytes": 1319393,
+      "source_sha256": "13a8316cb66a00cede54cd2ea158a15c537a52a61a6b8abf57fad502d6125011",
+      "sha256": "df344b802861441e7f6925f3ff7223e4bf3ad1ba1ee26b325283459315bb8e01",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s41095-021-0212-1.pdf?error=cookies_not_supported&code=0f49cf57-55ea-410d-a693-610943ee5083",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0066
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.008
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.008
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.0034,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "self-supervised-feature-2020": {
+      "library_id": "FT072",
+      "paper_id": "self-supervised-feature-2020",
+      "title": "Self-supervised feature augmentation for large image object detection",
+      "path": "/files/papers/FT072.pdf",
+      "pages": 14,
+      "bytes": 3474390,
+      "source_bytes": 5542022,
+      "source_sha256": "455ea3de246227b1043bb0a1e393932befb584237e0ee1939ae423dc223aed96",
+      "sha256": "d34b3c7a8a7b0d1ef1d9a84d77c57a9da7cb8173d4bd1e1f892eb6d5e97bdd36",
+      "source_url": "https://tfan108.github.io/publications/#self-supervised-feature-2020",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.2588
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0427
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 14,
+        "max_mean_absolute_pixel_difference": 0.4475,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "exploring-the-representativity-of-2020": {
+      "library_id": "FT073",
+      "paper_id": "exploring-the-representativity-of-2020",
+      "title": "Exploring the representativity of art paintings",
+      "path": "/files/papers/FT073.pdf",
+      "pages": 12,
+      "bytes": 3026510,
+      "source_bytes": 5442868,
+      "source_sha256": "0fd83a00644ba2a24620486a824e72486cd164864f15cf07031437d506abac08",
+      "sha256": "c1bc46da77f940b13269700e39ce6d78fbae9e35f93c06f2b6bdf5c763fbaeef",
+      "source_url": "https://tfan108.github.io/publications/#exploring-the-representativity-of-2020",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 2,
+            "mean_absolute_pixel_difference": 0.1343
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 12,
+        "max_mean_absolute_pixel_difference": 0.6714,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "arbitrary-style-transfer-via-multi-2020": {
+      "library_id": "FT074",
+      "paper_id": "arbitrary-style-transfer-via-multi-2020",
+      "title": "Arbitrary style transfer via multi-adaptation network",
+      "path": "/files/papers/FT074.pdf",
+      "pages": 9,
+      "bytes": 8435148,
+      "source_bytes": 9194180,
+      "source_sha256": "4bc5645502804b9854458b27d0cb9d248f692ca7dbf0db2483b9cd4779c354be",
+      "sha256": "ef2cb0ac48b195e8e17f0c775cdcce3368c837230074fb698d50e19542933dd6",
+      "source_url": null,
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.0667
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 9,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.0798
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "已核对首页题名、全体作者、正式页码和出版标识；DOI 与所列期刊/会议一致。用户本地补充，原始下载网址未提供。",
+      "source_kind": "user_supplied",
+      "publication_locator": "https://doi.org/10.1145/3394171.3414015"
+    },
+    "content-based-visual-summarization-2019": {
+      "library_id": "FT075",
+      "paper_id": "content-based-visual-summarization-2019",
+      "title": "Content-based visual summarization for image collections",
+      "path": "/files/papers/FT075.pdf",
+      "pages": 15,
+      "bytes": 11334767,
+      "source_bytes": 11366145,
+      "source_sha256": "45a877e0da41fe26c9239fb2b008ce5b59cb8a97ea950bb7ef406174e015f000",
+      "sha256": "ba727dc7c123a05d0c29fa7d7e817a57cc87a59e72a239aa7b511a71588f4a6a",
+      "source_url": "https://tfan108.github.io/publications/#content-based-visual-summarization-2019",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "conservative_image_optimized",
+      "profile": {
+        "strategy": "embedded_images",
+        "max_dimension": 2200,
+        "quality": 92,
+        "subsampling": 0
+      },
+      "validation_policy": 3,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": [
+        "Conservative photo-stream optimization after independent full-page render review"
+      ]
+    },
+    "image-retargetability-2019": {
+      "library_id": "FT076",
+      "paper_id": "image-retargetability-2019",
+      "title": "Image retargetability",
+      "path": "/files/papers/FT076.pdf",
+      "pages": 14,
+      "bytes": 5273431,
+      "source_bytes": 9841791,
+      "source_sha256": "bf41ba7a32a15fe44ecf50e203cf301184b76e6efb9db24375bd02d6f34e53bc",
+      "sha256": "00b73f0b499a56a863a698e7d6eac420590affadc26b0874d76d688c7b2df243",
+      "source_url": "https://cgvsl-ncku.github.io/TMM_Retarget/TMM_retarget.pdf",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "strategy": "publication_images",
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 4,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.5326
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "poppler_all_pages": {
+          "pages_checked": 14,
+          "dpi": 60,
+          "no_new_renderer_warnings": true,
+          "max_mean_pixel_difference": 0.8173
+        }
+      },
+      "optimization_notes": [],
+      "version_evidence": "题名与作者名单核对通过；PDF 有期刊正式卷期、页码／文章号及出版 DOI。"
+    },
+    "joint-face-alignment-and-2019": {
+      "library_id": "FT077",
+      "paper_id": "joint-face-alignment-and-2019",
+      "title": "Joint face alignment and segmentation via deep multi-task learning",
+      "path": "/files/papers/FT077.pdf",
+      "pages": 18,
+      "bytes": 2327469,
+      "source_bytes": 3473997,
+      "source_sha256": "33e9e459f26ebec06c729d9dd14f78d08a98f5cecca36cef8f9f5816c66cf23c",
+      "sha256": "1e7160288b6f7ea2468f64a81adca5b10d08c86c046d4f811e1cbde45db6f380",
+      "source_url": "https://tfan108.github.io/publications/#joint-face-alignment-and-2019",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.1271
+          },
+          {
+            "page": 18,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 18,
+        "max_mean_absolute_pixel_difference": 0.0835,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "selective-clustering-for-2019": {
+      "library_id": "FT078",
+      "paper_id": "selective-clustering-for-2019",
+      "title": "Selective clustering for representative paintings selection",
+      "path": "/files/papers/FT078.pdf",
+      "pages": 19,
+      "bytes": 3413542,
+      "source_bytes": 4145838,
+      "source_sha256": "3ecc9c741eed5355c1dedf79f1115b034ba2efffc9d7183dee79738bd6fae20c",
+      "sha256": "19aa1bf2f6c1672ae601381d6ea3f4df05d9e8b82cb38bf4cf46bc904e744b49",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Deng2019Selectiveclusteringrepresentative/paper.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0014
+          },
+          {
+            "page": 12,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 19,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 19,
+        "max_mean_absolute_pixel_difference": 0.0001,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "photo-squarization-by-deep-multi-2018": {
+      "library_id": "FT079",
+      "paper_id": "photo-squarization-by-deep-multi-2018",
+      "title": "Photo squarization by deep multi-operator retargeting",
+      "path": "/files/papers/FT079.pdf",
+      "pages": 9,
+      "bytes": 2471650,
+      "source_bytes": 25591451,
+      "source_sha256": "f0429aef40d11045e4491b3366b8502c72b60c0d6a8fd8a73ab669ba198d533a",
+      "sha256": "cfcadec4d120d04d3be10c06a08cb12c417fb8446405eb15ba097533d728e344",
+      "source_url": "https://tfan108.github.io/publications/#photo-squarization-by-deep-multi-2018",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 6,
+            "mean_absolute_pixel_difference": 0.706
+          },
+          {
+            "page": 9,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 9,
+        "max_mean_absolute_pixel_difference": 0.978,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "animated-construction-of-chinese-2017": {
+      "library_id": "FT080",
+      "paper_id": "animated-construction-of-chinese-2017",
+      "title": "Animated construction of Chinese brush paintings",
+      "path": "/files/papers/FT080.pdf",
+      "pages": 14,
+      "bytes": 6324045,
+      "source_bytes": 11147845,
+      "source_sha256": "25ef951d80dff388a714357ec08f313abe8c6e8cc0bdd374cd2b951f5db200ce",
+      "sha256": "603a253f6bd370c46964851492de118f865ab53c2fe4637ce42796644312f9f8",
+      "source_url": "https://pub-085d059a8619439494873b401c0986ce.r2.dev/Tang2018AnimatedConstructionChinese/tang2017.pdf",
+      "version": "author_hosted",
+      "version_label": "Author-hosted version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 10,
+            "mean_absolute_pixel_difference": 0.003
+          },
+          {
+            "page": 14,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 14,
+        "max_mean_absolute_pixel_difference": 0.1678,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "style-oriented-representative-2017": {
+      "library_id": "FT082",
+      "paper_id": "style-oriented-representative-2017",
+      "title": "Style-oriented representative paintings selection",
+      "path": "/files/papers/FT082.pdf",
+      "pages": 2,
+      "bytes": 1366633,
+      "source_bytes": 1933300,
+      "source_sha256": "af53114bc0cb1c6a41d540b6d3ba5f540cc5311e064b63f37c88bfbe8a4872a0",
+      "sha256": "31baccbcb858301c813fc04dbab1170816b64a0763659eca2efdd4c1b4ef3fb6",
+      "source_url": "https://tfan108.github.io/publications/#style-oriented-representative-2017",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0655
+          },
+          {
+            "page": 2,
+            "mean_absolute_pixel_difference": 0.0519
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 2,
+        "max_mean_absolute_pixel_difference": 0.0668,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "flower-classification-via-2016": {
+      "library_id": "FT083",
+      "paper_id": "flower-classification-via-2016",
+      "title": "Flower classification via convolutional neural network",
+      "path": "/files/papers/FT083.pdf",
+      "pages": 7,
+      "bytes": 3730912,
+      "source_bytes": 3854465,
+      "source_sha256": "249de3fc4f70837595eff0c58357952088834ee4396126e05c297e6d1d1500af",
+      "sha256": "968be0540a768ee303b19a5b44bd081772200d45f37eed27e38ae4da6d8f7c50",
+      "source_url": "https://tfan108.github.io/publications/#flower-classification-via-2016",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 5,
+            "mean_absolute_pixel_difference": 0.0777
+          },
+          {
+            "page": 7,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 7,
+        "max_mean_absolute_pixel_difference": 0.0661,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "optimal-character-composing-for-2016": {
+      "library_id": "FT084",
+      "paper_id": "optimal-character-composing-for-2016",
+      "title": "Optimal character composing for Chinese calligraphic artwork",
+      "path": "/files/papers/FT084.pdf",
+      "pages": 2,
+      "bytes": 334523,
+      "source_bytes": 408660,
+      "source_sha256": "edc5d1d3a3e39f9a954a842868c9d5d5efe44580cc3dc9c14031a67ad2a8f5d6",
+      "sha256": "ee02acaf7c946834900f4092e304cd268854f1cd149cae5e1e84db5f03eb9fb9",
+      "source_url": "https://tfan108.github.io/publications/#optimal-character-composing-for-2016",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0048
+          },
+          {
+            "page": 2,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 2,
+        "max_mean_absolute_pixel_difference": 0.0041,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "animated-construction-of-ink-wash-2014": {
+      "library_id": "FT085",
+      "paper_id": "animated-construction-of-ink-wash-2014",
+      "title": "Animated construction of ink-wash paintings",
+      "path": "/files/papers/FT085.pdf",
+      "pages": 1,
+      "bytes": 389659,
+      "source_bytes": 395265,
+      "source_sha256": "1cb9b7c7a0580970355b63602d0e48951a0b7154e37c5961ea924866e9a61d48",
+      "sha256": "aa17ec48179b0cfe417d92a7e7fdaedf5606496db0c32ea6fc080d759c7ba394",
+      "source_url": "https://tfan108.github.io/publications/#animated-construction-of-ink-wash-2014",
+      "version": "user_supplied_fulltext",
+      "version_label": "Archived full text",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 1,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "flatlab-2026": {
+      "library_id": "FT086",
+      "paper_id": "flatlab-2026",
+      "title": "FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects",
+      "path": "/files/papers/FT086.pdf",
+      "pages": 23,
+      "bytes": 9601425,
+      "source_bytes": 9612887,
+      "source_sha256": "ee9e9423fb75a71c4d94a5b98f4f8173c49f240e6662d14562f3fb6372d88167",
+      "sha256": "0aac945064308253af75c2c0421eccf3879bbfed1651a04e89a698a3ce9e642f",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26q/zhu26q.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 23,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 23,
+        "max_mean_absolute_pixel_difference": 0.0,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "row-column-low-light-2024": {
+      "library_id": "FT087",
+      "paper_id": "row-column-low-light-2024",
+      "title": "Row-Column Separated Attention Based Low-Light Image/Video Enhancement",
+      "path": "/files/papers/FT087.pdf",
+      "pages": 15,
+      "bytes": 2221452,
+      "source_bytes": 5578975,
+      "source_sha256": "e27ea7e421c02ac38e444b7938bccb6dc3bf4e3d10b8ab8f77b2fc6a83adb056",
+      "sha256": "6384c8f1ec9d399aa786297c88c54d384525f1b4369060e9bbb69772395dbdaf",
+      "source_url": "https://diglib.eg.org/server/api/core/bitstreams/57fabee4-6644-45fc-89af-5d1ee200c232/content",
+      "version": "publisher_pdf",
+      "version_label": "Publisher version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0165
+          },
+          {
+            "page": 8,
+            "mean_absolute_pixel_difference": 0.2469
+          },
+          {
+            "page": 15,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 15,
+        "max_mean_absolute_pixel_difference": 0.1331,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "topology-preserving-adversarial-training-2024": {
+      "library_id": "FT088",
+      "paper_id": "topology-preserving-adversarial-training-2024",
+      "title": "Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation",
+      "path": "/files/papers/FT088.pdf",
+      "pages": 13,
+      "bytes": 664256,
+      "source_bytes": 2423932,
+      "source_sha256": "38d8b4742dee81aa168527a84e223b34a69a3aea7e337989c6e1f2a984bc1691",
+      "sha256": "bc88146b9c854ad1e7d2fc74ddc635b6a0407c7f90c12c44abe1c1dc0f9a0325",
+      "source_url": "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_168/paper.pdf",
+      "version": "conference_published",
+      "version_label": "Published conference version",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 4,
+            "mean_absolute_pixel_difference": 0.3097
+          },
+          {
+            "page": 13,
+            "mean_absolute_pixel_difference": 0.0
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 13,
+        "max_mean_absolute_pixel_difference": 0.3499,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    },
+    "music-multimodal-survey": {
+      "library_id": "FT090",
+      "paper_id": "music-multimodal-survey",
+      "title": "A Survey on Cross-Modal Interaction Between Music and Multimodal Data",
+      "path": "/files/papers/FT090.pdf",
+      "pages": 47,
+      "bytes": 4989946,
+      "source_bytes": 32966645,
+      "source_sha256": "33de84ba8ffe99d9ab90bd9dcb2ac22499a1f4aaf64b837b2fb234048c7e7cbe",
+      "sha256": "0dcc5177ce2b1401c6dbe3c583ef9f8ec6f633297a821f9b86ec337eff987829",
+      "source_url": "https://arxiv.org/pdf/2504.12796",
+      "version": "arxiv_preprint",
+      "version_label": "arXiv preprint",
+      "method": "image_optimized",
+      "profile": {
+        "dpi_threshold": 240,
+        "dpi_target": 180,
+        "quality": 85
+      },
+      "validation_policy": 2,
+      "verification": {
+        "all_page_text_and_structure_unchanged": true,
+        "original_unchanged": true,
+        "render_comparisons": [
+          {
+            "page": 1,
+            "mean_absolute_pixel_difference": 0.0
+          },
+          {
+            "page": 17,
+            "mean_absolute_pixel_difference": 0.0329
+          },
+          {
+            "page": 47,
+            "mean_absolute_pixel_difference": 0.0249
+          }
+        ],
+        "all_pages_rendered_with_poppler": true,
+        "rendered_pages_checked": 47,
+        "max_mean_absolute_pixel_difference": 0.1444,
+        "new_renderer_warnings": false
+      },
+      "optimization_notes": []
+    }
+  },
+  "tools": {
+    "PyMuPDF": "1.28.2",
+    "Poppler": "pdftoppm version 26.07.0"
+  },
+  "formal_version_update": {
+    "date": "2026-10-19",
+    "updated": 31,
+    "pending": 0,
+    "updated_ids": [
+      "FT006",
+      "FT007",
+      "FT008",
+      "FT011",
+      "FT012",
+      "FT016",
+      "FT019",
+      "FT020",
+      "FT022",
+      "FT024",
+      "FT029",
+      "FT031",
+      "FT032",
+      "FT037",
+      "FT038",
+      "FT039",
+      "FT042",
+      "FT043",
+      "FT045",
+      "FT046",
+      "FT048",
+      "FT049",
+      "FT055",
+      "FT057",
+      "FT058",
+      "FT060",
+      "FT061",
+      "FT069",
+      "FT070",
+      "FT074",
+      "FT076"
+    ],
+    "pending_ids": []
+  },
+  "formal_version_batches": [
+    {
+      "date": "2026-10-19",
+      "ids": [
+        "FT006",
+        "FT007",
+        "FT008",
+        "FT016",
+        "FT042",
+        "FT057",
+        "FT061",
+        "FT070",
+        "FT074"
+      ],
+      "review_folder": "04_个人主页/预览_2026-10-19/用户补齐9篇"
+    }
+  ]
+}

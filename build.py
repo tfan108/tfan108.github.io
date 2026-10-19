@@ -287,7 +287,7 @@ LINK_META = {  # key: (显示文字, 图标)
     "openreview": ("OpenReview", "link"), "supp": ("Supp.", "file-lines"), "blog": ("Blog", "newspaper"),
 }
 PAPER_KEYS = {"title", "authors", "corresponding", "equal", "venue", "year", "note", "links", "scholar",
-              "image", "bibtex", "hidden", "id", "abstract"}
+              "image", "bibtex", "hidden", "id", "abstract", "publication_status"}
 
 
 def load_site(rep: Report) -> dict:
@@ -351,12 +351,21 @@ def load_papers(rep: Report, site: dict, venue_lookup: dict) -> list[dict]:
         authors = as_list(r.get("authors")) or (bib_authors(bib["author"]) if bib and bib.get("author") else [])
         if not authors:
             rep.error(where, "缺少 authors（作者列表），格式如 authors: [Zhang San, Fan Tang]")
+        publication_status = str(r.get("publication_status") or "").strip()
+        if publication_status not in {"", "published", "preprint", "accepted_unpublished"}:
+            rep.error(where, f"未知 publication_status “{publication_status}”")
+        is_accepted = publication_status == "accepted_unpublished"
         year = r.get("year") or (bib or {}).get("year")
-        try:
-            year = int(str(year)[:4])
-        except (TypeError, ValueError):
-            rep.error(where, f"year 应为四位年份，当前为 “{year}”")
-            year = 0
+        if is_accepted:
+            if year is not None:
+                rep.error(where, "已接收未发表的论文不填写 year，也不在 BibTeX 中推定发表年份")
+            year = None
+        else:
+            try:
+                year = int(str(year)[:4])
+            except (TypeError, ValueError):
+                rep.error(where, f"year 应为四位年份，当前为 “{year}”")
+                year = 0
         vkey = str(r.get("venue") or "").strip()
         vinfo = venue_lookup.get(vkey.lower())
         if not vkey:
@@ -364,6 +373,10 @@ def load_papers(rep: Report, site: dict, venue_lookup: dict) -> list[dict]:
         elif not vinfo:
             rep.error(where, f"venue “{vkey}” 不在 venues.yml 中。请先在 data/venues.yml 里添加这个会议/期刊，"
                              f"或改用已有名字（如 {', '.join(list(dict.fromkeys(v['key'] for v in venue_lookup.values()))[:8])} …）")
+        if is_accepted and vinfo and vinfo["type"] not in {"conference", "journal"}:
+            rep.error(where, "已接收未发表的论文需填写接收会议或期刊，不能使用预印本类型")
+        if is_accepted and not r.get("bibtex"):
+            rep.error(where, "已接收未发表的论文需提供不含推定发表年份的 BibTeX")
         corresponding = as_list(r.get("corresponding"))
         equal = as_list(r.get("equal"))
         for label, names in (("corresponding", corresponding), ("equal", equal)):
@@ -387,7 +400,7 @@ def load_papers(rep: Report, site: dict, venue_lookup: dict) -> list[dict]:
             gm = re.match(r"https?://github\.com/([^/\s]+/[^/\s#?]+)", links["code"])
             if gm:
                 repo = gm.group(1).removesuffix(".git")
-        pid = str(r.get("id") or "") or f"{paper_slug(title)}-{year}"
+        pid = str(r.get("id") or "") or f"{paper_slug(title)}-{'accepted' if is_accepted else year}"
         base, k = pid, 2
         while pid in seen_ids:
             pid, k = f"{base}-{k}", k + 1
@@ -400,6 +413,7 @@ def load_papers(rep: Report, site: dict, venue_lookup: dict) -> list[dict]:
             "id": pid, "title": title, "authors": authors, "corresponding": corresponding, "equal": equal,
             "venue_key": vinfo["key"] if vinfo else vkey, "venue_info": vinfo or {"key": vkey, "label": vkey, "name": vkey, "type": "other", "rank": "", "order": 999},
             "year": year, "note": str(r.get("note") or "").strip(), "links": links, "repo": repo,
+            "publication_status": publication_status, "is_accepted": is_accepted,
             "scholar": str(r.get("scholar") or "").split(":")[-1].strip(), "image": r.get("image"),
             "abstract": r.get("abstract"), "index": idx, "line": line,
             "is_mine": any(m in corresponding for m in site["me"]),
@@ -510,6 +524,56 @@ def load_metrics(rep: Report) -> dict:
         return {}
 
 
+def attach_pdf_downloads(rep: Report, papers: list[dict]):
+    """Attach only title-matched, checksum-verified local download files."""
+    for paper in papers:
+        paper["download_pdf"] = None
+    manifest_path = DATA / "pdf_downloads.json"
+    if not manifest_path.exists():
+        return
+    try:
+        downloads = json.loads(manifest_path.read_text(encoding="utf-8"))["downloads"]
+    except (KeyError, TypeError, json.JSONDecodeError) as error:
+        rep.error("pdf_downloads.json", f"下载清单格式错误：{error}")
+        return
+    if not isinstance(downloads, dict):
+        rep.error("pdf_downloads.json", "downloads 应为按论文锚点索引的对象")
+        return
+    for paper in papers:
+        where = f"pdf_downloads.json《{paper['title'][:50]}》"
+        entry = downloads.get(paper["id"])
+        if not isinstance(entry, dict) or norm_title(entry.get("title", "")) != norm_title(paper["title"]):
+            rep.error(where, "缺少题名匹配的 PDF 下载记录")
+            continue
+        url = str(entry.get("path") or "")
+        file = (STATIC / url.lstrip("/")).resolve()
+        if (not url.startswith("/files/papers/") or not file.is_relative_to(STATIC.resolve())
+                or file.suffix.lower() != ".pdf" or not file.is_file()):
+            rep.error(where, "PDF 文件路径无效或文件不存在")
+            continue
+        if file.stat().st_size != entry.get("bytes"):
+            rep.error(where, "PDF 文件大小与核验记录不符")
+            continue
+        with file.open("rb") as stream:
+            if stream.read(5) != b"%PDF-":
+                rep.error(where, "下载文件不是 PDF")
+                continue
+            stream.seek(0)
+            digest = hashlib.sha256()
+            for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                digest.update(chunk)
+        if digest.hexdigest() != entry.get("sha256"):
+            rep.error(where, "PDF 文件校验值不符")
+            continue
+        paper["download_pdf"] = {
+            "url": url,
+            "filename": f"{entry['library_id']}_{slugify(paper['title'], 100)}"
+                        f"{'_preprint' if entry.get('version') == 'arxiv_preprint' else ''}.pdf",
+            "version_label": str(entry.get("version_label") or "Archived full text"),
+            "size_label": f"{file.stat().st_size / 1_000_000:.1f} MB",
+        }
+
+
 # =============================================================================
 #  引用数匹配（按 Scholar id 或标题）
 # =============================================================================
@@ -573,7 +637,10 @@ def group_papers(papers: list[dict], site: dict) -> list[dict]:
     pre = sorted([p for p in papers if p["venue_info"]["type"] == "preprint"], key=lambda p: (-p["year"], sort_key(p)))
     if pre:
         groups.append({"title": "Preprints", "id": "preprints", "papers": pre})
-    pubs = [p for p in papers if p["venue_info"]["type"] != "preprint"]
+    accepted = sorted([p for p in papers if p["is_accepted"]], key=sort_key)
+    if accepted:
+        groups.append({"title": "Accepted (not yet published)", "id": "accepted", "papers": accepted})
+    pubs = [p for p in papers if p["venue_info"]["type"] != "preprint" and not p["is_accepted"]]
     years = sorted({p["year"] for p in pubs}, reverse=True)
     for y in years:
         if merge_before and y <= merge_before:
@@ -665,6 +732,7 @@ def build(serve_mode: bool = False) -> Report:
     cv = load_cv(rep)
     metrics = load_metrics(rep)
     attach_metrics(rep, papers, metrics, site)
+    attach_pdf_downloads(rep, papers)
 
     if rep.errors:
         return rep
@@ -720,6 +788,8 @@ def build(serve_mode: bool = False) -> Report:
     stats = {
         "papers": len(papers),
         "peer_reviewed": len(counted),
+        "accepted_unpublished": sum(p["is_accepted"] for p in papers),
+        "preprints": sum(p["venue_info"]["type"] == "preprint" for p in papers),
         "ccf_a": sum(1 for p in counted if p["venue_info"]["rank"].upper() == "CCF-A"),
         'trans': sum(1 for p in counted if p['venue_info']['name'].startswith(('IEEE Transactions', 'ACM Transactions'))),
         "top": sum(1 for p in counted if is_top(p)),

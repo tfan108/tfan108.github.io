@@ -27,8 +27,29 @@
 #  其他可选字段：hidden: true（暂时不显示）
 # ============================================================================
 
+# FT090 — verified local catalog
+- title: "A Survey on Cross-Modal Interaction Between Music and Multimodal Data"
+  image: /images/papers/FT090.jpg
+  authors: ["Sifei Li", "Mining Tan", "Feier Shen", "Minyan Luo", "Zijiao Yin", "Fan Tang", "Weiming Dong", "Changsheng Xu"]
+  venue: CVMJ
+  id: music-multimodal-survey
+  publication_status: accepted_unpublished
+  links:
+    arxiv: https://arxiv.org/abs/2504.12796
+  bibtex: |
+    @unpublished{li_music_multimodal_accepted,
+      title = {A Survey on Cross-Modal Interaction Between Music and Multimodal Data},
+      author = {Sifei Li and Mining Tan and Feier Shen and Minyan Luo and Zijiao Yin and Fan Tang and Weiming Dong and Changsheng Xu},
+      journal = {Computational Visual Media},
+      eprint = {2504.12796},
+      archivePrefix = {arXiv},
+      note = {Accepted for publication in Computational Visual Media; not yet published},
+      url = {https://arxiv.org/abs/2504.12796}
+    }
+
 # ---------------------------------------------------------------- 2026
 - title: "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE"
+  image: /images/papers/FT014.jpg
   authors: [Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang, Xinwei Huang, Minxuan Lin, Angtian Wang, Chongyang Ma, Fan Tang]
   corresponding: [Yuxin Zhang]
   venue: NeurIPS
@@ -36,51 +57,72 @@
   note: Spotlight
 
 - title: "HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads"
-  authors: [Yu Xu, Fan Tang, Juan Cao, Yuxin Zhang, Xiaoyu Kong, Jintao Li, Oliver Deussen, Tong-Yee Lee]
+  image: /images/papers/FT006.jpg
+  authors: [Yu Xu, Fan Tang, Juan Cao, Xiaoyu Kong, Yuxin Zhang, Jintao Li, Oliver Deussen, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: ACM TOG
   year: 2026
   links:
+    doi: https://doi.org/10.1145/3797956
     code: https://github.com/ICTMCG/HeadRouter
   bibtex: |
     @article{xu2026headrouter,
-        author = "Xu, Yu and Tang, Fan and Cao, Juan and Zhang, Yuxin and Kong, Xiaoyu and Li, Jintao and Deussen, Oliver and Lee, Tong-Yee",
-        title = "HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads",
-        journal = "ACM Transactions on Graphics",
-        year = "2026"
+        author = {Xu, Yu and Tang, Fan and Cao, Juan and Kong, Xiaoyu and Zhang, Yuxin and Li, Jintao and Deussen, Oliver and Lee, Tong-Yee},
+        title = {HeadRouter: A training-free image editing framework for MM-DiTs by adaptively routing attention heads},
+        journal = {ACM Transactions on Graphics},
+        year = {2026},
+        doi = {10.1145/3797956},
+        volume = {45},
+        number = {3},
+        pages = {27:1-27:14},
+        articleno = {27}
     }
 
 - title: "AnchorCrafter: Animate cyber-anchors selling your products via human-object interacting video generation"
-  authors: [Ziyi Xu, Ziyao Huang, Juan Cao, Yong Zhang, Xiaodong Cun, Qing Shuai, Yuchen Wang, Linchao Bao, Jintao Li, Fan Tang]
+  image: /images/papers/FT007.jpg
+  authors: [Ziyi Xu, Ziyao Huang, Juan Cao, Yong Zhang, Xiaodong Cun, Qing Shuai, Yuchen Wang, Linchao Bao, Fan Tang]
   corresponding: [Fan Tang]
   venue: IEEE TVCG
   year: 2026
   links:
+    doi: https://doi.org/10.1109/TVCG.2026.3662720
     code: https://github.com/cangcz/AnchorCrafter
   bibtex: |
     @article{xu2026anchorcrafter,
-        author = "Xu, Ziyi and Huang, Ziyao and Cao, Juan and Zhang, Yong and Cun, Xiaodong and Shuai, Qing and Wang, Yuchen and Bao, Linchao and Li, Jintao and Tang, Fan",
-        title = "AnchorCrafter: Animate cyber-anchors selling your products via human-object interacting video generation",
-        journal = "IEEE Transactions on Visualization and Computer Graphics",
-        year = "2026",
-        publisher = "IEEE"
+        author = {Xu, Ziyi and Huang, Ziyao and Cao, Juan and Zhang, Yong and Cun, Xiaodong and Shuai, Qing and Wang, Yuchen and Bao, Linchao and Tang, Fan},
+        title = {AnchorCrafter: Animate cyber-anchors selling your products via human-object interacting video generation},
+        journal = {IEEE Transactions on Visualization and Computer Graphics},
+        year = {2026},
+        publisher = {IEEE},
+        doi = {10.1109/TVCG.2026.3662720},
+        volume = {32},
+        number = {7},
+        pages = {5098-5112}
     }
 
 - title: "Interactive Visual Assessment for Text-to-Image Generation Models"
+  image: /images/papers/FT008.jpg
   authors: [Xiaoyue Mi, Fan Tang, Juan Cao, Qiang Sheng, Ziyao Huang, Peng Li, Yang Liu, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: IEEE TVCG
   year: 2026
+  links:
+    doi: https://doi.org/10.1109/TVCG.2026.3658714
   bibtex: |
     @article{mi2026interactive,
-        author = "Mi, Xiaoyue and Tang, Fan and Cao, Juan and Sheng, Qiang and Huang, Ziyao and Li, Peng and Liu, Yang and Lee, Tong-Yee",
-        title = "Interactive Visual Assessment for Text-to-Image Generation Models",
-        journal = "IEEE Transactions on Visualization and Computer Graphics",
-        year = "2026",
-        publisher = "IEEE"
+        author = {Mi, Xiaoyue and Tang, Fan and Cao, Juan and Sheng, Qiang and Huang, Ziyao and Li, Peng and Liu, Yang and Lee, Tong-Yee},
+        title = {Interactive Visual Assessment for Text-to-Image Generation Models},
+        journal = {IEEE Transactions on Visualization and Computer Graphics},
+        year = {2026},
+        publisher = {IEEE},
+        doi = {10.1109/TVCG.2026.3658714},
+        volume = {32},
+        number = {4},
+        pages = {2944-2961}
     }
 
 - title: "Make-Your-Anchor+: Temporal Consistent 2D Avatar Generation via Video Diffusion Prior"
+  image: /images/papers/FT009.jpg
   authors: [Ziyao Huang, Fan Tang, Juan Cao, Yong Zhang, Xiaodong Cun, Yihang Bo, Jintao Li, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: IEEE TVCG
@@ -95,6 +137,7 @@
     }
 
 - title: "ResCa: Residual Caching for Diffusion Transformers Acceleration"
+  image: /images/papers/FT010.jpg
   authors: [Haipeng Fang, Yu Li, Fan Tang, Yixing Lu, Juan Cao, Sheng Tang]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -110,6 +153,7 @@
     }
 
 - title: "TAG-MoE: Task-Aware Gating for Unified Generative Mixture-of-Experts"
+  image: /images/papers/FT011.jpg
   authors: [Yu Xu, Hongbin Yan, Juan Cao, Yiji Cheng, Tiankai Hang, Runze He, Zijin Yin, Shiyi Zhang, Yuxin Zhang, Jintao Li, Chunyu Wang, Qinglin Lu, Tong-Yee Lee, Fan Tang]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -125,19 +169,25 @@
     }
 
 - title: "Video Generation Models Are Good Latent Reward Models"
+  image: /images/papers/FT016.jpg
   authors: [Xiaoyue Mi, Wenqing Yu, Jiesong Lian, Shibo Jie, Ruizhe Zhong, Zijun Liu, Guozhen Zhang, Zixiang Zhou, Zhiyong Xu, Yuan Zhou, Qinglin Lu, Fan Tang]
   corresponding: [Fan Tang]
   venue: CVPR Findings
   year: 2026
+  links:
+    doi: https://doi.org/10.1109/CVPRF71909.2026.00454
   bibtex: |
     @inproceedings{mi2026video,
-        author = "Mi, Xiaoyue and Yu, Wenqing and Lian, Jiesong and Jie, Shibo and Zhong, Ruizhe and Liu, Zijun and Zhang, Guozhen and Zhou, Zixiang and Xu, Zhiyong and Zhou, Yuan and Lu, Qinglin and Tang, Fan",
-        title = "Video Generation Models Are Good Latent Reward Models",
-        booktitle = "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Conference（Findings Track）",
-        year = "2026"
+        author = {Mi, Xiaoyue and Yu, Wenqing and Lian, Jiesong and Jie, Shibo and Zhong, Ruizhe and Liu, Zijun and Zhang, Guozhen and Zhou, Zixiang and Xu, Zhiyong and Zhou, Yuan and Lu, Qinglin and Tang, Fan},
+        title = {Video Generation Models Are Good Latent Reward Models},
+        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Conference（Findings Track）},
+        year = {2026},
+        doi = {10.1109/CVPRF71909.2026.00454},
+        pages = {4719-4728}
     }
 
 - title: "Visual-friendly concept protection via selective adversarial perturbations"
+  image: /images/papers/FT019.jpg
   authors: [Xiaoyue Mi, Fan Tang, You Wu, Juan Cao, Peng Li, Yang Liu]
   corresponding: [Fan Tang]
   venue: AAAI
@@ -153,6 +203,7 @@
     }
 
 - title: "Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning"
+  image: /images/papers/FT013.jpg
   authors: [Yu Xu, Yuxin Zhang, Juan Cao, Lin Gao, Chunyu Wang, Oliver Deussen, Tong-Yee Lee, Fan Tang]
   corresponding: [Fan Tang]
   venue: SIGGRAPH Asia
@@ -169,6 +220,7 @@
     }
 
 - title: "Sissi: Zero-shot Style-guided Image Synthesis via Semantic-style Integration"
+  image: /images/papers/FT004.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong, Xucheng Yin]
   venue: arXiv
   year: 2026
@@ -183,8 +235,30 @@
         year = "2026"
     }
 
+# FT086 — verified local catalog
+- title: "FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects"
+  image: /images/papers/FT086.jpg
+  authors: ["Xingyu Zhu", "Wenshuo Han", "Zhouyu Wang", "Yuran Wang", "Ruihai Wu", "Hao Dong", "Fan Tang", "Hechang Chen", "Hyung Jin Chang", "Yixing Gao"]
+  venue: ICML
+  id: flatlab-2026
+  year: 2026
+  links:
+    paper: https://proceedings.mlr.press/v306/zhu26q.html
+    pdf: https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhu26q/zhu26q.pdf
+    arxiv: https://arxiv.org/abs/2608.14049
+  bibtex: |
+    @inproceedings{pmlr-v306-zhu26q,
+      title = {FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects},
+      author = {Xingyu Zhu and Wenshuo Han and Zhouyu Wang and Yuran Wang and Ruihai Wu and Hao Dong and Fan Tang and Hechang Chen and Hyung Jin Chang and Yixing Gao},
+      year = {2026},
+      booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+      volume = {306},
+      pages = {167064--167086}
+    }
+
 # ---------------------------------------------------------------- 2025
 - title: "B4M: Breaking Low-Rank Adapter for Making Content-Style Customization"
+  image: /images/papers/FT021.jpg
   authors: [Yu Xu, Fan Tang, Juan Cao, Yuxin Zhang, Oliver Deussen, Weiming Dong, Jintao Li, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: ACM TOG
@@ -204,6 +278,7 @@
     }
 
 - title: "CreativeSynth: Cross-art-attention for artistic image synthesis with multimodal diffusion"
+  image: /images/papers/FT022.jpg
   authors: [Nisha Huang, Weiming Dong, Yuxin Zhang, Fan Tang, Ronghui Li, Chongyang Ma, Xiu Li, Tong-Yee Lee, Changsheng Xu]
   venue: IEEE TVCG
   year: 2025
@@ -219,6 +294,7 @@
     }
 
 - title: "MotionCrafter: Plug-and-Play Motion Guidance for Diffusion Models"
+  image: /images/papers/FT023.jpg
   authors: [Yuxin Zhang, Weiming Dong, Fan Tang, Nisha Huang, Haibin Huang, Chongyang Ma, Pengfei Wan, Tong-Yee Lee, Changsheng Xu]
   venue: IEEE TVCG
   year: 2025
@@ -234,6 +310,7 @@
     }
 
 - title: "Attend to Not Attended: Structure-then-Detail Token Merging for Post-training DiT Acceleration"
+  image: /images/papers/FT024.jpg
   authors: [Haipeng Fang, Sheng Tang, Juan Cao, Enshuo Zhang, Fan Tang, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -250,6 +327,7 @@
     }
 
 - title: "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning"
+  image: /images/papers/FT025.jpg
   authors: [Hairui Ren, Fan Tang, He Zhao, Zixuan Wang, Dandan Guo, Yi Chang]
   venue: CVPR
   year: 2025
@@ -265,6 +343,7 @@
     }
 
 - title: "Z-Magic: Zero-shot Multiple Attributes Guided Image Creator"
+  image: /images/papers/FT026.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong]
   venue: CVPR
   year: 2025
@@ -278,6 +357,7 @@
     }
 
 - title: "Adversarial robust memory-based continual learner"
+  image: /images/papers/FT027.jpg
   authors: [Xiaoyue Mi, Fan Tang, Zonghan Yang, Danding Wang, Juan Cao, Peng Li, Yang Liu]
   corresponding: [Fan Tang]
   venue: ICCV
@@ -294,6 +374,7 @@
     }
 
 - title: "AMDANet: Attention-Driven Multi-Perspective Discrepancy Alignment for RGB-Infrared Image Fusion and Segmentation"
+  image: /images/papers/FT028.jpg
   authors: [Haifeng Zhong, Fan Tang, Zhuo Chen, Hyung Chang, Yixing Gao]
   venue: ICCV
   year: 2025
@@ -309,6 +390,7 @@
     }
 
 - title: "Multi-turn Consistent Image Editing"
+  image: /images/papers/FT029.jpg
   authors: [Zijun Zhou, Yingying Deng, Xiangyu He, Weiming Dong, Fan Tang]
   venue: ICCV
   year: 2025
@@ -324,6 +406,7 @@
     }
 
 - title: "HOMA: Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions"
+  image: /images/papers/FT030.jpg
   authors: [Ziyao Huang, Zixiang Zhou, Juan Cao, Yifeng Ma, Yi Chen, Zejing Rao, Zhiyong Xu, Hongmei Wang, Qin Lin, Yuan Zhou, Qinglin Lu, Fan Tang]
   corresponding: [Fan Tang]
   venue: SIGGRAPH Asia
@@ -338,6 +421,7 @@
     }
 
 - title: "In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation"
+  image: /images/papers/FT031.jpg
   authors: [Yu Xu, Fan Tang, You Wu, Lin Gao, Oliver Deussen, Hongbin Yan, Jintao Li, Juan Cao, Tong-Yee Lee]
   venue: SIGGRAPH Asia
   year: 2025
@@ -353,6 +437,7 @@
     }
 
 - title: "FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing"
+  image: /images/papers/FT032.jpg
   authors: [Yingying Deng, Xiangyu He, Changwang Mei, Peisong Wang, Fan Tang]
   venue: ICML
   year: 2025
@@ -367,6 +452,7 @@
     }
 
 - title: "Inversion-Free Style Transfer with Dual Rectified Flows"
+  image: /images/papers/FT005.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong, Xucheng Yin]
   venue: arXiv
   year: 2025
@@ -383,6 +469,7 @@
 
 # ---------------------------------------------------------------- 2024
 - title: "Identity-preserving face swapping via dual surrogate generative models"
+  image: /images/papers/FT034.jpg
   authors: [Ziyao Huang, Fan Tang, Yong Zhang, Juan Cao, Chengyu Li, Sheng Tang, Jintao Li, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: ACM TOG
@@ -402,6 +489,7 @@
     }
 
 - title: "A comprehensive evaluation of arbitrary image style transfer methods"
+  image: /images/papers/FT035.jpg
   authors: [Zijun Zhou, Fan Tang, Yuxin Zhang, Oliver Deussen, Juan Cao, Weiming Dong, Xiangtao Li, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: IEEE TVCG
@@ -419,6 +507,7 @@
     }
 
 - title: "U-VAP: User-specified visual appearance personalization via decoupled self augmentation"
+  image: /images/papers/FT036.jpg
   authors: [You Wu, Kean Liu, Xiaoyue Mi, Fan Tang, Juan Cao, Jintao Li]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -435,6 +524,7 @@
     }
 
 - title: "Z*: Zero-shot style transfer via attention reweighting"
+  image: /images/papers/FT037.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -451,6 +541,7 @@
     }
 
 - title: "Make-Your-Anchor: A diffusion-based 2D avatar generation framework"
+  image: /images/papers/FT038.jpg
   authors: [Ziyao Huang, Fan Tang, Yong Zhang, Xiaodong Cun, Juan Cao, Jintao Li, Tong-Yee Lee]
   venue: CVPR
   year: 2024
@@ -466,6 +557,7 @@
     }
 
 - title: "Dance-to-music generation with encoder-based textual inversion"
+  image: /images/papers/FT039.jpg
   authors: [Sifei Li, Weiming Dong, Yuxin Zhang, Fan Tang, Chongyang Ma, Oliver Deussen, Tong-Yee Lee, Changsheng Xu]
   venue: SIGGRAPH Asia
   year: 2024
@@ -481,6 +573,7 @@
     }
 
 - title: "Revealing the Two Sides of Data Augmentation: An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition"
+  image: /images/papers/FT040.jpg
   authors: [Yunbing Jia, Xiaoyu Kong, Fan Tang, Yixing Gao, Weiming Dong, Yi Yang]
   venue: IJCAI
   year: 2024
@@ -495,6 +588,7 @@
     }
 
 - title: "Modality-consistent prompt tuning with optimal transport"
+  image: /images/papers/FT041.jpg
   authors: [Hairui Ren, Fan Tang, Huangjie Zheng, He Zhao, Dandan Guo, Yi Chang]
   venue: IEEE TCSVT
   year: 2024
@@ -508,21 +602,29 @@
     }
 
 - title: "DiffStyler: Controllable dual diffusion for text-driven image stylization"
+  image: /images/papers/FT042.jpg
   authors: [Nisha Huang, Yuxin Zhang, Fan Tang, Chongyang Ma, Haibin Huang, Weiming Dong, Changsheng Xu]
   venue: IEEE TNNLS
   year: 2024
+  note: "Online publication: 2024; volume/issue: 2025"
   links:
+    doi: https://doi.org/10.1109/TNNLS.2023.3342645
     code: https://github.com/haha-lisa/Diffstyler
   bibtex: |
     @article{huang2024diffstyler,
-        author = "Huang, Nisha and Zhang, Yuxin and Tang, Fan and Ma, Chongyang and Huang, Haibin and Dong, Weiming and Xu, Changsheng",
-        title = "DiffStyler: Controllable dual diffusion for text-driven image stylization",
-        journal = "IEEE Transactions on Neural Networks and Learning Systems",
-        year = "2024",
-        publisher = "IEEE"
+        author = {Huang, Nisha and Zhang, Yuxin and Tang, Fan and Ma, Chongyang and Huang, Haibin and Dong, Weiming and Xu, Changsheng},
+        title = {DiffStyler: Controllable dual diffusion for text-driven image stylization},
+        journal = {IEEE Transactions on Neural Networks and Learning Systems},
+        year = {2025},
+        publisher = {IEEE},
+        doi = {10.1109/TNNLS.2023.3342645},
+        volume = {36},
+        number = {2},
+        pages = {3370-3383}
     }
 
 - title: "Music style transfer with time-varying inversion of diffusion models"
+  image: /images/papers/FT043.jpg
   authors: [Sifei Li, Yuxin Zhang, Fan Tang, Chongyang Ma, Weiming Dong, Changsheng Xu]
   venue: AAAI
   year: 2024
@@ -540,6 +642,7 @@
     }
 
 - title: "Lighting Image/Video Style Transfer Methods by Iterative Channel Pruning"
+  image: /images/papers/FT044.jpg
   authors: [Kexin Wu, Fan Tang, Ning Liu, Oliver Deussen, Weiming Dong, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: ICASSP
@@ -554,8 +657,52 @@
         organization = "IEEE"
     }
 
+# FT087 — verified local catalog
+- title: "Row-Column Separated Attention Based Low-Light Image/Video Enhancement"
+  image: /images/papers/FT087.jpg
+  authors: ["Chengqi Dong", "Zhiyuan Cao", "Tuoshi Qi", "Kexin Wu", "Yixing Gao", "Fan Tang"]
+  venue: CGF
+  id: row-column-low-light-2024
+  year: 2024
+  links:
+    paper: https://onlinelibrary.wiley.com/doi/10.1111/cgf.15192
+    doi: https://doi.org/10.1111/cgf.15192
+    pdf: https://diglib.eg.org/server/api/core/bitstreams/57fabee4-6644-45fc-89af-5d1ee200c232/content
+    arxiv: https://arxiv.org/abs/2602.07428
+  bibtex: |
+    @article{dong2024rowcolumn,
+      title = {Row-Column Separated Attention Based Low-Light Image/Video Enhancement},
+      author = {Chengqi Dong and Zhiyuan Cao and Tuoshi Qi and Kexin Wu and Yixing Gao and Fan Tang},
+      year = {2024},
+      journal = {Computer Graphics Forum},
+      volume = {43},
+      number = {6},
+      pages = {e15192},
+      doi = {10.1111/cgf.15192}
+    }
+
+# FT088 — verified local catalog
+- title: "Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation"
+  image: /images/papers/FT088.jpg
+  authors: ["Xiaoyue Mi", "Fan Tang", "Yepeng Weng", "Danding Wang", "Juan Cao", "Sheng Tang", "Peng Li", "Yang Liu"]
+  venue: BMVC
+  id: topology-preserving-adversarial-training-2024
+  year: 2024
+  links:
+    paper: https://bmvc2024.org/proceedings/168/
+    pdf: https://bmva-archive.org.uk/bmvc/2024/papers/Paper_168/paper.pdf
+    arxiv: https://arxiv.org/abs/2311.17607
+  bibtex: |
+    @inproceedings{Mi_2024_BMVC,
+      title = {Topology-preserving Adversarial Training for Alleviating Natural Accuracy Degradation},
+      author = {Xiaoyue Mi and Fan Tang and Yepeng Weng and Danding Wang and Juan Cao and Sheng Tang and Peng Li and Yang Liu},
+      year = {2024},
+      booktitle = {35th British Machine Vision Conference 2024}
+    }
+
 # ---------------------------------------------------------------- 2023
 - title: "A unified arbitrary style transfer framework via adaptive contrastive learning"
+  image: /images/papers/FT045.jpg
   authors: [Yuxin Zhang, Fan Tang, Weiming Dong, Haibin Huang, Chongyang Ma, Tong-Yee Lee, Changsheng Xu]
   venue: ACM TOG
   year: 2023
@@ -572,6 +719,7 @@
     }
 
 - title: "ProSpect: Prompt spectrum for attribute-aware personalization of diffusion models"
+  image: /images/papers/FT046.jpg
   authors: [Yuxin Zhang, Weiming Dong, Fan Tang, Nisha Huang, Haibin Huang, Chongyang Ma, Tong-Yee Lee, Oliver Deussen, Changsheng Xu]
   venue: ACM TOG
   year: 2023
@@ -590,6 +738,7 @@
     }
 
 - title: "SPA2Net: Structure-preserved attention activated network for weakly supervised object localization"
+  image: /images/papers/FT047.jpg
   authors: [Dong Chen, Xingjia Pan, Fan Tang, Weiming Dong, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: IEEE TIP
@@ -606,6 +755,7 @@
     }
 
 - title: "Adaptive assignment for geometry aware local feature matching"
+  image: /images/papers/FT048.jpg
   authors: [Dihe Huang, Ying Chen, Yong Liu, Jianlin Liu, Shang Xu, Wenlong Wu, Yikang Ding, Fan Tang, Chengjie Wang]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -622,6 +772,7 @@
     }
 
 - title: "Inversion-based style transfer with diffusion models"
+  image: /images/papers/FT049.jpg
   authors: [Yuxin Zhang, Nisha Huang, Fan Tang, Haibin Huang, Chongyang Ma, Weiming Dong, Changsheng Xu]
   venue: CVPR
   year: 2023
@@ -637,6 +788,7 @@
     }
 
 - title: "Progressive open space expansion for open-set model attribution"
+  image: /images/papers/FT050.jpg
   authors: [Tianyun Yang, Danding Wang, Fan Tang, Xinying Zhao, Juan Cao, Sheng Tang]
   venue: CVPR
   year: 2023
@@ -652,6 +804,7 @@
     }
 
 - title: "A2Pt: Anti-Associative Prompt Tuning for Open Set Visual Recognition"
+  image: /images/papers/FT051.jpg
   authors: [Hairui Ren, Fan Tang, Xingjia Pan, Juan Cao, Weiming Dong, Zhiwen Lin, Ke Yan, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: IEEE TMM
@@ -668,6 +821,7 @@
     }
 
 - title: "SMNet: Synchronous multi-scale low light enhancement network with local and global concern"
+  image: /images/papers/FT052.jpg
   authors: [Shideng Lin, Fan Tang, Weiming Dong, Xingjia Pan, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: IEEE TMM
@@ -684,6 +838,7 @@
     }
 
 - title: "Semantic-context graph network for point-based 3D object detection"
+  image: /images/papers/FT053.jpg
   authors: [Shuwei Dong, Xiaoyu Kong, Xingjia Pan, Fan Tang, Wei Li, Yi Chang, Weiming Dong]
   corresponding: [Fan Tang]
   venue: IEEE TCSVT
@@ -701,6 +856,7 @@
     }
 
 - title: "Exploring the temporal consistency of arbitrary style transfer: A channelwise perspective"
+  image: /images/papers/FT054.jpg
   authors: [Xiaoyu Kong, Yingying Deng, Fan Tang, Weiming Dong, Chongyang Ma, Yongyong Chen, Zhenyu He, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: IEEE TNNLS
@@ -718,6 +874,7 @@
     }
 
 - title: "Towards harmonized regional style transfer and manipulation for facial images"
+  image: /images/papers/FT055.jpg
   authors: [Cong Wang, Fan Tang, Yong Zhang, Tieru Wu, Weiming Dong]
   corresponding: [Fan Tang]
   venue: CVMJ
@@ -735,6 +892,7 @@
     }
 
 - title: "Region-aware diffusion for zero-shot text-driven image editing"
+  image: /images/papers/FT056.jpg
   authors: [Nisha Huang, Fan Tang, Weiming Dong, Tong-Yee Lee, Changsheng Xu]
   venue: CVM
   year: 2023
@@ -750,25 +908,29 @@
     }
 
 - title: "CrossRectify: Leveraging disagreement for semi-supervised object detection"
+  image: /images/papers/FT057.jpg
   authors: [Chengcheng Ma, Xingjia Pan, Qixiang Ye, Fan Tang, Weiming Dong, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: PR
   year: 2023
   links:
+    doi: https://doi.org/10.1016/j.patcog.2022.109280
     code: https://github.com/machengcheng2016/CrossRectify-SSOD
   bibtex: |
     @article{ma2023crossrectify,
-        author = "Ma, Chengcheng and Pan, Xingjia and Ye, Qixiang and Tang, Fan and Dong, Weiming and Xu, Changsheng",
-        title = "CrossRectify: Leveraging disagreement for semi-supervised object detection",
-        journal = "Pattern Recognition",
-        volume = "137",
-        pages = "109280",
-        year = "2023",
-        publisher = "Pergamon"
+        author = {Ma, Chengcheng and Pan, Xingjia and Ye, Qixiang and Tang, Fan and Dong, Weiming and Xu, Changsheng},
+        title = {CrossRectify: Leveraging disagreement for semi-supervised object detection},
+        journal = {Pattern Recognition},
+        volume = {137},
+        pages = {109280},
+        year = {2023},
+        publisher = {Pergamon},
+        doi = {10.1016/j.patcog.2022.109280},
+        articleno = {109280}
     }
 
-# ---------------------------------------------------------------- 2022
 - title: "Domain enhanced arbitrary image style transfer via contrastive learning"
+  image: /images/papers/FT058.jpg
   authors: [Yuxin Zhang, Fan Tang, Weiming Dong, Haibin Huang, Chongyang Ma, Tong-Yee Lee, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: SIGGRAPH
@@ -785,6 +947,7 @@
     }
 
 - title: "StyTr2: Image style transfer with transformers"
+  image: /images/papers/FT059.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Chongyang Ma, Xingjia Pan, Lei Wang, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -801,6 +964,7 @@
     }
 
 - title: "SIOD: Single instance annotated per category per image for object detection"
+  image: /images/papers/FT060.jpg
   authors: [Hanjun Li, Xingjia Pan, Ke Yan, Fan Tang, Wei-Shi Zheng]
   venue: CVPR
   year: 2022
@@ -816,21 +980,25 @@
     }
 
 - title: "Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion"
+  image: /images/papers/FT061.jpg
   authors: [Nisha Huang, Fan Tang, Weiming Dong, Changsheng Xu]
   venue: ACM MM
   year: 2022
   links:
+    doi: https://doi.org/10.1145/3503161.3548282
     code: https://github.com/haha-lisa/MGAD-multimodal-guided-artwork-diffusion
   bibtex: |
     @inproceedings{huang2022draw,
-        author = "Huang, Nisha and Tang, Fan and Dong, Weiming and Xu, Changsheng",
-        title = "Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion",
-        booktitle = "Proceedings of the 30th ACM International Conference on Multimedia",
-        pages = "1085--1094",
-        year = "2022"
+        author = {Huang, Nisha and Tang, Fan and Dong, Weiming and Xu, Changsheng},
+        title = {Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion},
+        booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+        pages = {1085-1094},
+        year = {2022},
+        doi = {10.1145/3503161.3548282}
     }
 
 - title: "Non-dominated sorting based multi-page photo collage"
+  image: /images/papers/FT062.jpg
   authors: [Yu Song, Fan Tang, Weiming Dong, Changsheng Xu]
   venue: CVMJ
   year: 2022
@@ -847,6 +1015,7 @@
     }
 
 - title: "Transformers in computational visual media: A survey"
+  image: /images/papers/FT063.jpg
   authors: [Yifan Xu, Huapeng Wei, Minxuan Lin, Yingying Deng, Kekai Sheng, Mengdan Zhang, Fan Tang, Weiming Dong, Feiyue Huang, Changsheng Xu]
   venue: CVMJ
   year: 2022
@@ -863,6 +1032,7 @@
     }
 
 - title: "A comparative study of CNN-and transformer-based visual style transfer"
+  image: /images/papers/FT064.jpg
   authors: [Hua-Peng Wei, Ying-Ying Deng, Fan Tang, Xing-Jia Pan, Wei-Ming Dong]
   corresponding: [Fan Tang]
   venue: JCST
@@ -880,6 +1050,7 @@
     }
 
 - title: "Portrait Map Art Generation by Asymmetric Image-to-Image Translation"
+  image: /images/papers/FT065.jpg
   authors: [Yuxin Zhang, Fan Tang, Weiming Dong, Thi-Ngoc-Hanh Le, Changsheng Xu, Tong-Yee Lee]
   venue: Leonardo
   year: 2022
@@ -894,6 +1065,7 @@
 
 # ---------------------------------------------------------------- 2021
 - title: "Balance-aware grid collage for small image collections"
+  image: /images/papers/FT066.jpg
   authors: [Yu Song, Fan Tang, Weiming Dong, Feiyue Huang, Tong-Yee Lee, Changsheng Xu]
   venue: IEEE TVCG
   year: 2021
@@ -910,6 +1082,7 @@
     }
 
 - title: "Unveiling the potential of structure preserving for weakly supervised object localization"
+  image: /images/papers/FT067.jpg
   authors: [Xingjia Pan, Yingguo Gao, Zhiwen Lin, Fan Tang, Weiming Dong, Haolei Yuan, Feiyue Huang, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: CVPR
@@ -924,6 +1097,7 @@
     }
 
 - title: "DAE-GAN: Dynamic aspect-aware GAN for text-to-image synthesis"
+  image: /images/papers/FT068.jpg
   authors: [Shulan Ruan, Yong Zhang, Kun Zhang, Yanbo Fan, Fan Tang, Qi Liu, Enhong Chen]
   venue: ICCV
   year: 2021
@@ -937,6 +1111,7 @@
     }
 
 - title: "Arbitrary Video Style Transfer via Multi-Channel Correlation"
+  image: /images/papers/FT069.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Haibin Huang, Chongyang Ma, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: AAAI
@@ -953,23 +1128,29 @@
     }
 
 - title: "Distribution aligned multimodal and multi-domain image stylization"
+  image: /images/papers/FT070.jpg
   authors: [Minxuan Lin, Fan Tang, Weiming Dong, Xiao Li, Changsheng Xu, Chongyang Ma]
   corresponding: [Fan Tang]
   venue: ACM TOMM
   year: 2021
+  links:
+    doi: https://doi.org/10.1145/3450525
   bibtex: |
     @article{lin2021distribution,
-        author = "Lin, Minxuan and Tang, Fan and Dong, Weiming and Li, Xiao and Xu, Changsheng and Ma, Chongyang",
-        title = "Distribution aligned multimodal and multi-domain image stylization",
-        journal = "ACM Transactions on Multimedia Computing, Communications, and Applications",
-        volume = "17",
-        number = "3",
-        pages = "1--17",
-        year = "2021",
-        publisher = "ACM New York, NY"
+        author = {Lin, Minxuan and Tang, Fan and Dong, Weiming and Li, Xiao and Xu, Changsheng and Ma, Chongyang},
+        title = {Distribution aligned multimodal and multi-domain image stylization},
+        journal = {ACM Transactions on Multimedia Computing, Communications, and Applications},
+        volume = {17},
+        number = {3},
+        pages = {96:1-96:17},
+        year = {2021},
+        publisher = {ACM New York, NY},
+        doi = {10.1145/3450525},
+        articleno = {96}
     }
 
 - title: "SiamCPN: Visual tracking with the Siamese center-prediction network"
+  image: /images/papers/FT071.jpg
   authors: [Dong Chen, Fan Tang, Weiming Dong, Hanxing Yao, Changsheng Xu]
   corresponding: [Fan Tang]
   venue: CVMJ
@@ -988,6 +1169,7 @@
 
 # ---------------------------------------------------------------- 2020
 - title: "Self-supervised feature augmentation for large image object detection"
+  image: /images/papers/FT072.jpg
   authors: [Xingjia Pan, Fan Tang, Weiming Dong, Yang Gu, Zhichao Song, Yiping Meng, Pengfei Xu, Oliver Deussen, Changsheng Xu]
   venue: IEEE TIP
   year: 2020
@@ -1003,6 +1185,7 @@
     }
 
 - title: "Exploring the representativity of art paintings"
+  image: /images/papers/FT073.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Chongyang Ma, Feiyue Huang, Oliver Deussen, Changsheng Xu]
   venue: IEEE TMM
   year: 2020
@@ -1020,22 +1203,25 @@
     }
 
 - title: "Arbitrary style transfer via multi-adaptation network"
+  image: /images/papers/FT074.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Wen Sun, Feiyue Huang, Changsheng Xu]
   venue: ACM MM
   year: 2020
   links:
+    doi: https://doi.org/10.1145/3394171.3414015
     code: https://github.com/diyiiyiii/Arbitrary-Style-Transfer-via-Multi-Adaptation-Network
   bibtex: |
     @inproceedings{deng2020arbitrary,
-        author = "Deng, Yingying and Tang, Fan and Dong, Weiming and Sun, Wen and Huang, Feiyue and Xu, Changsheng",
-        title = "Arbitrary style transfer via multi-adaptation network",
-        booktitle = "Proceedings of the 28th ACM international conference on Multimedia",
-        pages = "2719--2727",
-        year = "2020"
+        author = {Deng, Yingying and Tang, Fan and Dong, Weiming and Sun, Wen and Huang, Feiyue and Xu, Changsheng},
+        title = {Arbitrary style transfer via multi-adaptation network},
+        booktitle = {Proceedings of the 28th ACM international conference on Multimedia},
+        pages = {2719-2727},
+        year = {2020},
+        doi = {10.1145/3394171.3414015}
     }
 
-# ---------------------------------------------------------------- 2019
 - title: "Content-based visual summarization for image collections"
+  image: /images/papers/FT075.jpg
   authors: [Xingjia Pan, Fan Tang, Weiming Dong, Chongyang Ma, Yiping Meng, Feiyue Huang, Tong-Yee Lee, Changsheng Xu]
   venue: IEEE TVCG
   year: 2019
@@ -1052,6 +1238,7 @@
     }
 
 - title: "Image retargetability"
+  image: /images/papers/FT076.jpg
   authors: [Fan Tang, Weiming Dong, Yiping Meng, Chongyang Ma, Fuzhang Wu, Xinrui Li, Tong-Yee Lee]
   venue: IEEE TMM
   year: 2019
@@ -1068,6 +1255,7 @@
     }
 
 - title: "Joint face alignment and segmentation via deep multi-task learning"
+  image: /images/papers/FT077.jpg
   authors: [Yucheng Zhao, Fan Tang, Weiming Dong, Feiyue Huang, Xiaopeng Zhang]
   venue: MTAP
   year: 2019
@@ -1084,6 +1272,7 @@
     }
 
 - title: "Selective clustering for representative paintings selection"
+  image: /images/papers/FT078.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Fuzhang Wu, Oliver Deussen, Changsheng Xu]
   venue: MTAP
   year: 2019
@@ -1101,6 +1290,7 @@
 
 # ---------------------------------------------------------------- 2018
 - title: "Photo squarization by deep multi-operator retargeting"
+  image: /images/papers/FT079.jpg
   authors: [Yu Song, Fan Tang, Weiming Dong, Xiaopeng Zhang, Oliver Deussen, Tong-Yee Lee]
   venue: ACM MM
   year: 2018
@@ -1115,6 +1305,7 @@
 
 # ---------------------------------------------------------------- 2017
 - title: "Animated construction of Chinese brush paintings"
+  image: /images/papers/FT080.jpg
   authors: [Fan Tang, Weiming Dong, Yiping Meng, Xing Mei, Feiyue Huang, Xiaopeng Zhang, Oliver Deussen]
   venue: IEEE TVCG
   year: 2017
@@ -1130,7 +1321,9 @@
         publisher = "IEEE"
     }
 
+# FT081 — excluded from the current display by user confirmation
 - title: "Content-based measure of image set diversity"
+  hidden: true
   authors: [Xingjia Pan, Juntao Ye, Fan Tang, Weiming Dong, Feiyue Huang, Xiaopeng Zhang]
   venue: SIGGRAPH Asia Posters
   year: 2017
@@ -1144,6 +1337,7 @@
     }
 
 - title: "Style-oriented representative paintings selection"
+  image: /images/papers/FT082.jpg
   authors: [Yingying Deng, Fan Tang, Weiming Dong, Hanxing Yao, Bao-Gang Hu]
   venue: SIGGRAPH Asia Posters
   year: 2017
@@ -1158,6 +1352,7 @@
 
 # ---------------------------------------------------------------- 2016
 - title: "Flower classification via convolutional neural network"
+  image: /images/papers/FT083.jpg
   authors: [Yuanyuan Liu, Fan Tang, Dengwen Zhou, Yiping Meng, Weiming Dong]
   venue: FSPMA
   year: 2016
@@ -1172,6 +1367,7 @@
     }
 
 - title: "Optimal character composing for Chinese calligraphic artwork"
+  image: /images/papers/FT084.jpg
   authors: [Yiping Meng, Fan Tang, Weiming Dong, Xiaopeng Zhang]
   venue: SIGGRAPH Asia Posters
   year: 2016
@@ -1186,6 +1382,7 @@
 
 # ---------------------------------------------------------------- 2014
 - title: "Animated construction of ink-wash paintings"
+  image: /images/papers/FT085.jpg
   authors: [Fan Tang, Yiping Meng, Weiming Dong, Xing Mei, Feiyue Huang, Xiaopeng Zhang]
   venue: SIGGRAPH Asia Posters
   year: 2014
@@ -1200,6 +1397,7 @@
 
 
 - title: 'AgentHOI: Multi-Agent Reasoning for Human-Object-Interaction Video Generation via Implicit Representation Alignment'
+  image: /images/papers/FT001.jpg
   authors: [Ziyao Huang, Shunkai Li, Juan Cao, Chenyu Li, Youliang Zhang, Zixiang Zhou, Cong Wang, Yuan Zhou, Qinglin Lu, Fan Tang]
   corresponding: [Fan Tang]
   venue: arXiv
@@ -1209,6 +1407,7 @@
   scholar: WbkHhVStYXYC
 
 - title: 'StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation'
+  image: /images/papers/FT002.jpg
   authors: [Zejing Rao, Haoxian Zhang, Xiaoqiang Liu, Yiping Meng, Guoxin Zhang, Pengfei Wan, Fan Tang, Tong-Yee Lee]
   corresponding: [Fan Tang]
   venue: arXiv
@@ -1218,6 +1417,7 @@
   scholar: Tiz5es2fbqcC
 
 - title: 'No Corners Cut: State-Grounded Transitions for Mid-Stream Prompt Switches in Video Generation'
+  image: /images/papers/FT003.jpg
   authors: [Zejing Rao, Ketong Ren, Xiaoqiang Liu, Yiping Meng, Guoxin Zhang, Fan Tang]
   corresponding: [Fan Tang]
   venue: arXiv
@@ -1227,6 +1427,7 @@
   scholar: K3LRdlH-MEoC
 
 - title: 'GeoHOI: Geometry-Enhanced Human-Object Interaction Video Generation via Hierarchical Multi-Modal Injection'
+  image: /images/papers/FT017.jpg
   authors: [Ziyi Xu, Zejing Rao, Juan Cao, Xiaoqiang Liu, Zhixue Fang, Haoxian Zhang, Songlin Tang, Fan Tang]
   corresponding: [Fan Tang]
   venue: CVPR Findings
@@ -1234,6 +1435,7 @@
   scholar: p2g8aNsByqUC
 
 - title: 'Imitating the Truth: Attention-aware Truth-Guided Enhancement for Hallucination Mitigation in Large Vision-Language Models'
+  image: /images/papers/FT015.jpg
   authors: [Hairui Ren, Zixuan Wang, Yibo Yang, He Zhao, Fan Tang, Dandan Guo, Yi Chang]
   corresponding: [Dandan Guo, Yi Chang]
   venue: ICLR
@@ -1243,6 +1445,7 @@
   scholar: uWQEDVKXjbEC
 
 - title: 'GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions'
+  image: /images/papers/FT012.jpg
   authors: [Haifeng Zhong, Wenshuo Han, Zhouyu Wang, Runyang Feng, Fan Tang, …, Yixing Gao]
   corresponding: [Yixing Gao]
   venue: CVPR
@@ -1261,6 +1464,7 @@
     }
 
 - title: Parameter Efficient Emotional Transfer for Fine-Grained Emotional Audio-Driven Talking Portrait Generation
+  image: /images/papers/FT018.jpg
   authors: [Yiguo Jiang, Xiaodong Cun, Yong Zhang, Tao He, Fan Tang, Chi-Man Pun]
   corresponding: [Chi-Man Pun]
   venue: IEEE TMM
@@ -1268,6 +1472,7 @@
   scholar: XiSMed-E-HIC
 
 - title: 'Z-STAR+: A Zero-shot Style Transfer Method via Adjusting Style Distribution'
+  image: /images/papers/FT020.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong]
   corresponding: [Fan Tang]
   venue: CVMJ
@@ -1277,6 +1482,7 @@
   scholar: OU6Ihb5iCvQC
 
 - title: 'MoAnimate: Bridging the Motion-Oriented Latent Representation Gaps in Human Video Animation'
+  image: /images/papers/FT033.jpg
   authors: [Haipeng Fang, Sheng Tang, Zhihao Sun, Ziyao Huang, Juan Cao, Fan Tang, Yongdong Zhang]
   corresponding: [Sheng Tang]
   venue: IEEE TCSVT

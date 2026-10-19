@@ -28,7 +28,7 @@
     {% if r.paper_objs %}
     <ul class="rep-papers">
       {% for p in r.paper_objs %}
-      <li><span class="badge venue">{{ p.venue_info.label }}{% if p.venue_info.type != 'preprint' %} {{ p.year }}{% endif %}</span><a href="/publications/#{{ p.id }}">{{ p.title }}</a>{% if p.stars %}<span class="mini-stat" title="GitHub stars">{{ icon('star') }}{{ p.stars|num }}</span>{% endif %}</li>
+      <li><span class="badge venue">{{ p.venue_info.label }}{% if p.venue_info.type != 'preprint' and p.year %} {{ p.year }}{% endif %}</span>{% if p.is_accepted %}<span class="badge note">Accepted, not yet published</span>{% endif %}<a href="/publications/#{{ p.id }}">{{ p.title }}</a>{% if p.stars %}<span class="mini-stat" title="GitHub stars">{{ icon('star') }}{{ p.stars|num }}</span>{% endif %}</li>
       {% endfor %}
     </ul>
     {% endif %}

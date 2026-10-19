@@ -1,0 +1,2 @@
+# Only needed when preparing download copies; normal site builds do not use this.
+PyMuPDF>=1.28.2,<1.29
