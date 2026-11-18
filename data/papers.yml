@@ -408,7 +408,7 @@
 - title: "HOMA: Towards Generic Human-Object Interaction in Multimodal Driven Human Animation with Weak Conditions"
   image: /images/papers/FT030.jpg
   authors: [Ziyao Huang, Zixiang Zhou, Juan Cao, Yifeng Ma, Yi Chen, Zejing Rao, Zhiyong Xu, Hongmei Wang, Qin Lin, Yuan Zhou, Qinglin Lu, Fan Tang]
-  corresponding: [Fan Tang]
+  corresponding: [Qinglin Lu, Fan Tang]
   venue: SIGGRAPH Asia
   year: 2025
   bibtex: |
@@ -451,20 +451,26 @@
         year = "2025"
     }
 
+# FT005 — accepted by IEEE TIP (user confirmed 2026-11-19); id kept for existing links
 - title: "Inversion-Free Style Transfer with Dual Rectified Flows"
   image: /images/papers/FT005.jpg
   authors: [Yingying Deng, Xiangyu He, Fan Tang, Weiming Dong, Xucheng Yin]
-  venue: arXiv
-  year: 2025
+  corresponding: [Xucheng Yin]
+  venue: IEEE TIP
+  id: inversion-free-style-transfer-with-2025
+  publication_status: accepted_unpublished
   links:
     arxiv: https://arxiv.org/abs/2511.20986
     code: https://github.com/HolmesShuan/Inversion-Free-Style-Transfer-with-Dual-Rectified-Flows
   bibtex: |
-    @article{deng2025inversion,
-        author = "Deng, Yingying and He, Xiangyu and Tang, Fan and Dong, Weiming and Yin, Xucheng",
-        title = "Inversion-Free Style Transfer with Dual Rectified Flows",
-        journal = "arXiv preprint arXiv:2511.20986",
-        year = "2025"
+    @unpublished{deng2025inversion,
+      title = {Inversion-Free Style Transfer with Dual Rectified Flows},
+      author = {Yingying Deng and Xiangyu He and Fan Tang and Weiming Dong and Xucheng Yin},
+      journal = {IEEE Transactions on Image Processing},
+      eprint = {2511.20986},
+      archivePrefix = {arXiv},
+      note = {Accepted for publication in IEEE Transactions on Image Processing; not yet published},
+      url = {https://arxiv.org/abs/2511.20986}
     }
 
 # ---------------------------------------------------------------- 2024
